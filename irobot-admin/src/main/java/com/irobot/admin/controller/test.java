@@ -16,6 +16,8 @@ public class test {
 
         String result1= HttpUtil.get("https://www.baidu.com");
 
+        System.out.println(result1);
+
 
 
     }
