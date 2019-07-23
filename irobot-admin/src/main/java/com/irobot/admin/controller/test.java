@@ -14,7 +14,7 @@ public class test {
         System.out.println(date);
 
 
-        String result1= HttpUtil.get("https://www.baidu.com");
+        String result1= HttpUtil.get("https://www.baidu.com/");
 
         System.out.println(result1);
 
