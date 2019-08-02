@@ -81,6 +81,12 @@
             <version>4.5.17</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apdplat</groupId>
+            <artifactId>deep-qa</artifactId>
+            <version>1.2</version>
+        </dependency>
+
 
     </dependencies>
 
