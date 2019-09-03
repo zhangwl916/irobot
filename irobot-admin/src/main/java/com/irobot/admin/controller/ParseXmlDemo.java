@@ -22,9 +22,9 @@ public class ParseXmlDemo {
 
         Present find = XSDUtil.converyToJavaBean(xml, Present.class);
 
-        ItemData itemData=XSDUtil.converyToJavaBean(xml, ItemData.class);
+        ItemData itemData = XSDUtil.converyToJavaBean(xml, ItemData.class);
 
-        BorInfo borInfo=XSDUtil.converyToJavaBean(xml, BorInfo.class);
+        BorInfo borInfo = XSDUtil.converyToJavaBean(xml, BorInfo.class);
 
         return borInfo;
     }

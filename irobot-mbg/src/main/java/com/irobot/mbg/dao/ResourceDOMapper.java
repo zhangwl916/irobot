@@ -2,7 +2,9 @@ package com.irobot.mbg.dao;
 
 import com.irobotop.shop.bean.ResourceDO;
 import com.irobotop.shop.bean.ResourceDOExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface ResourceDOMapper {

@@ -19,9 +19,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>anonymous complex type�� Java �ࡣ
- * 
+ *
  * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -62,13 +62,11 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "item",
-    "sessionId"
+        "item",
+        "sessionId"
 })
 @XmlRootElement(name = "item-data")
 public class ItemData {
@@ -79,25 +77,23 @@ public class ItemData {
 
     /**
      * Gets the value of the item property.
-     * 
+     *
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the item property.
-     * 
+     *
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getItem().add(newItem);
      * </pre>
-     * 
-     * 
+     *
+     *
      * <p>
      * Objects of the following type(s) are allowed in the list
      * {@link Item }
-     * 
-     * 
      */
     public List<Item> getItem() {
         if (item == null) {
@@ -108,11 +104,9 @@ public class ItemData {
 
     /**
      * ��ȡsessionId���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getSessionId() {
         return sessionId;
@@ -120,11 +114,9 @@ public class ItemData {
 
     /**
      * ����sessionId���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setSessionId(String value) {
         this.sessionId = value;
@@ -133,9 +125,9 @@ public class ItemData {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -165,30 +157,28 @@ public class ItemData {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "recKey",
-        "barcode",
-        "subLibrary",
-        "collection",
-        "itemStatus",
-        "note",
-        "callNo1",
-        "callNo2",
-        "description",
-        "chronologicalI",
-        "chronologicalJ",
-        "chronologicalK",
-        "enumerationA",
-        "enumerationB",
-        "enumerationC",
-        "library",
-        "onHold",
-        "requested",
-        "expected"
+            "recKey",
+            "barcode",
+            "subLibrary",
+            "collection",
+            "itemStatus",
+            "note",
+            "callNo1",
+            "callNo2",
+            "description",
+            "chronologicalI",
+            "chronologicalJ",
+            "chronologicalK",
+            "enumerationA",
+            "enumerationB",
+            "enumerationC",
+            "library",
+            "onHold",
+            "requested",
+            "expected"
     })
     public static class Item {
 
@@ -232,7 +222,6 @@ public class ItemData {
 
         /**
          * ��ȡrecKey���Ե�ֵ��
-         * 
          */
         public long getRecKey() {
             return recKey;
@@ -240,7 +229,6 @@ public class ItemData {
 
         /**
          * ����recKey���Ե�ֵ��
-         * 
          */
         public void setRecKey(long value) {
             this.recKey = value;
@@ -248,7 +236,6 @@ public class ItemData {
 
         /**
          * ��ȡbarcode���Ե�ֵ��
-         * 
          */
         public long getBarcode() {
             return barcode;
@@ -256,7 +243,6 @@ public class ItemData {
 
         /**
          * ����barcode���Ե�ֵ��
-         * 
          */
         public void setBarcode(long value) {
             this.barcode = value;
@@ -264,11 +250,9 @@ public class ItemData {
 
         /**
          * ��ȡsubLibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getSubLibrary() {
             return subLibrary;
@@ -276,11 +260,9 @@ public class ItemData {
 
         /**
          * ����subLibrary���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setSubLibrary(String value) {
             this.subLibrary = value;
@@ -288,11 +270,9 @@ public class ItemData {
 
         /**
          * ��ȡcollection���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getCollection() {
             return collection;
@@ -300,11 +280,9 @@ public class ItemData {
 
         /**
          * ����collection���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setCollection(String value) {
             this.collection = value;
@@ -312,7 +290,6 @@ public class ItemData {
 
         /**
          * ��ȡitemStatus���Ե�ֵ��
-         * 
          */
         public byte getItemStatus() {
             return itemStatus;
@@ -320,7 +297,6 @@ public class ItemData {
 
         /**
          * ����itemStatus���Ե�ֵ��
-         * 
          */
         public void setItemStatus(byte value) {
             this.itemStatus = value;
@@ -328,11 +304,9 @@ public class ItemData {
 
         /**
          * ��ȡnote���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getNote() {
             return note;
@@ -340,11 +314,9 @@ public class ItemData {
 
         /**
          * ����note���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setNote(String value) {
             this.note = value;
@@ -352,11 +324,9 @@ public class ItemData {
 
         /**
          * ��ȡcallNo1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getCallNo1() {
             return callNo1;
@@ -364,11 +334,9 @@ public class ItemData {
 
         /**
          * ����callNo1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setCallNo1(String value) {
             this.callNo1 = value;
@@ -376,11 +344,9 @@ public class ItemData {
 
         /**
          * ��ȡcallNo2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getCallNo2() {
             return callNo2;
@@ -388,11 +354,9 @@ public class ItemData {
 
         /**
          * ����callNo2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setCallNo2(String value) {
             this.callNo2 = value;
@@ -400,11 +364,9 @@ public class ItemData {
 
         /**
          * ��ȡdescription���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getDescription() {
             return description;
@@ -412,11 +374,9 @@ public class ItemData {
 
         /**
          * ����description���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setDescription(String value) {
             this.description = value;
@@ -424,11 +384,9 @@ public class ItemData {
 
         /**
          * ��ȡchronologicalI���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getChronologicalI() {
             return chronologicalI;
@@ -436,11 +394,9 @@ public class ItemData {
 
         /**
          * ����chronologicalI���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setChronologicalI(String value) {
             this.chronologicalI = value;
@@ -448,11 +404,9 @@ public class ItemData {
 
         /**
          * ��ȡchronologicalJ���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getChronologicalJ() {
             return chronologicalJ;
@@ -460,11 +414,9 @@ public class ItemData {
 
         /**
          * ����chronologicalJ���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setChronologicalJ(String value) {
             this.chronologicalJ = value;
@@ -472,11 +424,9 @@ public class ItemData {
 
         /**
          * ��ȡchronologicalK���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getChronologicalK() {
             return chronologicalK;
@@ -484,11 +434,9 @@ public class ItemData {
 
         /**
          * ����chronologicalK���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setChronologicalK(String value) {
             this.chronologicalK = value;
@@ -496,11 +444,9 @@ public class ItemData {
 
         /**
          * ��ȡenumerationA���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getEnumerationA() {
             return enumerationA;
@@ -508,11 +454,9 @@ public class ItemData {
 
         /**
          * ����enumerationA���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setEnumerationA(String value) {
             this.enumerationA = value;
@@ -520,11 +464,9 @@ public class ItemData {
 
         /**
          * ��ȡenumerationB���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getEnumerationB() {
             return enumerationB;
@@ -532,11 +474,9 @@ public class ItemData {
 
         /**
          * ����enumerationB���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setEnumerationB(String value) {
             this.enumerationB = value;
@@ -544,11 +484,9 @@ public class ItemData {
 
         /**
          * ��ȡenumerationC���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getEnumerationC() {
             return enumerationC;
@@ -556,11 +494,9 @@ public class ItemData {
 
         /**
          * ����enumerationC���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setEnumerationC(String value) {
             this.enumerationC = value;
@@ -568,11 +504,9 @@ public class ItemData {
 
         /**
          * ��ȡlibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getLibrary() {
             return library;
@@ -580,11 +514,9 @@ public class ItemData {
 
         /**
          * ����library���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setLibrary(String value) {
             this.library = value;
@@ -592,11 +524,9 @@ public class ItemData {
 
         /**
          * ��ȡonHold���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getOnHold() {
             return onHold;
@@ -604,11 +534,9 @@ public class ItemData {
 
         /**
          * ����onHold���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setOnHold(String value) {
             this.onHold = value;
@@ -616,11 +544,9 @@ public class ItemData {
 
         /**
          * ��ȡrequested���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getRequested() {
             return requested;
@@ -628,11 +554,9 @@ public class ItemData {
 
         /**
          * ����requested���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setRequested(String value) {
             this.requested = value;
@@ -640,11 +564,9 @@ public class ItemData {
 
         /**
          * ��ȡexpected���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getExpected() {
             return expected;
@@ -652,11 +574,9 @@ public class ItemData {
 
         /**
          * ����expected���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setExpected(String value) {
             this.expected = value;

@@ -6,78 +6,126 @@ import java.util.Date;
 public class MapPoiDetailsDO implements Serializable {
     private Integer id;
 
-    /** 任务ID **/
+    /**
+     * 任务ID
+     **/
     private Integer taskId;
 
-    /** 任务类型 **/
+    /**
+     * 任务类型
+     **/
     private String taskType;
 
     private String mapId;
 
-    /** 点位ID **/
+    /**
+     * 点位ID
+     **/
     private Integer poiId;
 
-    /** 点位名称 **/
+    /**
+     * 点位名称
+     **/
     private String poiName;
 
-    /** 语音 **/
+    /**
+     * 语音
+     **/
     private String voice;
 
-    /** 表情 **/
+    /**
+     * 表情
+     **/
     private String emoji;
 
-    /** 表情类型 **/
+    /**
+     * 表情类型
+     **/
     private String emojiType;
 
-    /** 资源ID **/
+    /**
+     * 资源ID
+     **/
     private String resourceId;
 
-    /** 资源名称 **/
+    /**
+     * 资源名称
+     **/
     private String resourceName;
 
-    /** 资源类型 **/
+    /**
+     * 资源类型
+     **/
     private String resourceType;
 
-    /** 延迟播放时间 **/
+    /**
+     * 延迟播放时间
+     **/
     private String delayTime;
 
-    /** 任务优先级（任务执行的先后顺序） **/
+    /**
+     * 任务优先级（任务执行的先后顺序）
+     **/
     private Integer priority;
 
-    /** 取物点 **/
+    /**
+     * 取物点
+     **/
     private Integer takePoiId;
 
-    /** 取物点名称 **/
+    /**
+     * 取物点名称
+     **/
     private String takePoiName;
 
-    /** 送物点 **/
+    /**
+     * 送物点
+     **/
     private Integer deliveryPoiId;
 
-    /** 送物点名称 **/
+    /**
+     * 送物点名称
+     **/
     private String deliveryPoiName;
 
-    /** 创建时间 **/
+    /**
+     * 创建时间
+     **/
     private Date createTime;
 
-    /** 创建人姓名 **/
+    /**
+     * 创建人姓名
+     **/
     private String createUserName;
 
-    /** 更新时间 **/
+    /**
+     * 更新时间
+     **/
     private Date updateTime;
 
-    /** 更新人姓名 **/
+    /**
+     * 更新人姓名
+     **/
     private String updateUserName;
 
-    /** 状态 **/
+    /**
+     * 状态
+     **/
     private String status;
 
-    /** 是否位置导航 **/
+    /**
+     * 是否位置导航
+     **/
     private String isLocationNavigation;
 
-    /** 单一讲解任务 **/
+    /**
+     * 单一讲解任务
+     **/
     private String signlestatus;
 
-    /** 备注 **/
+    /**
+     * 备注
+     **/
     private String remark;
 
     private static final long serialVersionUID = 1L;

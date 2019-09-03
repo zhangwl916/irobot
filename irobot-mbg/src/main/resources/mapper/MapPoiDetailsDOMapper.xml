@@ -1,543 +1,547 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.irobotop.equipment.dao.MapPoiDetailsDOMapper">
-  <resultMap id="BaseResultMap" type="com.irobotop.equipment.bean.MapPoiDetailsDO">
-    <id column="id" jdbcType="INTEGER" property="id" />
-    <result column="task_id" jdbcType="INTEGER" property="taskId" />
-    <result column="task_type" jdbcType="VARCHAR" property="taskType" />
-    <result column="map_id" jdbcType="VARCHAR" property="mapId" />
-    <result column="poi_id" jdbcType="INTEGER" property="poiId" />
-    <result column="poi_name" jdbcType="VARCHAR" property="poiName" />
-    <result column="voice" jdbcType="VARCHAR" property="voice" />
-    <result column="emoji" jdbcType="VARCHAR" property="emoji" />
-    <result column="emoji_type" jdbcType="VARCHAR" property="emojiType" />
-    <result column="resource_id" jdbcType="VARCHAR" property="resourceId" />
-    <result column="resource_name" jdbcType="VARCHAR" property="resourceName" />
-    <result column="resource_type" jdbcType="VARCHAR" property="resourceType" />
-    <result column="delay_time" jdbcType="VARCHAR" property="delayTime" />
-    <result column="priority" jdbcType="INTEGER" property="priority" />
-    <result column="take_poi_id" jdbcType="INTEGER" property="takePoiId" />
-    <result column="take_poi_name" jdbcType="VARCHAR" property="takePoiName" />
-    <result column="delivery_poi_id" jdbcType="INTEGER" property="deliveryPoiId" />
-    <result column="delivery_poi_name" jdbcType="VARCHAR" property="deliveryPoiName" />
-    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="create_user_name" jdbcType="VARCHAR" property="createUserName" />
-    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
-    <result column="update_user_name" jdbcType="VARCHAR" property="updateUserName" />
-    <result column="status" jdbcType="CHAR" property="status" />
-    <result column="is_location_navigation" jdbcType="CHAR" property="isLocationNavigation" />
-    <result column="signlestatus" jdbcType="CHAR" property="signlestatus" />
-    <result column="remark" jdbcType="VARCHAR" property="remark" />
-  </resultMap>
-  <sql id="Example_Where_Clause">
-    <where>
-      <foreach collection="oredCriteria" item="criteria" separator="or">
-        <if test="criteria.valid">
-          <trim prefix="(" prefixOverrides="and" suffix=")">
-            <foreach collection="criteria.criteria" item="criterion">
-              <choose>
-                <when test="criterion.noValue">
-                  and ${criterion.condition}
-                </when>
-                <when test="criterion.singleValue">
-                  and ${criterion.condition} #{criterion.value}
-                </when>
-                <when test="criterion.betweenValue">
-                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
-                </when>
-                <when test="criterion.listValue">
-                  and ${criterion.condition}
-                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
-                    #{listItem}
-                  </foreach>
-                </when>
-              </choose>
+    <resultMap id="BaseResultMap" type="com.irobotop.equipment.bean.MapPoiDetailsDO">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="task_id" jdbcType="INTEGER" property="taskId"/>
+        <result column="task_type" jdbcType="VARCHAR" property="taskType"/>
+        <result column="map_id" jdbcType="VARCHAR" property="mapId"/>
+        <result column="poi_id" jdbcType="INTEGER" property="poiId"/>
+        <result column="poi_name" jdbcType="VARCHAR" property="poiName"/>
+        <result column="voice" jdbcType="VARCHAR" property="voice"/>
+        <result column="emoji" jdbcType="VARCHAR" property="emoji"/>
+        <result column="emoji_type" jdbcType="VARCHAR" property="emojiType"/>
+        <result column="resource_id" jdbcType="VARCHAR" property="resourceId"/>
+        <result column="resource_name" jdbcType="VARCHAR" property="resourceName"/>
+        <result column="resource_type" jdbcType="VARCHAR" property="resourceType"/>
+        <result column="delay_time" jdbcType="VARCHAR" property="delayTime"/>
+        <result column="priority" jdbcType="INTEGER" property="priority"/>
+        <result column="take_poi_id" jdbcType="INTEGER" property="takePoiId"/>
+        <result column="take_poi_name" jdbcType="VARCHAR" property="takePoiName"/>
+        <result column="delivery_poi_id" jdbcType="INTEGER" property="deliveryPoiId"/>
+        <result column="delivery_poi_name" jdbcType="VARCHAR" property="deliveryPoiName"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="create_user_name" jdbcType="VARCHAR" property="createUserName"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="update_user_name" jdbcType="VARCHAR" property="updateUserName"/>
+        <result column="status" jdbcType="CHAR" property="status"/>
+        <result column="is_location_navigation" jdbcType="CHAR" property="isLocationNavigation"/>
+        <result column="signlestatus" jdbcType="CHAR" property="signlestatus"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+    </resultMap>
+    <sql id="Example_Where_Clause">
+        <where>
+            <foreach collection="oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" prefixOverrides="and" suffix=")">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach close=")" collection="criterion.value" item="listItem" open="("
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
             </foreach>
-          </trim>
-        </if>
-      </foreach>
-    </where>
-  </sql>
-  <sql id="Update_By_Example_Where_Clause">
-    <where>
-      <foreach collection="example.oredCriteria" item="criteria" separator="or">
-        <if test="criteria.valid">
-          <trim prefix="(" prefixOverrides="and" suffix=")">
-            <foreach collection="criteria.criteria" item="criterion">
-              <choose>
-                <when test="criterion.noValue">
-                  and ${criterion.condition}
-                </when>
-                <when test="criterion.singleValue">
-                  and ${criterion.condition} #{criterion.value}
-                </when>
-                <when test="criterion.betweenValue">
-                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
-                </when>
-                <when test="criterion.listValue">
-                  and ${criterion.condition}
-                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
-                    #{listItem}
-                  </foreach>
-                </when>
-              </choose>
+        </where>
+    </sql>
+    <sql id="Update_By_Example_Where_Clause">
+        <where>
+            <foreach collection="example.oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" prefixOverrides="and" suffix=")">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach close=")" collection="criterion.value" item="listItem" open="("
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
             </foreach>
-          </trim>
+        </where>
+    </sql>
+    <sql id="Base_Column_List">
+        id, task_id, task_type, map_id, poi_id, poi_name, voice, emoji, emoji_type, resource_id,
+        resource_name, resource_type, delay_time, priority, take_poi_id, take_poi_name, delivery_poi_id,
+        delivery_poi_name, create_time, create_user_name, update_time, update_user_name,
+        status, is_location_navigation, signlestatus, remark
+    </sql>
+    <select id="selectByExample" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDOExample"
+            resultMap="BaseResultMap">
+        select
+        <if test="distinct">
+            distinct
         </if>
-      </foreach>
-    </where>
-  </sql>
-  <sql id="Base_Column_List">
-    id, task_id, task_type, map_id, poi_id, poi_name, voice, emoji, emoji_type, resource_id, 
-    resource_name, resource_type, delay_time, priority, take_poi_id, take_poi_name, delivery_poi_id, 
-    delivery_poi_name, create_time, create_user_name, update_time, update_user_name, 
-    status, is_location_navigation, signlestatus, remark
-  </sql>
-  <select id="selectByExample" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDOExample" resultMap="BaseResultMap">
-    select
-    <if test="distinct">
-      distinct
-    </if>
-    <include refid="Base_Column_List" />
-    from mappoi_details
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-    <if test="orderByClause != null">
-      order by ${orderByClause}
-    </if>
-  </select>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
-    <include refid="Base_Column_List" />
-    from mappoi_details
-    where id = #{id,jdbcType=INTEGER}
-  </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from mappoi_details
-    where id = #{id,jdbcType=INTEGER}
-  </delete>
-  <delete id="deleteByExample" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDOExample">
-    delete from mappoi_details
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-  </delete>
-  <insert id="insert" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
-    insert into mappoi_details (id, task_id, task_type, 
-      map_id, poi_id, poi_name, 
-      voice, emoji, emoji_type, 
-      resource_id, resource_name, resource_type, 
-      delay_time, priority, take_poi_id, 
-      take_poi_name, delivery_poi_id, delivery_poi_name, 
-      create_time, create_user_name, update_time, 
-      update_user_name, status, is_location_navigation, 
-      signlestatus, remark)
-    values (#{id,jdbcType=INTEGER}, #{taskId,jdbcType=INTEGER}, #{taskType,jdbcType=VARCHAR}, 
-      #{mapId,jdbcType=VARCHAR}, #{poiId,jdbcType=INTEGER}, #{poiName,jdbcType=VARCHAR}, 
-      #{voice,jdbcType=VARCHAR}, #{emoji,jdbcType=VARCHAR}, #{emojiType,jdbcType=VARCHAR}, 
-      #{resourceId,jdbcType=VARCHAR}, #{resourceName,jdbcType=VARCHAR}, #{resourceType,jdbcType=VARCHAR}, 
-      #{delayTime,jdbcType=VARCHAR}, #{priority,jdbcType=INTEGER}, #{takePoiId,jdbcType=INTEGER}, 
-      #{takePoiName,jdbcType=VARCHAR}, #{deliveryPoiId,jdbcType=INTEGER}, #{deliveryPoiName,jdbcType=VARCHAR}, 
-      #{createTime,jdbcType=TIMESTAMP}, #{createUserName,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, 
-      #{updateUserName,jdbcType=VARCHAR}, #{status,jdbcType=CHAR}, #{isLocationNavigation,jdbcType=CHAR}, 
-      #{signlestatus,jdbcType=CHAR}, #{remark,jdbcType=VARCHAR})
-  </insert>
-  <insert id="insertSelective" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
-    insert into mappoi_details
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        id,
-      </if>
-      <if test="taskId != null">
-        task_id,
-      </if>
-      <if test="taskType != null">
-        task_type,
-      </if>
-      <if test="mapId != null">
-        map_id,
-      </if>
-      <if test="poiId != null">
-        poi_id,
-      </if>
-      <if test="poiName != null">
-        poi_name,
-      </if>
-      <if test="voice != null">
-        voice,
-      </if>
-      <if test="emoji != null">
-        emoji,
-      </if>
-      <if test="emojiType != null">
-        emoji_type,
-      </if>
-      <if test="resourceId != null">
-        resource_id,
-      </if>
-      <if test="resourceName != null">
-        resource_name,
-      </if>
-      <if test="resourceType != null">
-        resource_type,
-      </if>
-      <if test="delayTime != null">
-        delay_time,
-      </if>
-      <if test="priority != null">
-        priority,
-      </if>
-      <if test="takePoiId != null">
-        take_poi_id,
-      </if>
-      <if test="takePoiName != null">
-        take_poi_name,
-      </if>
-      <if test="deliveryPoiId != null">
-        delivery_poi_id,
-      </if>
-      <if test="deliveryPoiName != null">
-        delivery_poi_name,
-      </if>
-      <if test="createTime != null">
-        create_time,
-      </if>
-      <if test="createUserName != null">
-        create_user_name,
-      </if>
-      <if test="updateTime != null">
-        update_time,
-      </if>
-      <if test="updateUserName != null">
-        update_user_name,
-      </if>
-      <if test="status != null">
-        status,
-      </if>
-      <if test="isLocationNavigation != null">
-        is_location_navigation,
-      </if>
-      <if test="signlestatus != null">
-        signlestatus,
-      </if>
-      <if test="remark != null">
-        remark,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        #{id,jdbcType=INTEGER},
-      </if>
-      <if test="taskId != null">
-        #{taskId,jdbcType=INTEGER},
-      </if>
-      <if test="taskType != null">
-        #{taskType,jdbcType=VARCHAR},
-      </if>
-      <if test="mapId != null">
-        #{mapId,jdbcType=VARCHAR},
-      </if>
-      <if test="poiId != null">
-        #{poiId,jdbcType=INTEGER},
-      </if>
-      <if test="poiName != null">
-        #{poiName,jdbcType=VARCHAR},
-      </if>
-      <if test="voice != null">
-        #{voice,jdbcType=VARCHAR},
-      </if>
-      <if test="emoji != null">
-        #{emoji,jdbcType=VARCHAR},
-      </if>
-      <if test="emojiType != null">
-        #{emojiType,jdbcType=VARCHAR},
-      </if>
-      <if test="resourceId != null">
-        #{resourceId,jdbcType=VARCHAR},
-      </if>
-      <if test="resourceName != null">
-        #{resourceName,jdbcType=VARCHAR},
-      </if>
-      <if test="resourceType != null">
-        #{resourceType,jdbcType=VARCHAR},
-      </if>
-      <if test="delayTime != null">
-        #{delayTime,jdbcType=VARCHAR},
-      </if>
-      <if test="priority != null">
-        #{priority,jdbcType=INTEGER},
-      </if>
-      <if test="takePoiId != null">
-        #{takePoiId,jdbcType=INTEGER},
-      </if>
-      <if test="takePoiName != null">
-        #{takePoiName,jdbcType=VARCHAR},
-      </if>
-      <if test="deliveryPoiId != null">
-        #{deliveryPoiId,jdbcType=INTEGER},
-      </if>
-      <if test="deliveryPoiName != null">
-        #{deliveryPoiName,jdbcType=VARCHAR},
-      </if>
-      <if test="createTime != null">
-        #{createTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="createUserName != null">
-        #{createUserName,jdbcType=VARCHAR},
-      </if>
-      <if test="updateTime != null">
-        #{updateTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="updateUserName != null">
-        #{updateUserName,jdbcType=VARCHAR},
-      </if>
-      <if test="status != null">
-        #{status,jdbcType=CHAR},
-      </if>
-      <if test="isLocationNavigation != null">
-        #{isLocationNavigation,jdbcType=CHAR},
-      </if>
-      <if test="signlestatus != null">
-        #{signlestatus,jdbcType=CHAR},
-      </if>
-      <if test="remark != null">
-        #{remark,jdbcType=VARCHAR},
-      </if>
-    </trim>
-  </insert>
-  <select id="countByExample" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDOExample" resultType="java.lang.Integer">
-    select count(*) from mappoi_details
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-  </select>
-  <update id="updateByExampleSelective" parameterType="map">
-    update mappoi_details
-    <set>
-      <if test="record.id != null">
-        id = #{record.id,jdbcType=INTEGER},
-      </if>
-      <if test="record.taskId != null">
+        <include refid="Base_Column_List"/>
+        from mappoi_details
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+        <if test="orderByClause != null">
+            order by ${orderByClause}
+        </if>
+    </select>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from mappoi_details
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from mappoi_details
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <delete id="deleteByExample" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDOExample">
+        delete from mappoi_details
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </delete>
+    <insert id="insert" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
+        insert into mappoi_details (id, task_id, task_type,
+        map_id, poi_id, poi_name,
+        voice, emoji, emoji_type,
+        resource_id, resource_name, resource_type,
+        delay_time, priority, take_poi_id,
+        take_poi_name, delivery_poi_id, delivery_poi_name,
+        create_time, create_user_name, update_time,
+        update_user_name, status, is_location_navigation,
+        signlestatus, remark)
+        values (#{id,jdbcType=INTEGER}, #{taskId,jdbcType=INTEGER}, #{taskType,jdbcType=VARCHAR},
+        #{mapId,jdbcType=VARCHAR}, #{poiId,jdbcType=INTEGER}, #{poiName,jdbcType=VARCHAR},
+        #{voice,jdbcType=VARCHAR}, #{emoji,jdbcType=VARCHAR}, #{emojiType,jdbcType=VARCHAR},
+        #{resourceId,jdbcType=VARCHAR}, #{resourceName,jdbcType=VARCHAR}, #{resourceType,jdbcType=VARCHAR},
+        #{delayTime,jdbcType=VARCHAR}, #{priority,jdbcType=INTEGER}, #{takePoiId,jdbcType=INTEGER},
+        #{takePoiName,jdbcType=VARCHAR}, #{deliveryPoiId,jdbcType=INTEGER}, #{deliveryPoiName,jdbcType=VARCHAR},
+        #{createTime,jdbcType=TIMESTAMP}, #{createUserName,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP},
+        #{updateUserName,jdbcType=VARCHAR}, #{status,jdbcType=CHAR}, #{isLocationNavigation,jdbcType=CHAR},
+        #{signlestatus,jdbcType=CHAR}, #{remark,jdbcType=VARCHAR})
+    </insert>
+    <insert id="insertSelective" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
+        insert into mappoi_details
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="taskId != null">
+                task_id,
+            </if>
+            <if test="taskType != null">
+                task_type,
+            </if>
+            <if test="mapId != null">
+                map_id,
+            </if>
+            <if test="poiId != null">
+                poi_id,
+            </if>
+            <if test="poiName != null">
+                poi_name,
+            </if>
+            <if test="voice != null">
+                voice,
+            </if>
+            <if test="emoji != null">
+                emoji,
+            </if>
+            <if test="emojiType != null">
+                emoji_type,
+            </if>
+            <if test="resourceId != null">
+                resource_id,
+            </if>
+            <if test="resourceName != null">
+                resource_name,
+            </if>
+            <if test="resourceType != null">
+                resource_type,
+            </if>
+            <if test="delayTime != null">
+                delay_time,
+            </if>
+            <if test="priority != null">
+                priority,
+            </if>
+            <if test="takePoiId != null">
+                take_poi_id,
+            </if>
+            <if test="takePoiName != null">
+                take_poi_name,
+            </if>
+            <if test="deliveryPoiId != null">
+                delivery_poi_id,
+            </if>
+            <if test="deliveryPoiName != null">
+                delivery_poi_name,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="createUserName != null">
+                create_user_name,
+            </if>
+            <if test="updateTime != null">
+                update_time,
+            </if>
+            <if test="updateUserName != null">
+                update_user_name,
+            </if>
+            <if test="status != null">
+                status,
+            </if>
+            <if test="isLocationNavigation != null">
+                is_location_navigation,
+            </if>
+            <if test="signlestatus != null">
+                signlestatus,
+            </if>
+            <if test="remark != null">
+                remark,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="taskId != null">
+                #{taskId,jdbcType=INTEGER},
+            </if>
+            <if test="taskType != null">
+                #{taskType,jdbcType=VARCHAR},
+            </if>
+            <if test="mapId != null">
+                #{mapId,jdbcType=VARCHAR},
+            </if>
+            <if test="poiId != null">
+                #{poiId,jdbcType=INTEGER},
+            </if>
+            <if test="poiName != null">
+                #{poiName,jdbcType=VARCHAR},
+            </if>
+            <if test="voice != null">
+                #{voice,jdbcType=VARCHAR},
+            </if>
+            <if test="emoji != null">
+                #{emoji,jdbcType=VARCHAR},
+            </if>
+            <if test="emojiType != null">
+                #{emojiType,jdbcType=VARCHAR},
+            </if>
+            <if test="resourceId != null">
+                #{resourceId,jdbcType=VARCHAR},
+            </if>
+            <if test="resourceName != null">
+                #{resourceName,jdbcType=VARCHAR},
+            </if>
+            <if test="resourceType != null">
+                #{resourceType,jdbcType=VARCHAR},
+            </if>
+            <if test="delayTime != null">
+                #{delayTime,jdbcType=VARCHAR},
+            </if>
+            <if test="priority != null">
+                #{priority,jdbcType=INTEGER},
+            </if>
+            <if test="takePoiId != null">
+                #{takePoiId,jdbcType=INTEGER},
+            </if>
+            <if test="takePoiName != null">
+                #{takePoiName,jdbcType=VARCHAR},
+            </if>
+            <if test="deliveryPoiId != null">
+                #{deliveryPoiId,jdbcType=INTEGER},
+            </if>
+            <if test="deliveryPoiName != null">
+                #{deliveryPoiName,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createUserName != null">
+                #{createUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateUserName != null">
+                #{updateUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                #{status,jdbcType=CHAR},
+            </if>
+            <if test="isLocationNavigation != null">
+                #{isLocationNavigation,jdbcType=CHAR},
+            </if>
+            <if test="signlestatus != null">
+                #{signlestatus,jdbcType=CHAR},
+            </if>
+            <if test="remark != null">
+                #{remark,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <select id="countByExample" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDOExample"
+            resultType="java.lang.Integer">
+        select count(*) from mappoi_details
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </select>
+    <update id="updateByExampleSelective" parameterType="map">
+        update mappoi_details
+        <set>
+            <if test="record.id != null">
+                id = #{record.id,jdbcType=INTEGER},
+            </if>
+            <if test="record.taskId != null">
+                task_id = #{record.taskId,jdbcType=INTEGER},
+            </if>
+            <if test="record.taskType != null">
+                task_type = #{record.taskType,jdbcType=VARCHAR},
+            </if>
+            <if test="record.mapId != null">
+                map_id = #{record.mapId,jdbcType=VARCHAR},
+            </if>
+            <if test="record.poiId != null">
+                poi_id = #{record.poiId,jdbcType=INTEGER},
+            </if>
+            <if test="record.poiName != null">
+                poi_name = #{record.poiName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.voice != null">
+                voice = #{record.voice,jdbcType=VARCHAR},
+            </if>
+            <if test="record.emoji != null">
+                emoji = #{record.emoji,jdbcType=VARCHAR},
+            </if>
+            <if test="record.emojiType != null">
+                emoji_type = #{record.emojiType,jdbcType=VARCHAR},
+            </if>
+            <if test="record.resourceId != null">
+                resource_id = #{record.resourceId,jdbcType=VARCHAR},
+            </if>
+            <if test="record.resourceName != null">
+                resource_name = #{record.resourceName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.resourceType != null">
+                resource_type = #{record.resourceType,jdbcType=VARCHAR},
+            </if>
+            <if test="record.delayTime != null">
+                delay_time = #{record.delayTime,jdbcType=VARCHAR},
+            </if>
+            <if test="record.priority != null">
+                priority = #{record.priority,jdbcType=INTEGER},
+            </if>
+            <if test="record.takePoiId != null">
+                take_poi_id = #{record.takePoiId,jdbcType=INTEGER},
+            </if>
+            <if test="record.takePoiName != null">
+                take_poi_name = #{record.takePoiName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.deliveryPoiId != null">
+                delivery_poi_id = #{record.deliveryPoiId,jdbcType=INTEGER},
+            </if>
+            <if test="record.deliveryPoiName != null">
+                delivery_poi_name = #{record.deliveryPoiName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.createTime != null">
+                create_time = #{record.createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="record.createUserName != null">
+                create_user_name = #{record.createUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.updateTime != null">
+                update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="record.updateUserName != null">
+                update_user_name = #{record.updateUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.status != null">
+                status = #{record.status,jdbcType=CHAR},
+            </if>
+            <if test="record.isLocationNavigation != null">
+                is_location_navigation = #{record.isLocationNavigation,jdbcType=CHAR},
+            </if>
+            <if test="record.signlestatus != null">
+                signlestatus = #{record.signlestatus,jdbcType=CHAR},
+            </if>
+            <if test="record.remark != null">
+                remark = #{record.remark,jdbcType=VARCHAR},
+            </if>
+        </set>
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+    <update id="updateByExample" parameterType="map">
+        update mappoi_details
+        set id = #{record.id,jdbcType=INTEGER},
         task_id = #{record.taskId,jdbcType=INTEGER},
-      </if>
-      <if test="record.taskType != null">
         task_type = #{record.taskType,jdbcType=VARCHAR},
-      </if>
-      <if test="record.mapId != null">
         map_id = #{record.mapId,jdbcType=VARCHAR},
-      </if>
-      <if test="record.poiId != null">
         poi_id = #{record.poiId,jdbcType=INTEGER},
-      </if>
-      <if test="record.poiName != null">
         poi_name = #{record.poiName,jdbcType=VARCHAR},
-      </if>
-      <if test="record.voice != null">
         voice = #{record.voice,jdbcType=VARCHAR},
-      </if>
-      <if test="record.emoji != null">
         emoji = #{record.emoji,jdbcType=VARCHAR},
-      </if>
-      <if test="record.emojiType != null">
         emoji_type = #{record.emojiType,jdbcType=VARCHAR},
-      </if>
-      <if test="record.resourceId != null">
         resource_id = #{record.resourceId,jdbcType=VARCHAR},
-      </if>
-      <if test="record.resourceName != null">
         resource_name = #{record.resourceName,jdbcType=VARCHAR},
-      </if>
-      <if test="record.resourceType != null">
         resource_type = #{record.resourceType,jdbcType=VARCHAR},
-      </if>
-      <if test="record.delayTime != null">
         delay_time = #{record.delayTime,jdbcType=VARCHAR},
-      </if>
-      <if test="record.priority != null">
         priority = #{record.priority,jdbcType=INTEGER},
-      </if>
-      <if test="record.takePoiId != null">
         take_poi_id = #{record.takePoiId,jdbcType=INTEGER},
-      </if>
-      <if test="record.takePoiName != null">
         take_poi_name = #{record.takePoiName,jdbcType=VARCHAR},
-      </if>
-      <if test="record.deliveryPoiId != null">
         delivery_poi_id = #{record.deliveryPoiId,jdbcType=INTEGER},
-      </if>
-      <if test="record.deliveryPoiName != null">
         delivery_poi_name = #{record.deliveryPoiName,jdbcType=VARCHAR},
-      </if>
-      <if test="record.createTime != null">
         create_time = #{record.createTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="record.createUserName != null">
         create_user_name = #{record.createUserName,jdbcType=VARCHAR},
-      </if>
-      <if test="record.updateTime != null">
         update_time = #{record.updateTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="record.updateUserName != null">
         update_user_name = #{record.updateUserName,jdbcType=VARCHAR},
-      </if>
-      <if test="record.status != null">
         status = #{record.status,jdbcType=CHAR},
-      </if>
-      <if test="record.isLocationNavigation != null">
         is_location_navigation = #{record.isLocationNavigation,jdbcType=CHAR},
-      </if>
-      <if test="record.signlestatus != null">
         signlestatus = #{record.signlestatus,jdbcType=CHAR},
-      </if>
-      <if test="record.remark != null">
-        remark = #{record.remark,jdbcType=VARCHAR},
-      </if>
-    </set>
-    <if test="_parameter != null">
-      <include refid="Update_By_Example_Where_Clause" />
-    </if>
-  </update>
-  <update id="updateByExample" parameterType="map">
-    update mappoi_details
-    set id = #{record.id,jdbcType=INTEGER},
-      task_id = #{record.taskId,jdbcType=INTEGER},
-      task_type = #{record.taskType,jdbcType=VARCHAR},
-      map_id = #{record.mapId,jdbcType=VARCHAR},
-      poi_id = #{record.poiId,jdbcType=INTEGER},
-      poi_name = #{record.poiName,jdbcType=VARCHAR},
-      voice = #{record.voice,jdbcType=VARCHAR},
-      emoji = #{record.emoji,jdbcType=VARCHAR},
-      emoji_type = #{record.emojiType,jdbcType=VARCHAR},
-      resource_id = #{record.resourceId,jdbcType=VARCHAR},
-      resource_name = #{record.resourceName,jdbcType=VARCHAR},
-      resource_type = #{record.resourceType,jdbcType=VARCHAR},
-      delay_time = #{record.delayTime,jdbcType=VARCHAR},
-      priority = #{record.priority,jdbcType=INTEGER},
-      take_poi_id = #{record.takePoiId,jdbcType=INTEGER},
-      take_poi_name = #{record.takePoiName,jdbcType=VARCHAR},
-      delivery_poi_id = #{record.deliveryPoiId,jdbcType=INTEGER},
-      delivery_poi_name = #{record.deliveryPoiName,jdbcType=VARCHAR},
-      create_time = #{record.createTime,jdbcType=TIMESTAMP},
-      create_user_name = #{record.createUserName,jdbcType=VARCHAR},
-      update_time = #{record.updateTime,jdbcType=TIMESTAMP},
-      update_user_name = #{record.updateUserName,jdbcType=VARCHAR},
-      status = #{record.status,jdbcType=CHAR},
-      is_location_navigation = #{record.isLocationNavigation,jdbcType=CHAR},
-      signlestatus = #{record.signlestatus,jdbcType=CHAR},
-      remark = #{record.remark,jdbcType=VARCHAR}
-    <if test="_parameter != null">
-      <include refid="Update_By_Example_Where_Clause" />
-    </if>
-  </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
-    update mappoi_details
-    <set>
-      <if test="taskId != null">
-        task_id = #{taskId,jdbcType=INTEGER},
-      </if>
-      <if test="taskType != null">
+        remark = #{record.remark,jdbcType=VARCHAR}
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
+        update mappoi_details
+        <set>
+            <if test="taskId != null">
+                task_id = #{taskId,jdbcType=INTEGER},
+            </if>
+            <if test="taskType != null">
+                task_type = #{taskType,jdbcType=VARCHAR},
+            </if>
+            <if test="mapId != null">
+                map_id = #{mapId,jdbcType=VARCHAR},
+            </if>
+            <if test="poiId != null">
+                poi_id = #{poiId,jdbcType=INTEGER},
+            </if>
+            <if test="poiName != null">
+                poi_name = #{poiName,jdbcType=VARCHAR},
+            </if>
+            <if test="voice != null">
+                voice = #{voice,jdbcType=VARCHAR},
+            </if>
+            <if test="emoji != null">
+                emoji = #{emoji,jdbcType=VARCHAR},
+            </if>
+            <if test="emojiType != null">
+                emoji_type = #{emojiType,jdbcType=VARCHAR},
+            </if>
+            <if test="resourceId != null">
+                resource_id = #{resourceId,jdbcType=VARCHAR},
+            </if>
+            <if test="resourceName != null">
+                resource_name = #{resourceName,jdbcType=VARCHAR},
+            </if>
+            <if test="resourceType != null">
+                resource_type = #{resourceType,jdbcType=VARCHAR},
+            </if>
+            <if test="delayTime != null">
+                delay_time = #{delayTime,jdbcType=VARCHAR},
+            </if>
+            <if test="priority != null">
+                priority = #{priority,jdbcType=INTEGER},
+            </if>
+            <if test="takePoiId != null">
+                take_poi_id = #{takePoiId,jdbcType=INTEGER},
+            </if>
+            <if test="takePoiName != null">
+                take_poi_name = #{takePoiName,jdbcType=VARCHAR},
+            </if>
+            <if test="deliveryPoiId != null">
+                delivery_poi_id = #{deliveryPoiId,jdbcType=INTEGER},
+            </if>
+            <if test="deliveryPoiName != null">
+                delivery_poi_name = #{deliveryPoiName,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createUserName != null">
+                create_user_name = #{createUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateUserName != null">
+                update_user_name = #{updateUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                status = #{status,jdbcType=CHAR},
+            </if>
+            <if test="isLocationNavigation != null">
+                is_location_navigation = #{isLocationNavigation,jdbcType=CHAR},
+            </if>
+            <if test="signlestatus != null">
+                signlestatus = #{signlestatus,jdbcType=CHAR},
+            </if>
+            <if test="remark != null">
+                remark = #{remark,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
+        update mappoi_details
+        set task_id = #{taskId,jdbcType=INTEGER},
         task_type = #{taskType,jdbcType=VARCHAR},
-      </if>
-      <if test="mapId != null">
         map_id = #{mapId,jdbcType=VARCHAR},
-      </if>
-      <if test="poiId != null">
         poi_id = #{poiId,jdbcType=INTEGER},
-      </if>
-      <if test="poiName != null">
         poi_name = #{poiName,jdbcType=VARCHAR},
-      </if>
-      <if test="voice != null">
         voice = #{voice,jdbcType=VARCHAR},
-      </if>
-      <if test="emoji != null">
         emoji = #{emoji,jdbcType=VARCHAR},
-      </if>
-      <if test="emojiType != null">
         emoji_type = #{emojiType,jdbcType=VARCHAR},
-      </if>
-      <if test="resourceId != null">
         resource_id = #{resourceId,jdbcType=VARCHAR},
-      </if>
-      <if test="resourceName != null">
         resource_name = #{resourceName,jdbcType=VARCHAR},
-      </if>
-      <if test="resourceType != null">
         resource_type = #{resourceType,jdbcType=VARCHAR},
-      </if>
-      <if test="delayTime != null">
         delay_time = #{delayTime,jdbcType=VARCHAR},
-      </if>
-      <if test="priority != null">
         priority = #{priority,jdbcType=INTEGER},
-      </if>
-      <if test="takePoiId != null">
         take_poi_id = #{takePoiId,jdbcType=INTEGER},
-      </if>
-      <if test="takePoiName != null">
         take_poi_name = #{takePoiName,jdbcType=VARCHAR},
-      </if>
-      <if test="deliveryPoiId != null">
         delivery_poi_id = #{deliveryPoiId,jdbcType=INTEGER},
-      </if>
-      <if test="deliveryPoiName != null">
         delivery_poi_name = #{deliveryPoiName,jdbcType=VARCHAR},
-      </if>
-      <if test="createTime != null">
         create_time = #{createTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="createUserName != null">
         create_user_name = #{createUserName,jdbcType=VARCHAR},
-      </if>
-      <if test="updateTime != null">
         update_time = #{updateTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="updateUserName != null">
         update_user_name = #{updateUserName,jdbcType=VARCHAR},
-      </if>
-      <if test="status != null">
         status = #{status,jdbcType=CHAR},
-      </if>
-      <if test="isLocationNavigation != null">
         is_location_navigation = #{isLocationNavigation,jdbcType=CHAR},
-      </if>
-      <if test="signlestatus != null">
         signlestatus = #{signlestatus,jdbcType=CHAR},
-      </if>
-      <if test="remark != null">
-        remark = #{remark,jdbcType=VARCHAR},
-      </if>
-    </set>
-    where id = #{id,jdbcType=INTEGER}
-  </update>
-  <update id="updateByPrimaryKey" parameterType="com.irobotop.equipment.bean.MapPoiDetailsDO">
-    update mappoi_details
-    set task_id = #{taskId,jdbcType=INTEGER},
-      task_type = #{taskType,jdbcType=VARCHAR},
-      map_id = #{mapId,jdbcType=VARCHAR},
-      poi_id = #{poiId,jdbcType=INTEGER},
-      poi_name = #{poiName,jdbcType=VARCHAR},
-      voice = #{voice,jdbcType=VARCHAR},
-      emoji = #{emoji,jdbcType=VARCHAR},
-      emoji_type = #{emojiType,jdbcType=VARCHAR},
-      resource_id = #{resourceId,jdbcType=VARCHAR},
-      resource_name = #{resourceName,jdbcType=VARCHAR},
-      resource_type = #{resourceType,jdbcType=VARCHAR},
-      delay_time = #{delayTime,jdbcType=VARCHAR},
-      priority = #{priority,jdbcType=INTEGER},
-      take_poi_id = #{takePoiId,jdbcType=INTEGER},
-      take_poi_name = #{takePoiName,jdbcType=VARCHAR},
-      delivery_poi_id = #{deliveryPoiId,jdbcType=INTEGER},
-      delivery_poi_name = #{deliveryPoiName,jdbcType=VARCHAR},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-      create_user_name = #{createUserName,jdbcType=VARCHAR},
-      update_time = #{updateTime,jdbcType=TIMESTAMP},
-      update_user_name = #{updateUserName,jdbcType=VARCHAR},
-      status = #{status,jdbcType=CHAR},
-      is_location_navigation = #{isLocationNavigation,jdbcType=CHAR},
-      signlestatus = #{signlestatus,jdbcType=CHAR},
-      remark = #{remark,jdbcType=VARCHAR}
-    where id = #{id,jdbcType=INTEGER}
-  </update>
+        remark = #{remark,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
 </mapper>

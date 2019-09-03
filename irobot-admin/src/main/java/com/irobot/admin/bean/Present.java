@@ -15,9 +15,9 @@ import java.util.List;
 
 /**
  * <p>anonymous complex type�� Java �ࡣ
- * 
+ *
  * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -102,13 +102,11 @@ import java.util.List;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "record",
-    "sessionId"
+        "record",
+        "sessionId"
 })
 @XmlRootElement(name = "present")
 public class Present {
@@ -119,25 +117,23 @@ public class Present {
 
     /**
      * Gets the value of the record property.
-     * 
+     *
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the record property.
-     * 
+     *
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getRecord().add(newItem);
      * </pre>
-     * 
-     * 
+     *
+     *
      * <p>
      * Objects of the following type(s) are allowed in the list
      * {@link Record }
-     * 
-     * 
      */
     public List<Record> getRecord() {
         if (record == null) {
@@ -148,11 +144,9 @@ public class Present {
 
     /**
      * ��ȡsessionId���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getSessionId() {
         return sessionId;
@@ -160,11 +154,9 @@ public class Present {
 
     /**
      * ����sessionId���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setSessionId(String value) {
         this.sessionId = value;
@@ -173,9 +165,9 @@ public class Present {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -249,14 +241,12 @@ public class Present {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "recordHeader",
-        "docNumber",
-        "metadata"
+            "recordHeader",
+            "docNumber",
+            "metadata"
     })
     public static class Record {
 
@@ -269,11 +259,9 @@ public class Present {
 
         /**
          * ��ȡrecordHeader���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link RecordHeader }
-         *     
+         *
+         * @return possible object is
+         * {@link RecordHeader }
          */
         public RecordHeader getRecordHeader() {
             return recordHeader;
@@ -281,11 +269,9 @@ public class Present {
 
         /**
          * ����recordHeader���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link RecordHeader }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link RecordHeader }
          */
         public void setRecordHeader(RecordHeader value) {
             this.recordHeader = value;
@@ -293,11 +279,9 @@ public class Present {
 
         /**
          * ��ȡdocNumber���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getDocNumber() {
             return docNumber;
@@ -305,11 +289,9 @@ public class Present {
 
         /**
          * ����docNumber���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setDocNumber(String value) {
             this.docNumber = value;
@@ -317,11 +299,9 @@ public class Present {
 
         /**
          * ��ȡmetadata���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Metadata }
-         *     
+         *
+         * @return possible object is
+         * {@link Metadata }
          */
         public Metadata getMetadata() {
             return metadata;
@@ -329,11 +309,9 @@ public class Present {
 
         /**
          * ����metadata���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Metadata }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Metadata }
          */
         public void setMetadata(Metadata value) {
             this.metadata = value;
@@ -342,9 +320,9 @@ public class Present {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -396,12 +374,10 @@ public class Present {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "oaiMarc"
+                "oaiMarc"
         })
         public static class Metadata {
 
@@ -410,11 +386,9 @@ public class Present {
 
             /**
              * ��ȡoaiMarc���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link OaiMarc }
-             *     
+             *
+             * @return possible object is
+             * {@link OaiMarc }
              */
             public OaiMarc getOaiMarc() {
                 return oaiMarc;
@@ -422,11 +396,9 @@ public class Present {
 
             /**
              * ����oaiMarc���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link OaiMarc }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link OaiMarc }
              */
             public void setOaiMarc(OaiMarc value) {
                 this.oaiMarc = value;
@@ -435,9 +407,9 @@ public class Present {
 
             /**
              * <p>anonymous complex type�� Java �ࡣ
-             * 
+             *
              * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-             * 
+             *
              * <pre>
              * &lt;complexType>
              *   &lt;complexContent>
@@ -479,13 +451,11 @@ public class Present {
              *   &lt;/complexContent>
              * &lt;/complexType>
              * </pre>
-             * 
-             * 
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "fixfield",
-                "varfield"
+                    "fixfield",
+                    "varfield"
             })
             public static class OaiMarc {
 
@@ -494,25 +464,23 @@ public class Present {
 
                 /**
                  * Gets the value of the fixfield property.
-                 * 
+                 *
                  * <p>
                  * This accessor method returns a reference to the live list,
                  * not a snapshot. Therefore any modification you make to the
                  * returned list will be present inside the JAXB object.
                  * This is why there is not a <CODE>set</CODE> method for the fixfield property.
-                 * 
+                 *
                  * <p>
                  * For example, to add a new item, do as follows:
                  * <pre>
                  *    getFixfield().add(newItem);
                  * </pre>
-                 * 
-                 * 
+                 *
+                 *
                  * <p>
                  * Objects of the following type(s) are allowed in the list
                  * {@link Fixfield }
-                 * 
-                 * 
                  */
                 public List<Fixfield> getFixfield() {
                     if (fixfield == null) {
@@ -523,25 +491,23 @@ public class Present {
 
                 /**
                  * Gets the value of the varfield property.
-                 * 
+                 *
                  * <p>
                  * This accessor method returns a reference to the live list,
                  * not a snapshot. Therefore any modification you make to the
                  * returned list will be present inside the JAXB object.
                  * This is why there is not a <CODE>set</CODE> method for the varfield property.
-                 * 
+                 *
                  * <p>
                  * For example, to add a new item, do as follows:
                  * <pre>
                  *    getVarfield().add(newItem);
                  * </pre>
-                 * 
-                 * 
+                 *
+                 *
                  * <p>
                  * Objects of the following type(s) are allowed in the list
                  * {@link Varfield }
-                 * 
-                 * 
                  */
                 public List<Varfield> getVarfield() {
                     if (varfield == null) {
@@ -553,9 +519,9 @@ public class Present {
 
                 /**
                  * <p>anonymous complex type�� Java �ࡣ
-                 * 
+                 *
                  * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-                 * 
+                 *
                  * <pre>
                  * &lt;complexType>
                  *   &lt;simpleContent>
@@ -565,12 +531,10 @@ public class Present {
                  *   &lt;/simpleContent>
                  * &lt;/complexType>
                  * </pre>
-                 * 
-                 * 
                  */
                 @XmlAccessorType(XmlAccessType.FIELD)
                 @XmlType(name = "", propOrder = {
-                    "value"
+                        "value"
                 })
                 public static class Fixfield {
 
@@ -581,11 +545,9 @@ public class Present {
 
                     /**
                      * ��ȡvalue���Ե�ֵ��
-                     * 
-                     * @return
-                     *     possible object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @return possible object is
+                     * {@link String }
                      */
                     public String getValue() {
                         return value;
@@ -593,11 +555,9 @@ public class Present {
 
                     /**
                      * ����value���Ե�ֵ��
-                     * 
-                     * @param value
-                     *     allowed object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @param value allowed object is
+                     *              {@link String }
                      */
                     public void setValue(String value) {
                         this.value = value;
@@ -605,11 +565,9 @@ public class Present {
 
                     /**
                      * ��ȡid���Ե�ֵ��
-                     * 
-                     * @return
-                     *     possible object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @return possible object is
+                     * {@link String }
                      */
                     public String getId() {
                         return id;
@@ -617,11 +575,9 @@ public class Present {
 
                     /**
                      * ����id���Ե�ֵ��
-                     * 
-                     * @param value
-                     *     allowed object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @param value allowed object is
+                     *              {@link String }
                      */
                     public void setId(String value) {
                         this.id = value;
@@ -632,9 +588,9 @@ public class Present {
 
                 /**
                  * <p>anonymous complex type�� Java �ࡣ
-                 * 
+                 *
                  * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-                 * 
+                 *
                  * <pre>
                  * &lt;complexType>
                  *   &lt;complexContent>
@@ -657,12 +613,10 @@ public class Present {
                  *   &lt;/complexContent>
                  * &lt;/complexType>
                  * </pre>
-                 * 
-                 * 
                  */
                 @XmlAccessorType(XmlAccessType.FIELD)
                 @XmlType(name = "", propOrder = {
-                    "subfield"
+                        "subfield"
                 })
                 public static class Varfield {
 
@@ -676,25 +630,23 @@ public class Present {
 
                     /**
                      * Gets the value of the subfield property.
-                     * 
+                     *
                      * <p>
                      * This accessor method returns a reference to the live list,
                      * not a snapshot. Therefore any modification you make to the
                      * returned list will be present inside the JAXB object.
                      * This is why there is not a <CODE>set</CODE> method for the subfield property.
-                     * 
+                     *
                      * <p>
                      * For example, to add a new item, do as follows:
                      * <pre>
                      *    getSubfield().add(newItem);
                      * </pre>
-                     * 
-                     * 
+                     *
+                     *
                      * <p>
                      * Objects of the following type(s) are allowed in the list
                      * {@link Subfield }
-                     * 
-                     * 
                      */
                     public List<Subfield> getSubfield() {
                         if (subfield == null) {
@@ -705,11 +657,9 @@ public class Present {
 
                     /**
                      * ��ȡid���Ե�ֵ��
-                     * 
-                     * @return
-                     *     possible object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @return possible object is
+                     * {@link String }
                      */
                     public String getId() {
                         return id;
@@ -717,11 +667,9 @@ public class Present {
 
                     /**
                      * ����id���Ե�ֵ��
-                     * 
-                     * @param value
-                     *     allowed object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @param value allowed object is
+                     *              {@link String }
                      */
                     public void setId(String value) {
                         this.id = value;
@@ -729,11 +677,9 @@ public class Present {
 
                     /**
                      * ��ȡi2���Ե�ֵ��
-                     * 
-                     * @return
-                     *     possible object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @return possible object is
+                     * {@link String }
                      */
                     public String getI2() {
                         return i2;
@@ -741,11 +687,9 @@ public class Present {
 
                     /**
                      * ����i2���Ե�ֵ��
-                     * 
-                     * @param value
-                     *     allowed object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @param value allowed object is
+                     *              {@link String }
                      */
                     public void setI2(String value) {
                         this.i2 = value;
@@ -753,11 +697,9 @@ public class Present {
 
                     /**
                      * ��ȡi1���Ե�ֵ��
-                     * 
-                     * @return
-                     *     possible object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @return possible object is
+                     * {@link String }
                      */
                     public String getI1() {
                         return i1;
@@ -765,11 +707,9 @@ public class Present {
 
                     /**
                      * ����i1���Ե�ֵ��
-                     * 
-                     * @param value
-                     *     allowed object is
-                     *     {@link String }
-                     *     
+                     *
+                     * @param value allowed object is
+                     *              {@link String }
                      */
                     public void setI1(String value) {
                         this.i1 = value;
@@ -778,9 +718,9 @@ public class Present {
 
                     /**
                      * <p>anonymous complex type�� Java �ࡣ
-                     * 
+                     *
                      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-                     * 
+                     *
                      * <pre>
                      * &lt;complexType>
                      *   &lt;simpleContent>
@@ -790,12 +730,10 @@ public class Present {
                      *   &lt;/simpleContent>
                      * &lt;/complexType>
                      * </pre>
-                     * 
-                     * 
                      */
                     @XmlAccessorType(XmlAccessType.FIELD)
                     @XmlType(name = "", propOrder = {
-                        "value"
+                            "value"
                     })
                     public static class Subfield {
 
@@ -806,11 +744,9 @@ public class Present {
 
                         /**
                          * ��ȡvalue���Ե�ֵ��
-                         * 
-                         * @return
-                         *     possible object is
-                         *     {@link String }
-                         *     
+                         *
+                         * @return possible object is
+                         * {@link String }
                          */
                         public String getValue() {
                             return value;
@@ -818,11 +754,9 @@ public class Present {
 
                         /**
                          * ����value���Ե�ֵ��
-                         * 
-                         * @param value
-                         *     allowed object is
-                         *     {@link String }
-                         *     
+                         *
+                         * @param value allowed object is
+                         *              {@link String }
                          */
                         public void setValue(String value) {
                             this.value = value;
@@ -830,11 +764,9 @@ public class Present {
 
                         /**
                          * ��ȡlabel���Ե�ֵ��
-                         * 
-                         * @return
-                         *     possible object is
-                         *     {@link String }
-                         *     
+                         *
+                         * @return possible object is
+                         * {@link String }
                          */
                         public String getLabel() {
                             return label;
@@ -842,11 +774,9 @@ public class Present {
 
                         /**
                          * ����label���Ե�ֵ��
-                         * 
-                         * @param value
-                         *     allowed object is
-                         *     {@link String }
-                         *     
+                         *
+                         * @param value allowed object is
+                         *              {@link String }
                          */
                         public void setLabel(String value) {
                             this.label = value;
@@ -863,9 +793,9 @@ public class Present {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -877,12 +807,10 @@ public class Present {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "setEntry"
+                "setEntry"
         })
         public static class RecordHeader {
 
@@ -891,11 +819,9 @@ public class Present {
 
             /**
              * ��ȡsetEntry���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getSetEntry() {
                 return setEntry;
@@ -903,11 +829,9 @@ public class Present {
 
             /**
              * ����setEntry���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setSetEntry(String value) {
                 this.setEntry = value;

@@ -17,12 +17,11 @@ public class test {
         Question question = SharedQuestionAnsweringSystem.getInstance().answerQuestion(questionStr);
         if (question != null) {
             List<CandidateAnswer> candidateAnswers = question.getAllCandidateAnswer();
-            int i=1;
-            for(CandidateAnswer candidateAnswer : candidateAnswers){
-                System.out.println((i++)+"、"+candidateAnswer.getAnswer()+":"+candidateAnswer.getScore());
+            int i = 1;
+            for (CandidateAnswer candidateAnswer : candidateAnswers) {
+                System.out.println((i++) + "、" + candidateAnswer.getAnswer() + ":" + candidateAnswer.getScore());
             }
         }
-
 
 
     }

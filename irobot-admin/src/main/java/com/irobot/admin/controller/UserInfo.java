@@ -54,43 +54,43 @@ public class UserInfo {
 
             if (z304 != null) {
 
-            //邮箱
-            if (StringUtils.isNotEmpty(z304.getZ304EmailAddress())) {
-                wsOpacUserInfo.setEmail(z304.getZ304EmailAddress());
+                //邮箱
+                if (StringUtils.isNotEmpty(z304.getZ304EmailAddress())) {
+                    wsOpacUserInfo.setEmail(z304.getZ304EmailAddress());
+                }
+
+
+                //地址0
+                if (StringUtils.isNotEmpty(z304.getZ304Address0())) {
+                    wsOpacUserInfo.setAddress0(z304.getZ304Address0());
+                }
+
+                //地址1
+                if (StringUtils.isNotEmpty(z304.getZ304Address1())) {
+                    wsOpacUserInfo.setAddress1(z304.getZ304Address1());
+                }
+
+                //电话
+                if (StringUtils.isNotEmpty(z304.getZ304Telephone())) {
+                    wsOpacUserInfo.setTelephone(z304.getZ304Telephone());
+                }
+
+                //电话2
+                if (StringUtils.isNotEmpty(z304.getZ304Telephone2())) {
+                    wsOpacUserInfo.setTelephone2(z304.getZ304Telephone2());
+                }
+
+                //电话3
+                if (StringUtils.isNotEmpty(z304.getZ304Telephone3())) {
+                    wsOpacUserInfo.setTelephone3(z304.getZ304Telephone3());
+                }
+
+                //电话4
+                if (StringUtils.isNotEmpty(z304.getZ304Telephone4())) {
+                    wsOpacUserInfo.setTelephone4(z304.getZ304Telephone4());
+                }
+
             }
-
-
-            //地址0
-            if (StringUtils.isNotEmpty(z304.getZ304Address0())) {
-                wsOpacUserInfo.setAddress0(z304.getZ304Address0());
-            }
-
-            //地址1
-            if (StringUtils.isNotEmpty(z304.getZ304Address1())) {
-                wsOpacUserInfo.setAddress1(z304.getZ304Address1());
-            }
-
-            //电话
-            if (StringUtils.isNotEmpty(z304.getZ304Telephone())) {
-                wsOpacUserInfo.setTelephone(z304.getZ304Telephone());
-            }
-
-            //电话2
-            if (StringUtils.isNotEmpty(z304.getZ304Telephone2())) {
-                wsOpacUserInfo.setTelephone2(z304.getZ304Telephone2());
-            }
-
-            //电话3
-            if (StringUtils.isNotEmpty(z304.getZ304Telephone3())) {
-                wsOpacUserInfo.setTelephone3(z304.getZ304Telephone3());
-            }
-
-            //电话4
-            if (StringUtils.isNotEmpty(z304.getZ304Telephone4())) {
-                wsOpacUserInfo.setTelephone4(z304.getZ304Telephone4());
-            }
-
-        }
 
             list.add(wsOpacUserInfo);
 

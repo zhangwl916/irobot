@@ -6,28 +6,44 @@ import java.util.Date;
 public class SysLog implements Serializable {
     private Long id;
 
-    /** 用户id **/
+    /**
+     * 用户id
+     **/
     private Long userId;
 
-    /** 用户名 **/
+    /**
+     * 用户名
+     **/
     private String username;
 
-    /** 用户操作 **/
+    /**
+     * 用户操作
+     **/
     private String operation;
 
-    /** 响应时间 **/
+    /**
+     * 响应时间
+     **/
     private Integer time;
 
-    /** 请求方法 **/
+    /**
+     * 请求方法
+     **/
     private String method;
 
-    /** 请求参数 **/
+    /**
+     * 请求参数
+     **/
     private String params;
 
-    /** IP地址 **/
+    /**
+     * IP地址
+     **/
     private String ip;
 
-    /** 创建时间 **/
+    /**
+     * 创建时间
+     **/
     private Date gmtCreate;
 
     private static final long serialVersionUID = 1L;

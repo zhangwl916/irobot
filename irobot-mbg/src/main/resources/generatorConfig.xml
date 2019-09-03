@@ -31,10 +31,10 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.irobotop.equipment.dao"
                              targetProject="irobot-mbg\src\main\java"/>
         <!--生成全部表tableName设为%-->
-        <table tableName="mappoi_details" domainObjectName="MapPoiDetailsDO" ></table>
+        <table tableName="mappoi_details" domainObjectName="MapPoiDetailsDO"></table>
 
         <!--<table tableName="sys_user" domainObjectName="UserDO">-->
-            <!--<generatedKey column="user_id" sqlStatement="MySql" identity="true"/>-->
+        <!--<generatedKey column="user_id" sqlStatement="MySql" identity="true"/>-->
         <!--</table>-->
     </context>
 </generatorConfiguration>

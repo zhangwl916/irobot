@@ -4,55 +4,89 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class ResourceDO implements Serializable {
-    /** 主键 **/
+    /**
+     * 主键
+     **/
     private Integer id;
 
-    /** 上传人 **/
+    /**
+     * 上传人
+     **/
     private String genid;
 
-    /** 资源类型(0 是图片，1是音频，2是视频) **/
+    /**
+     * 资源类型(0 是图片，1是音频，2是视频)
+     **/
     private String type;
 
-    /** 资源用途 **/
+    /**
+     * 资源用途
+     **/
     private String userType;
 
-    /** 资源oss路径 **/
+    /**
+     * 资源oss路径
+     **/
     private String url;
 
-    /** OSS http路径 **/
+    /**
+     * OSS http路径
+     **/
     private String ossurl;
 
-    /** 资源大小 **/
+    /**
+     * 资源大小
+     **/
     private String filesize;
 
-    /** 时长 **/
+    /**
+     * 时长
+     **/
     private String filetime;
 
-    /** 资源名称 **/
+    /**
+     * 资源名称
+     **/
     private String filename;
 
-    /** 所属店铺 **/
+    /**
+     * 所属店铺
+     **/
     private String shopId;
 
-    /** 所属开发者 **/
+    /**
+     * 所属开发者
+     **/
     private String developerId;
 
-    /** 资源上传者 **/
+    /**
+     * 资源上传者
+     **/
     private String cuer;
 
-    /** 资源所有者（只有三种身份，管理员，开发者，一般员工） **/
+    /**
+     * 资源所有者（只有三种身份，管理员，开发者，一般员工）
+     **/
     private String owner;
 
-    /** 创建时间 **/
+    /**
+     * 创建时间
+     **/
     private Date crateTime;
 
-    /** 更新时间 **/
+    /**
+     * 更新时间
+     **/
     private Date updateTime;
 
-    /** 状态 **/
+    /**
+     * 状态
+     **/
     private String status;
 
-    /** 删除标志 **/
+    /**
+     * 删除标志
+     **/
     private String delFlag;
 
     private String cuername;

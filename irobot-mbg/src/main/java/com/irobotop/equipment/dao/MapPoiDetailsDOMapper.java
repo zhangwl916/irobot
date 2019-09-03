@@ -2,7 +2,9 @@ package com.irobotop.equipment.dao;
 
 import com.irobotop.equipment.bean.MapPoiDetailsDO;
 import com.irobotop.equipment.bean.MapPoiDetailsDOExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface MapPoiDetailsDOMapper {

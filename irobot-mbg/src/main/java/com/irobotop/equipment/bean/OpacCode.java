@@ -9,7 +9,9 @@ public class OpacCode implements Serializable {
 
     private String note;
 
-    /** 0单册处理状态，1单册状态，2子库 **/
+    /**
+     * 0单册处理状态，1单册状态，2子库
+     **/
     private Integer type;
 
     private static final long serialVersionUID = 1L;

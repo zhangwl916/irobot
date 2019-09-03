@@ -17,9 +17,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>anonymous complex type�� Java �ࡣ
- * 
+ *
  * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -530,19 +530,17 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "z303",
-    "z304",
-    "z305",
-    "itemL",
-    "balance",
-    "sign",
-    "fine",
-    "sessionId"
+        "z303",
+        "z304",
+        "z305",
+        "itemL",
+        "balance",
+        "sign",
+        "fine",
+        "sessionId"
 })
 @XmlRootElement(name = "bor-info")
 public class BorInfo {
@@ -565,11 +563,9 @@ public class BorInfo {
 
     /**
      * ��ȡz303���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link Z303 }
-     *     
+     *
+     * @return possible object is
+     * {@link Z303 }
      */
     public Z303 getZ303() {
         return z303;
@@ -577,11 +573,9 @@ public class BorInfo {
 
     /**
      * ����z303���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Z303 }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Z303 }
      */
     public void setZ303(Z303 value) {
         this.z303 = value;
@@ -589,11 +583,9 @@ public class BorInfo {
 
     /**
      * ��ȡz304���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link Z304 }
-     *     
+     *
+     * @return possible object is
+     * {@link Z304 }
      */
     public Z304 getZ304() {
         return z304;
@@ -601,11 +593,9 @@ public class BorInfo {
 
     /**
      * ����z304���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Z304 }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Z304 }
      */
     public void setZ304(Z304 value) {
         this.z304 = value;
@@ -613,11 +603,9 @@ public class BorInfo {
 
     /**
      * ��ȡz305���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link Z305 }
-     *     
+     *
+     * @return possible object is
+     * {@link Z305 }
      */
     public Z305 getZ305() {
         return z305;
@@ -625,11 +613,9 @@ public class BorInfo {
 
     /**
      * ����z305���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Z305 }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Z305 }
      */
     public void setZ305(Z305 value) {
         this.z305 = value;
@@ -637,11 +623,9 @@ public class BorInfo {
 
     /**
      * ��ȡitemL���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link ItemL }
-     *     
+     *
+     * @return possible object is
+     * {@link ItemL }
      */
     public ItemL getItemL() {
         return itemL;
@@ -649,11 +633,9 @@ public class BorInfo {
 
     /**
      * ����itemL���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ItemL }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link ItemL }
      */
     public void setItemL(ItemL value) {
         this.itemL = value;
@@ -661,7 +643,6 @@ public class BorInfo {
 
     /**
      * ��ȡbalance���Ե�ֵ��
-     * 
      */
     public float getBalance() {
         return balance;
@@ -669,7 +650,6 @@ public class BorInfo {
 
     /**
      * ����balance���Ե�ֵ��
-     * 
      */
     public void setBalance(float value) {
         this.balance = value;
@@ -677,11 +657,9 @@ public class BorInfo {
 
     /**
      * ��ȡsign���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getSign() {
         return sign;
@@ -689,11 +667,9 @@ public class BorInfo {
 
     /**
      * ����sign���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setSign(String value) {
         this.sign = value;
@@ -701,11 +677,9 @@ public class BorInfo {
 
     /**
      * ��ȡfine���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link Fine }
-     *     
+     *
+     * @return possible object is
+     * {@link Fine }
      */
     public Fine getFine() {
         return fine;
@@ -713,11 +687,9 @@ public class BorInfo {
 
     /**
      * ����fine���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Fine }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Fine }
      */
     public void setFine(Fine value) {
         this.fine = value;
@@ -725,11 +697,9 @@ public class BorInfo {
 
     /**
      * ��ȡsessionId���Ե�ֵ��
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getSessionId() {
         return sessionId;
@@ -737,11 +707,9 @@ public class BorInfo {
 
     /**
      * ����sessionId���Ե�ֵ��
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setSessionId(String value) {
         this.sessionId = value;
@@ -750,9 +718,9 @@ public class BorInfo {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -901,14 +869,12 @@ public class BorInfo {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "z31",
-        "z30",
-        "z13"
+            "z31",
+            "z30",
+            "z13"
     })
     public static class Fine {
 
@@ -921,11 +887,9 @@ public class BorInfo {
 
         /**
          * ��ȡz31���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z31 }
-         *     
+         *
+         * @return possible object is
+         * {@link Z31 }
          */
         public Z31 getZ31() {
             return z31;
@@ -933,11 +897,9 @@ public class BorInfo {
 
         /**
          * ����z31���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z31 }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z31 }
          */
         public void setZ31(Z31 value) {
             this.z31 = value;
@@ -945,11 +907,9 @@ public class BorInfo {
 
         /**
          * ��ȡz30���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z30 }
-         *     
+         *
+         * @return possible object is
+         * {@link Z30 }
          */
         public Z30 getZ30() {
             return z30;
@@ -957,11 +917,9 @@ public class BorInfo {
 
         /**
          * ����z30���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z30 }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z30 }
          */
         public void setZ30(Z30 value) {
             this.z30 = value;
@@ -969,11 +927,9 @@ public class BorInfo {
 
         /**
          * ��ȡz13���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z13 }
-         *     
+         *
+         * @return possible object is
+         * {@link Z13 }
          */
         public Z13 getZ13() {
             return z13;
@@ -981,11 +937,9 @@ public class BorInfo {
 
         /**
          * ����z13���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z13 }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z13 }
          */
         public void setZ13(Z13 value) {
             this.z13 = value;
@@ -994,9 +948,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -1022,26 +976,24 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z13DocNumber",
-            "z13Year",
-            "z13OpenDate",
-            "z13UpdateDate",
-            "z13CallNoKey",
-            "z13CallNoCode",
-            "z13CallNo",
-            "z13AuthorCode",
-            "z13Author",
-            "z13TitleCode",
-            "z13Title",
-            "z13ImprintCode",
-            "z13Imprint",
-            "z13IsbnIssnCode",
-            "z13IsbnIssn"
+                "z13DocNumber",
+                "z13Year",
+                "z13OpenDate",
+                "z13UpdateDate",
+                "z13CallNoKey",
+                "z13CallNoCode",
+                "z13CallNo",
+                "z13AuthorCode",
+                "z13Author",
+                "z13TitleCode",
+                "z13Title",
+                "z13ImprintCode",
+                "z13Imprint",
+                "z13IsbnIssnCode",
+                "z13IsbnIssn"
         })
         public static class Z13 {
 
@@ -1078,7 +1030,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13DocNumber���Ե�ֵ��
-             * 
              */
             public int getZ13DocNumber() {
                 return z13DocNumber;
@@ -1086,7 +1037,6 @@ public class BorInfo {
 
             /**
              * ����z13DocNumber���Ե�ֵ��
-             * 
              */
             public void setZ13DocNumber(int value) {
                 this.z13DocNumber = value;
@@ -1094,7 +1044,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13Year���Ե�ֵ��
-             * 
              */
             public short getZ13Year() {
                 return z13Year;
@@ -1102,7 +1051,6 @@ public class BorInfo {
 
             /**
              * ����z13Year���Ե�ֵ��
-             * 
              */
             public void setZ13Year(short value) {
                 this.z13Year = value;
@@ -1110,11 +1058,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13OpenDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13OpenDate() {
                 return z13OpenDate;
@@ -1122,11 +1068,9 @@ public class BorInfo {
 
             /**
              * ����z13OpenDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13OpenDate(String value) {
                 this.z13OpenDate = value;
@@ -1134,11 +1078,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UpdateDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UpdateDate() {
                 return z13UpdateDate;
@@ -1146,11 +1088,9 @@ public class BorInfo {
 
             /**
              * ����z13UpdateDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UpdateDate(String value) {
                 this.z13UpdateDate = value;
@@ -1158,11 +1098,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13CallNoKey���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13CallNoKey() {
                 return z13CallNoKey;
@@ -1170,11 +1108,9 @@ public class BorInfo {
 
             /**
              * ����z13CallNoKey���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13CallNoKey(String value) {
                 this.z13CallNoKey = value;
@@ -1182,7 +1118,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13CallNoCode���Ե�ֵ��
-             * 
              */
             public short getZ13CallNoCode() {
                 return z13CallNoCode;
@@ -1190,7 +1125,6 @@ public class BorInfo {
 
             /**
              * ����z13CallNoCode���Ե�ֵ��
-             * 
              */
             public void setZ13CallNoCode(short value) {
                 this.z13CallNoCode = value;
@@ -1198,11 +1132,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13CallNo���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13CallNo() {
                 return z13CallNo;
@@ -1210,11 +1142,9 @@ public class BorInfo {
 
             /**
              * ����z13CallNo���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13CallNo(String value) {
                 this.z13CallNo = value;
@@ -1222,11 +1152,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13AuthorCode���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13AuthorCode() {
                 return z13AuthorCode;
@@ -1234,11 +1162,9 @@ public class BorInfo {
 
             /**
              * ����z13AuthorCode���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13AuthorCode(String value) {
                 this.z13AuthorCode = value;
@@ -1246,11 +1172,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13Author���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13Author() {
                 return z13Author;
@@ -1258,11 +1182,9 @@ public class BorInfo {
 
             /**
              * ����z13Author���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13Author(String value) {
                 this.z13Author = value;
@@ -1270,7 +1192,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13TitleCode���Ե�ֵ��
-             * 
              */
             public short getZ13TitleCode() {
                 return z13TitleCode;
@@ -1278,7 +1199,6 @@ public class BorInfo {
 
             /**
              * ����z13TitleCode���Ե�ֵ��
-             * 
              */
             public void setZ13TitleCode(short value) {
                 this.z13TitleCode = value;
@@ -1286,11 +1206,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13Title���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13Title() {
                 return z13Title;
@@ -1298,11 +1216,9 @@ public class BorInfo {
 
             /**
              * ����z13Title���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13Title(String value) {
                 this.z13Title = value;
@@ -1310,7 +1226,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13ImprintCode���Ե�ֵ��
-             * 
              */
             public short getZ13ImprintCode() {
                 return z13ImprintCode;
@@ -1318,7 +1233,6 @@ public class BorInfo {
 
             /**
              * ����z13ImprintCode���Ե�ֵ��
-             * 
              */
             public void setZ13ImprintCode(short value) {
                 this.z13ImprintCode = value;
@@ -1326,11 +1240,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13Imprint���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13Imprint() {
                 return z13Imprint;
@@ -1338,11 +1250,9 @@ public class BorInfo {
 
             /**
              * ����z13Imprint���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13Imprint(String value) {
                 this.z13Imprint = value;
@@ -1350,7 +1260,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13IsbnIssnCode���Ե�ֵ��
-             * 
              */
             public byte getZ13IsbnIssnCode() {
                 return z13IsbnIssnCode;
@@ -1358,7 +1267,6 @@ public class BorInfo {
 
             /**
              * ����z13IsbnIssnCode���Ե�ֵ��
-             * 
              */
             public void setZ13IsbnIssnCode(byte value) {
                 this.z13IsbnIssnCode = value;
@@ -1366,11 +1274,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13IsbnIssn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13IsbnIssn() {
                 return z13IsbnIssn;
@@ -1378,11 +1284,9 @@ public class BorInfo {
 
             /**
              * ����z13IsbnIssn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13IsbnIssn(String value) {
                 this.z13IsbnIssn = value;
@@ -1393,9 +1297,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -1474,79 +1378,77 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z30DocNumber",
-            "z30ItemSequence",
-            "z30Barcode",
-            "z30SubLibrary",
-            "z30Material",
-            "z30ItemStatus",
-            "z30OpenDate",
-            "z30UpdateDate",
-            "z30Cataloger",
-            "z30DateLastReturn",
-            "z30HourLastReturn",
-            "z30IpLastReturn",
-            "z30NoLoans",
-            "z30Alpha",
-            "z30Collection",
-            "z30CallNoType",
-            "z30CallNo",
-            "z30CallNoKey",
-            "z30CallNo2Type",
-            "xxxTag",
-            "z30CallNo2Key",
-            "z30Description",
-            "z30NoteOpac",
-            "z30NoteCirculation",
-            "z30NoteInternal",
-            "z30OrderNumber",
-            "z30InventoryNumber",
-            "z30InventoryNumberDate",
-            "z30LastShelfReportDate",
-            "z30Price",
-            "z30ShelfReportNumber",
-            "z30OnShelfDate",
-            "z30OnShelfSeq",
-            "z30DocNumber2",
-            "z30ScheduleSequence2",
-            "z30CopySequence2",
-            "z30VendorCode",
-            "z30InvoiceNumber",
-            "z30LineNumber",
-            "z30Pages",
-            "z30IssueDate",
-            "z30ExpectedArrivalDate",
-            "z30ArrivalDate",
-            "z30ItemStatistic",
-            "z30ItemProcessStatus",
-            "z30CopyId",
-            "z30HolDocNumber",
-            "z30TempLocation",
-            "z30EnumerationA",
-            "z30EnumerationB",
-            "z30EnumerationC",
-            "z30EnumerationD",
-            "z30EnumerationE",
-            "z30EnumerationF",
-            "z30EnumerationG",
-            "z30EnumerationH",
-            "z30ChronologicalI",
-            "z30ChronologicalJ",
-            "z30ChronologicalK",
-            "z30ChronologicalL",
-            "z30ChronologicalM",
-            "z30SuppIndexO",
-            "z3085XType",
-            "z30DepositoryId",
-            "z30LinkingNumber",
-            "z30GapIndicator",
-            "z30MaintenanceCount",
-            "z30ProcessStatusDate"
+                "z30DocNumber",
+                "z30ItemSequence",
+                "z30Barcode",
+                "z30SubLibrary",
+                "z30Material",
+                "z30ItemStatus",
+                "z30OpenDate",
+                "z30UpdateDate",
+                "z30Cataloger",
+                "z30DateLastReturn",
+                "z30HourLastReturn",
+                "z30IpLastReturn",
+                "z30NoLoans",
+                "z30Alpha",
+                "z30Collection",
+                "z30CallNoType",
+                "z30CallNo",
+                "z30CallNoKey",
+                "z30CallNo2Type",
+                "xxxTag",
+                "z30CallNo2Key",
+                "z30Description",
+                "z30NoteOpac",
+                "z30NoteCirculation",
+                "z30NoteInternal",
+                "z30OrderNumber",
+                "z30InventoryNumber",
+                "z30InventoryNumberDate",
+                "z30LastShelfReportDate",
+                "z30Price",
+                "z30ShelfReportNumber",
+                "z30OnShelfDate",
+                "z30OnShelfSeq",
+                "z30DocNumber2",
+                "z30ScheduleSequence2",
+                "z30CopySequence2",
+                "z30VendorCode",
+                "z30InvoiceNumber",
+                "z30LineNumber",
+                "z30Pages",
+                "z30IssueDate",
+                "z30ExpectedArrivalDate",
+                "z30ArrivalDate",
+                "z30ItemStatistic",
+                "z30ItemProcessStatus",
+                "z30CopyId",
+                "z30HolDocNumber",
+                "z30TempLocation",
+                "z30EnumerationA",
+                "z30EnumerationB",
+                "z30EnumerationC",
+                "z30EnumerationD",
+                "z30EnumerationE",
+                "z30EnumerationF",
+                "z30EnumerationG",
+                "z30EnumerationH",
+                "z30ChronologicalI",
+                "z30ChronologicalJ",
+                "z30ChronologicalK",
+                "z30ChronologicalL",
+                "z30ChronologicalM",
+                "z30SuppIndexO",
+                "z3085XType",
+                "z30DepositoryId",
+                "z30LinkingNumber",
+                "z30GapIndicator",
+                "z30MaintenanceCount",
+                "z30ProcessStatusDate"
         })
         public static class Z30 {
 
@@ -1689,7 +1591,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30DocNumber���Ե�ֵ��
-             * 
              */
             public int getZ30DocNumber() {
                 return z30DocNumber;
@@ -1697,7 +1598,6 @@ public class BorInfo {
 
             /**
              * ����z30DocNumber���Ե�ֵ��
-             * 
              */
             public void setZ30DocNumber(int value) {
                 this.z30DocNumber = value;
@@ -1705,7 +1605,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemSequence���Ե�ֵ��
-             * 
              */
             public byte getZ30ItemSequence() {
                 return z30ItemSequence;
@@ -1713,7 +1612,6 @@ public class BorInfo {
 
             /**
              * ����z30ItemSequence���Ե�ֵ��
-             * 
              */
             public void setZ30ItemSequence(byte value) {
                 this.z30ItemSequence = value;
@@ -1721,7 +1619,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30Barcode���Ե�ֵ��
-             * 
              */
             public long getZ30Barcode() {
                 return z30Barcode;
@@ -1729,7 +1626,6 @@ public class BorInfo {
 
             /**
              * ����z30Barcode���Ե�ֵ��
-             * 
              */
             public void setZ30Barcode(long value) {
                 this.z30Barcode = value;
@@ -1737,11 +1633,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30SubLibrary���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30SubLibrary() {
                 return z30SubLibrary;
@@ -1749,11 +1643,9 @@ public class BorInfo {
 
             /**
              * ����z30SubLibrary���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30SubLibrary(String value) {
                 this.z30SubLibrary = value;
@@ -1761,11 +1653,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Material���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Material() {
                 return z30Material;
@@ -1773,11 +1663,9 @@ public class BorInfo {
 
             /**
              * ����z30Material���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Material(String value) {
                 this.z30Material = value;
@@ -1785,11 +1673,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ItemStatus() {
                 return z30ItemStatus;
@@ -1797,11 +1683,9 @@ public class BorInfo {
 
             /**
              * ����z30ItemStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ItemStatus(String value) {
                 this.z30ItemStatus = value;
@@ -1809,11 +1693,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30OpenDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30OpenDate() {
                 return z30OpenDate;
@@ -1821,11 +1703,9 @@ public class BorInfo {
 
             /**
              * ����z30OpenDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30OpenDate(String value) {
                 this.z30OpenDate = value;
@@ -1833,11 +1713,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30UpdateDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30UpdateDate() {
                 return z30UpdateDate;
@@ -1845,11 +1723,9 @@ public class BorInfo {
 
             /**
              * ����z30UpdateDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30UpdateDate(String value) {
                 this.z30UpdateDate = value;
@@ -1857,11 +1733,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Cataloger���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Cataloger() {
                 return z30Cataloger;
@@ -1869,11 +1743,9 @@ public class BorInfo {
 
             /**
              * ����z30Cataloger���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Cataloger(String value) {
                 this.z30Cataloger = value;
@@ -1881,11 +1753,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30DateLastReturn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30DateLastReturn() {
                 return z30DateLastReturn;
@@ -1893,11 +1763,9 @@ public class BorInfo {
 
             /**
              * ����z30DateLastReturn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30DateLastReturn(String value) {
                 this.z30DateLastReturn = value;
@@ -1905,11 +1773,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30HourLastReturn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30HourLastReturn() {
                 return z30HourLastReturn;
@@ -1917,11 +1783,9 @@ public class BorInfo {
 
             /**
              * ����z30HourLastReturn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30HourLastReturn(String value) {
                 this.z30HourLastReturn = value;
@@ -1929,11 +1793,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30IpLastReturn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30IpLastReturn() {
                 return z30IpLastReturn;
@@ -1941,11 +1803,9 @@ public class BorInfo {
 
             /**
              * ����z30IpLastReturn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30IpLastReturn(String value) {
                 this.z30IpLastReturn = value;
@@ -1953,7 +1813,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoLoans���Ե�ֵ��
-             * 
              */
             public byte getZ30NoLoans() {
                 return z30NoLoans;
@@ -1961,7 +1820,6 @@ public class BorInfo {
 
             /**
              * ����z30NoLoans���Ե�ֵ��
-             * 
              */
             public void setZ30NoLoans(byte value) {
                 this.z30NoLoans = value;
@@ -1969,11 +1827,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Alpha���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Alpha() {
                 return z30Alpha;
@@ -1981,11 +1837,9 @@ public class BorInfo {
 
             /**
              * ����z30Alpha���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Alpha(String value) {
                 this.z30Alpha = value;
@@ -1993,11 +1847,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Collection���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Collection() {
                 return z30Collection;
@@ -2005,11 +1857,9 @@ public class BorInfo {
 
             /**
              * ����z30Collection���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Collection(String value) {
                 this.z30Collection = value;
@@ -2017,7 +1867,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNoType���Ե�ֵ��
-             * 
              */
             public byte getZ30CallNoType() {
                 return z30CallNoType;
@@ -2025,7 +1874,6 @@ public class BorInfo {
 
             /**
              * ����z30CallNoType���Ե�ֵ��
-             * 
              */
             public void setZ30CallNoType(byte value) {
                 this.z30CallNoType = value;
@@ -2033,11 +1881,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNo���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNo() {
                 return z30CallNo;
@@ -2045,11 +1891,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNo���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNo(String value) {
                 this.z30CallNo = value;
@@ -2057,11 +1901,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNoKey���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNoKey() {
                 return z30CallNoKey;
@@ -2069,11 +1911,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNoKey���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNoKey(String value) {
                 this.z30CallNoKey = value;
@@ -2081,11 +1921,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNo2Type���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNo2Type() {
                 return z30CallNo2Type;
@@ -2093,11 +1931,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNo2Type���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNo2Type(String value) {
                 this.z30CallNo2Type = value;
@@ -2105,11 +1941,9 @@ public class BorInfo {
 
             /**
              * ��ȡxxxTag���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getXxxTag() {
                 return xxxTag;
@@ -2117,11 +1951,9 @@ public class BorInfo {
 
             /**
              * ����xxxTag���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setXxxTag(String value) {
                 this.xxxTag = value;
@@ -2129,11 +1961,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNo2Key���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNo2Key() {
                 return z30CallNo2Key;
@@ -2141,11 +1971,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNo2Key���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNo2Key(String value) {
                 this.z30CallNo2Key = value;
@@ -2153,11 +1981,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Description���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Description() {
                 return z30Description;
@@ -2165,11 +1991,9 @@ public class BorInfo {
 
             /**
              * ����z30Description���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Description(String value) {
                 this.z30Description = value;
@@ -2177,11 +2001,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoteOpac���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30NoteOpac() {
                 return z30NoteOpac;
@@ -2189,11 +2011,9 @@ public class BorInfo {
 
             /**
              * ����z30NoteOpac���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30NoteOpac(String value) {
                 this.z30NoteOpac = value;
@@ -2201,11 +2021,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoteCirculation���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30NoteCirculation() {
                 return z30NoteCirculation;
@@ -2213,11 +2031,9 @@ public class BorInfo {
 
             /**
              * ����z30NoteCirculation���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30NoteCirculation(String value) {
                 this.z30NoteCirculation = value;
@@ -2225,11 +2041,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoteInternal���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30NoteInternal() {
                 return z30NoteInternal;
@@ -2237,11 +2051,9 @@ public class BorInfo {
 
             /**
              * ����z30NoteInternal���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30NoteInternal(String value) {
                 this.z30NoteInternal = value;
@@ -2249,7 +2061,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30OrderNumber���Ե�ֵ��
-             * 
              */
             public int getZ30OrderNumber() {
                 return z30OrderNumber;
@@ -2257,7 +2068,6 @@ public class BorInfo {
 
             /**
              * ����z30OrderNumber���Ե�ֵ��
-             * 
              */
             public void setZ30OrderNumber(int value) {
                 this.z30OrderNumber = value;
@@ -2265,11 +2075,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30InventoryNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30InventoryNumber() {
                 return z30InventoryNumber;
@@ -2277,11 +2085,9 @@ public class BorInfo {
 
             /**
              * ����z30InventoryNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30InventoryNumber(String value) {
                 this.z30InventoryNumber = value;
@@ -2289,11 +2095,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30InventoryNumberDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30InventoryNumberDate() {
                 return z30InventoryNumberDate;
@@ -2301,11 +2105,9 @@ public class BorInfo {
 
             /**
              * ����z30InventoryNumberDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30InventoryNumberDate(String value) {
                 this.z30InventoryNumberDate = value;
@@ -2313,7 +2115,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30LastShelfReportDate���Ե�ֵ��
-             * 
              */
             public byte getZ30LastShelfReportDate() {
                 return z30LastShelfReportDate;
@@ -2321,7 +2122,6 @@ public class BorInfo {
 
             /**
              * ����z30LastShelfReportDate���Ե�ֵ��
-             * 
              */
             public void setZ30LastShelfReportDate(byte value) {
                 this.z30LastShelfReportDate = value;
@@ -2329,7 +2129,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30Price���Ե�ֵ��
-             * 
              */
             public float getZ30Price() {
                 return z30Price;
@@ -2337,7 +2136,6 @@ public class BorInfo {
 
             /**
              * ����z30Price���Ե�ֵ��
-             * 
              */
             public void setZ30Price(float value) {
                 this.z30Price = value;
@@ -2345,11 +2143,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ShelfReportNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ShelfReportNumber() {
                 return z30ShelfReportNumber;
@@ -2357,11 +2153,9 @@ public class BorInfo {
 
             /**
              * ����z30ShelfReportNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ShelfReportNumber(String value) {
                 this.z30ShelfReportNumber = value;
@@ -2369,7 +2163,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30OnShelfDate���Ե�ֵ��
-             * 
              */
             public byte getZ30OnShelfDate() {
                 return z30OnShelfDate;
@@ -2377,7 +2170,6 @@ public class BorInfo {
 
             /**
              * ����z30OnShelfDate���Ե�ֵ��
-             * 
              */
             public void setZ30OnShelfDate(byte value) {
                 this.z30OnShelfDate = value;
@@ -2385,7 +2177,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30OnShelfSeq���Ե�ֵ��
-             * 
              */
             public byte getZ30OnShelfSeq() {
                 return z30OnShelfSeq;
@@ -2393,7 +2184,6 @@ public class BorInfo {
 
             /**
              * ����z30OnShelfSeq���Ե�ֵ��
-             * 
              */
             public void setZ30OnShelfSeq(byte value) {
                 this.z30OnShelfSeq = value;
@@ -2401,7 +2191,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30DocNumber2���Ե�ֵ��
-             * 
              */
             public byte getZ30DocNumber2() {
                 return z30DocNumber2;
@@ -2409,7 +2198,6 @@ public class BorInfo {
 
             /**
              * ����z30DocNumber2���Ե�ֵ��
-             * 
              */
             public void setZ30DocNumber2(byte value) {
                 this.z30DocNumber2 = value;
@@ -2417,7 +2205,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30ScheduleSequence2���Ե�ֵ��
-             * 
              */
             public byte getZ30ScheduleSequence2() {
                 return z30ScheduleSequence2;
@@ -2425,7 +2212,6 @@ public class BorInfo {
 
             /**
              * ����z30ScheduleSequence2���Ե�ֵ��
-             * 
              */
             public void setZ30ScheduleSequence2(byte value) {
                 this.z30ScheduleSequence2 = value;
@@ -2433,7 +2219,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30CopySequence2���Ե�ֵ��
-             * 
              */
             public byte getZ30CopySequence2() {
                 return z30CopySequence2;
@@ -2441,7 +2226,6 @@ public class BorInfo {
 
             /**
              * ����z30CopySequence2���Ե�ֵ��
-             * 
              */
             public void setZ30CopySequence2(byte value) {
                 this.z30CopySequence2 = value;
@@ -2449,11 +2233,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30VendorCode���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30VendorCode() {
                 return z30VendorCode;
@@ -2461,11 +2243,9 @@ public class BorInfo {
 
             /**
              * ����z30VendorCode���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30VendorCode(String value) {
                 this.z30VendorCode = value;
@@ -2473,11 +2253,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30InvoiceNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30InvoiceNumber() {
                 return z30InvoiceNumber;
@@ -2485,11 +2263,9 @@ public class BorInfo {
 
             /**
              * ����z30InvoiceNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30InvoiceNumber(String value) {
                 this.z30InvoiceNumber = value;
@@ -2497,7 +2273,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30LineNumber���Ե�ֵ��
-             * 
              */
             public byte getZ30LineNumber() {
                 return z30LineNumber;
@@ -2505,7 +2280,6 @@ public class BorInfo {
 
             /**
              * ����z30LineNumber���Ե�ֵ��
-             * 
              */
             public void setZ30LineNumber(byte value) {
                 this.z30LineNumber = value;
@@ -2513,11 +2287,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Pages���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Pages() {
                 return z30Pages;
@@ -2525,11 +2297,9 @@ public class BorInfo {
 
             /**
              * ����z30Pages���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Pages(String value) {
                 this.z30Pages = value;
@@ -2537,11 +2307,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30IssueDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30IssueDate() {
                 return z30IssueDate;
@@ -2549,11 +2317,9 @@ public class BorInfo {
 
             /**
              * ����z30IssueDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30IssueDate(String value) {
                 this.z30IssueDate = value;
@@ -2561,11 +2327,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ExpectedArrivalDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ExpectedArrivalDate() {
                 return z30ExpectedArrivalDate;
@@ -2573,11 +2337,9 @@ public class BorInfo {
 
             /**
              * ����z30ExpectedArrivalDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ExpectedArrivalDate(String value) {
                 this.z30ExpectedArrivalDate = value;
@@ -2585,11 +2347,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ArrivalDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ArrivalDate() {
                 return z30ArrivalDate;
@@ -2597,11 +2357,9 @@ public class BorInfo {
 
             /**
              * ����z30ArrivalDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ArrivalDate(String value) {
                 this.z30ArrivalDate = value;
@@ -2609,11 +2367,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemStatistic���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ItemStatistic() {
                 return z30ItemStatistic;
@@ -2621,11 +2377,9 @@ public class BorInfo {
 
             /**
              * ����z30ItemStatistic���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ItemStatistic(String value) {
                 this.z30ItemStatistic = value;
@@ -2633,11 +2387,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemProcessStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ItemProcessStatus() {
                 return z30ItemProcessStatus;
@@ -2645,11 +2397,9 @@ public class BorInfo {
 
             /**
              * ����z30ItemProcessStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ItemProcessStatus(String value) {
                 this.z30ItemProcessStatus = value;
@@ -2657,7 +2407,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30CopyId���Ե�ֵ��
-             * 
              */
             public byte getZ30CopyId() {
                 return z30CopyId;
@@ -2665,7 +2414,6 @@ public class BorInfo {
 
             /**
              * ����z30CopyId���Ե�ֵ��
-             * 
              */
             public void setZ30CopyId(byte value) {
                 this.z30CopyId = value;
@@ -2673,7 +2421,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30HolDocNumber���Ե�ֵ��
-             * 
              */
             public int getZ30HolDocNumber() {
                 return z30HolDocNumber;
@@ -2681,7 +2428,6 @@ public class BorInfo {
 
             /**
              * ����z30HolDocNumber���Ե�ֵ��
-             * 
              */
             public void setZ30HolDocNumber(int value) {
                 this.z30HolDocNumber = value;
@@ -2689,11 +2435,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30TempLocation���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30TempLocation() {
                 return z30TempLocation;
@@ -2701,11 +2445,9 @@ public class BorInfo {
 
             /**
              * ����z30TempLocation���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30TempLocation(String value) {
                 this.z30TempLocation = value;
@@ -2713,11 +2455,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationA���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationA() {
                 return z30EnumerationA;
@@ -2725,11 +2465,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationA���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationA(String value) {
                 this.z30EnumerationA = value;
@@ -2737,11 +2475,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationB���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationB() {
                 return z30EnumerationB;
@@ -2749,11 +2485,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationB���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationB(String value) {
                 this.z30EnumerationB = value;
@@ -2761,11 +2495,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationC���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationC() {
                 return z30EnumerationC;
@@ -2773,11 +2505,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationC���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationC(String value) {
                 this.z30EnumerationC = value;
@@ -2785,11 +2515,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationD���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationD() {
                 return z30EnumerationD;
@@ -2797,11 +2525,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationD���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationD(String value) {
                 this.z30EnumerationD = value;
@@ -2809,11 +2535,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationE���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationE() {
                 return z30EnumerationE;
@@ -2821,11 +2545,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationE���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationE(String value) {
                 this.z30EnumerationE = value;
@@ -2833,11 +2555,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationF���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationF() {
                 return z30EnumerationF;
@@ -2845,11 +2565,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationF���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationF(String value) {
                 this.z30EnumerationF = value;
@@ -2857,11 +2575,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationG���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationG() {
                 return z30EnumerationG;
@@ -2869,11 +2585,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationG���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationG(String value) {
                 this.z30EnumerationG = value;
@@ -2881,11 +2595,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationH���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationH() {
                 return z30EnumerationH;
@@ -2893,11 +2605,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationH���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationH(String value) {
                 this.z30EnumerationH = value;
@@ -2905,11 +2615,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalI���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalI() {
                 return z30ChronologicalI;
@@ -2917,11 +2625,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalI���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalI(String value) {
                 this.z30ChronologicalI = value;
@@ -2929,11 +2635,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalJ���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalJ() {
                 return z30ChronologicalJ;
@@ -2941,11 +2645,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalJ���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalJ(String value) {
                 this.z30ChronologicalJ = value;
@@ -2953,11 +2655,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalK���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalK() {
                 return z30ChronologicalK;
@@ -2965,11 +2665,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalK���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalK(String value) {
                 this.z30ChronologicalK = value;
@@ -2977,11 +2675,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalL���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalL() {
                 return z30ChronologicalL;
@@ -2989,11 +2685,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalL���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalL(String value) {
                 this.z30ChronologicalL = value;
@@ -3001,11 +2695,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalM���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalM() {
                 return z30ChronologicalM;
@@ -3013,11 +2705,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalM���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalM(String value) {
                 this.z30ChronologicalM = value;
@@ -3025,11 +2715,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30SuppIndexO���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30SuppIndexO() {
                 return z30SuppIndexO;
@@ -3037,11 +2725,9 @@ public class BorInfo {
 
             /**
              * ����z30SuppIndexO���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30SuppIndexO(String value) {
                 this.z30SuppIndexO = value;
@@ -3049,11 +2735,9 @@ public class BorInfo {
 
             /**
              * ��ȡz3085XType���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ3085XType() {
                 return z3085XType;
@@ -3061,11 +2745,9 @@ public class BorInfo {
 
             /**
              * ����z3085XType���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ3085XType(String value) {
                 this.z3085XType = value;
@@ -3073,11 +2755,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30DepositoryId���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30DepositoryId() {
                 return z30DepositoryId;
@@ -3085,11 +2765,9 @@ public class BorInfo {
 
             /**
              * ����z30DepositoryId���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30DepositoryId(String value) {
                 this.z30DepositoryId = value;
@@ -3097,7 +2775,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30LinkingNumber���Ե�ֵ��
-             * 
              */
             public byte getZ30LinkingNumber() {
                 return z30LinkingNumber;
@@ -3105,7 +2782,6 @@ public class BorInfo {
 
             /**
              * ����z30LinkingNumber���Ե�ֵ��
-             * 
              */
             public void setZ30LinkingNumber(byte value) {
                 this.z30LinkingNumber = value;
@@ -3113,11 +2789,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30GapIndicator���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30GapIndicator() {
                 return z30GapIndicator;
@@ -3125,11 +2799,9 @@ public class BorInfo {
 
             /**
              * ����z30GapIndicator���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30GapIndicator(String value) {
                 this.z30GapIndicator = value;
@@ -3137,7 +2809,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30MaintenanceCount���Ե�ֵ��
-             * 
              */
             public byte getZ30MaintenanceCount() {
                 return z30MaintenanceCount;
@@ -3145,7 +2816,6 @@ public class BorInfo {
 
             /**
              * ����z30MaintenanceCount���Ե�ֵ��
-             * 
              */
             public void setZ30MaintenanceCount(byte value) {
                 this.z30MaintenanceCount = value;
@@ -3153,7 +2823,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30ProcessStatusDate���Ե�ֵ��
-             * 
              */
             public byte getZ30ProcessStatusDate() {
                 return z30ProcessStatusDate;
@@ -3161,7 +2830,6 @@ public class BorInfo {
 
             /**
              * ����z30ProcessStatusDate���Ե�ֵ��
-             * 
              */
             public void setZ30ProcessStatusDate(byte value) {
                 this.z30ProcessStatusDate = value;
@@ -3172,9 +2840,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -3210,36 +2878,34 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z31Id",
-            "z31Sequence",
-            "z31Date",
-            "z31Status",
-            "z31SubLibrary",
-            "z31Type",
-            "z31CreditDebit",
-            "z31Sum",
-            "z31VatSum",
-            "z31NetSum",
-            "z31PaymentDate",
-            "z31PaymentHour",
-            "z31PaymentCataloger",
-            "z31PaymentTarget",
-            "z31PaymentIp",
-            "z31PaymentReceiptNumber",
-            "z31PaymentMode",
-            "z31PaymentIdentifier",
-            "z31Description",
-            "z31TransferDepartment",
-            "z31TransferDate",
-            "z31TransferNumber",
-            "z31RecallTransferStatus",
-            "z31RecallTransferDate",
-            "z31RecallTransferNumber"
+                "z31Id",
+                "z31Sequence",
+                "z31Date",
+                "z31Status",
+                "z31SubLibrary",
+                "z31Type",
+                "z31CreditDebit",
+                "z31Sum",
+                "z31VatSum",
+                "z31NetSum",
+                "z31PaymentDate",
+                "z31PaymentHour",
+                "z31PaymentCataloger",
+                "z31PaymentTarget",
+                "z31PaymentIp",
+                "z31PaymentReceiptNumber",
+                "z31PaymentMode",
+                "z31PaymentIdentifier",
+                "z31Description",
+                "z31TransferDepartment",
+                "z31TransferDate",
+                "z31TransferNumber",
+                "z31RecallTransferStatus",
+                "z31RecallTransferDate",
+                "z31RecallTransferNumber"
         })
         public static class Z31 {
 
@@ -3296,11 +2962,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31Id���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31Id() {
                 return z31Id;
@@ -3308,11 +2972,9 @@ public class BorInfo {
 
             /**
              * ����z31Id���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31Id(String value) {
                 this.z31Id = value;
@@ -3320,7 +2982,6 @@ public class BorInfo {
 
             /**
              * ��ȡz31Sequence���Ե�ֵ��
-             * 
              */
             public long getZ31Sequence() {
                 return z31Sequence;
@@ -3328,7 +2989,6 @@ public class BorInfo {
 
             /**
              * ����z31Sequence���Ե�ֵ��
-             * 
              */
             public void setZ31Sequence(long value) {
                 this.z31Sequence = value;
@@ -3336,11 +2996,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31Date���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31Date() {
                 return z31Date;
@@ -3348,11 +3006,9 @@ public class BorInfo {
 
             /**
              * ����z31Date���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31Date(String value) {
                 this.z31Date = value;
@@ -3360,11 +3016,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31Status���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31Status() {
                 return z31Status;
@@ -3372,11 +3026,9 @@ public class BorInfo {
 
             /**
              * ����z31Status���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31Status(String value) {
                 this.z31Status = value;
@@ -3384,11 +3036,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31SubLibrary���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31SubLibrary() {
                 return z31SubLibrary;
@@ -3396,11 +3046,9 @@ public class BorInfo {
 
             /**
              * ����z31SubLibrary���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31SubLibrary(String value) {
                 this.z31SubLibrary = value;
@@ -3408,7 +3056,6 @@ public class BorInfo {
 
             /**
              * ��ȡz31Type���Ե�ֵ��
-             * 
              */
             public byte getZ31Type() {
                 return z31Type;
@@ -3416,7 +3063,6 @@ public class BorInfo {
 
             /**
              * ����z31Type���Ե�ֵ��
-             * 
              */
             public void setZ31Type(byte value) {
                 this.z31Type = value;
@@ -3424,11 +3070,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31CreditDebit���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31CreditDebit() {
                 return z31CreditDebit;
@@ -3436,11 +3080,9 @@ public class BorInfo {
 
             /**
              * ����z31CreditDebit���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31CreditDebit(String value) {
                 this.z31CreditDebit = value;
@@ -3448,11 +3090,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31Sum���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31Sum() {
                 return z31Sum;
@@ -3460,11 +3100,9 @@ public class BorInfo {
 
             /**
              * ����z31Sum���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31Sum(String value) {
                 this.z31Sum = value;
@@ -3472,7 +3110,6 @@ public class BorInfo {
 
             /**
              * ��ȡz31VatSum���Ե�ֵ��
-             * 
              */
             public float getZ31VatSum() {
                 return z31VatSum;
@@ -3480,7 +3117,6 @@ public class BorInfo {
 
             /**
              * ����z31VatSum���Ե�ֵ��
-             * 
              */
             public void setZ31VatSum(float value) {
                 this.z31VatSum = value;
@@ -3488,7 +3124,6 @@ public class BorInfo {
 
             /**
              * ��ȡz31NetSum���Ե�ֵ��
-             * 
              */
             public float getZ31NetSum() {
                 return z31NetSum;
@@ -3496,7 +3131,6 @@ public class BorInfo {
 
             /**
              * ����z31NetSum���Ե�ֵ��
-             * 
              */
             public void setZ31NetSum(float value) {
                 this.z31NetSum = value;
@@ -3504,11 +3138,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentDate() {
                 return z31PaymentDate;
@@ -3516,11 +3148,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentDate(String value) {
                 this.z31PaymentDate = value;
@@ -3528,11 +3158,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentHour���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentHour() {
                 return z31PaymentHour;
@@ -3540,11 +3168,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentHour���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentHour(String value) {
                 this.z31PaymentHour = value;
@@ -3552,11 +3178,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentCataloger���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentCataloger() {
                 return z31PaymentCataloger;
@@ -3564,11 +3188,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentCataloger���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentCataloger(String value) {
                 this.z31PaymentCataloger = value;
@@ -3576,11 +3198,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentTarget���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentTarget() {
                 return z31PaymentTarget;
@@ -3588,11 +3208,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentTarget���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentTarget(String value) {
                 this.z31PaymentTarget = value;
@@ -3600,11 +3218,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentIp���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentIp() {
                 return z31PaymentIp;
@@ -3612,11 +3228,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentIp���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentIp(String value) {
                 this.z31PaymentIp = value;
@@ -3624,11 +3238,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentReceiptNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentReceiptNumber() {
                 return z31PaymentReceiptNumber;
@@ -3636,11 +3248,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentReceiptNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentReceiptNumber(String value) {
                 this.z31PaymentReceiptNumber = value;
@@ -3648,11 +3258,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentMode���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentMode() {
                 return z31PaymentMode;
@@ -3660,11 +3268,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentMode���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentMode(String value) {
                 this.z31PaymentMode = value;
@@ -3672,11 +3278,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31PaymentIdentifier���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31PaymentIdentifier() {
                 return z31PaymentIdentifier;
@@ -3684,11 +3288,9 @@ public class BorInfo {
 
             /**
              * ����z31PaymentIdentifier���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31PaymentIdentifier(String value) {
                 this.z31PaymentIdentifier = value;
@@ -3696,11 +3298,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31Description���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31Description() {
                 return z31Description;
@@ -3708,11 +3308,9 @@ public class BorInfo {
 
             /**
              * ����z31Description���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31Description(String value) {
                 this.z31Description = value;
@@ -3720,11 +3318,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31TransferDepartment���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31TransferDepartment() {
                 return z31TransferDepartment;
@@ -3732,11 +3328,9 @@ public class BorInfo {
 
             /**
              * ����z31TransferDepartment���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31TransferDepartment(String value) {
                 this.z31TransferDepartment = value;
@@ -3744,7 +3338,6 @@ public class BorInfo {
 
             /**
              * ��ȡz31TransferDate���Ե�ֵ��
-             * 
              */
             public byte getZ31TransferDate() {
                 return z31TransferDate;
@@ -3752,7 +3345,6 @@ public class BorInfo {
 
             /**
              * ����z31TransferDate���Ե�ֵ��
-             * 
              */
             public void setZ31TransferDate(byte value) {
                 this.z31TransferDate = value;
@@ -3760,11 +3352,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31TransferNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31TransferNumber() {
                 return z31TransferNumber;
@@ -3772,11 +3362,9 @@ public class BorInfo {
 
             /**
              * ����z31TransferNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31TransferNumber(String value) {
                 this.z31TransferNumber = value;
@@ -3784,11 +3372,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31RecallTransferStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31RecallTransferStatus() {
                 return z31RecallTransferStatus;
@@ -3796,11 +3382,9 @@ public class BorInfo {
 
             /**
              * ����z31RecallTransferStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31RecallTransferStatus(String value) {
                 this.z31RecallTransferStatus = value;
@@ -3808,7 +3392,6 @@ public class BorInfo {
 
             /**
              * ��ȡz31RecallTransferDate���Ե�ֵ��
-             * 
              */
             public byte getZ31RecallTransferDate() {
                 return z31RecallTransferDate;
@@ -3816,7 +3399,6 @@ public class BorInfo {
 
             /**
              * ����z31RecallTransferDate���Ե�ֵ��
-             * 
              */
             public void setZ31RecallTransferDate(byte value) {
                 this.z31RecallTransferDate = value;
@@ -3824,11 +3406,9 @@ public class BorInfo {
 
             /**
              * ��ȡz31RecallTransferNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ31RecallTransferNumber() {
                 return z31RecallTransferNumber;
@@ -3836,11 +3416,9 @@ public class BorInfo {
 
             /**
              * ����z31RecallTransferNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ31RecallTransferNumber(String value) {
                 this.z31RecallTransferNumber = value;
@@ -3853,9 +3431,9 @@ public class BorInfo {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -4065,18 +3643,16 @@ public class BorInfo {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "z36",
-        "z30",
-        "z13",
-        "z13U",
-        "currentFine",
-        "dueDate",
-        "dueHour"
+            "z36",
+            "z30",
+            "z13",
+            "z13U",
+            "currentFine",
+            "dueDate",
+            "dueHour"
     })
     public static class ItemL {
 
@@ -4097,11 +3673,9 @@ public class BorInfo {
 
         /**
          * ��ȡz36���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z36 }
-         *     
+         *
+         * @return possible object is
+         * {@link Z36 }
          */
         public Z36 getZ36() {
             return z36;
@@ -4109,11 +3683,9 @@ public class BorInfo {
 
         /**
          * ����z36���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z36 }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z36 }
          */
         public void setZ36(Z36 value) {
             this.z36 = value;
@@ -4121,11 +3693,9 @@ public class BorInfo {
 
         /**
          * ��ȡz30���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z30 }
-         *     
+         *
+         * @return possible object is
+         * {@link Z30 }
          */
         public Z30 getZ30() {
             return z30;
@@ -4133,11 +3703,9 @@ public class BorInfo {
 
         /**
          * ����z30���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z30 }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z30 }
          */
         public void setZ30(Z30 value) {
             this.z30 = value;
@@ -4145,11 +3713,9 @@ public class BorInfo {
 
         /**
          * ��ȡz13���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z13 }
-         *     
+         *
+         * @return possible object is
+         * {@link Z13 }
          */
         public Z13 getZ13() {
             return z13;
@@ -4157,11 +3723,9 @@ public class BorInfo {
 
         /**
          * ����z13���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z13 }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z13 }
          */
         public void setZ13(Z13 value) {
             this.z13 = value;
@@ -4169,11 +3733,9 @@ public class BorInfo {
 
         /**
          * ��ȡz13U���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link Z13U }
-         *     
+         *
+         * @return possible object is
+         * {@link Z13U }
          */
         public Z13U getZ13U() {
             return z13U;
@@ -4181,11 +3743,9 @@ public class BorInfo {
 
         /**
          * ����z13U���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link Z13U }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link Z13U }
          */
         public void setZ13U(Z13U value) {
             this.z13U = value;
@@ -4193,7 +3753,6 @@ public class BorInfo {
 
         /**
          * ��ȡcurrentFine���Ե�ֵ��
-         * 
          */
         public float getCurrentFine() {
             return currentFine;
@@ -4201,7 +3760,6 @@ public class BorInfo {
 
         /**
          * ����currentFine���Ե�ֵ��
-         * 
          */
         public void setCurrentFine(float value) {
             this.currentFine = value;
@@ -4209,7 +3767,6 @@ public class BorInfo {
 
         /**
          * ��ȡdueDate���Ե�ֵ��
-         * 
          */
         public int getDueDate() {
             return dueDate;
@@ -4217,7 +3774,6 @@ public class BorInfo {
 
         /**
          * ����dueDate���Ե�ֵ��
-         * 
          */
         public void setDueDate(int value) {
             this.dueDate = value;
@@ -4225,7 +3781,6 @@ public class BorInfo {
 
         /**
          * ��ȡdueHour���Ե�ֵ��
-         * 
          */
         public short getDueHour() {
             return dueHour;
@@ -4233,7 +3788,6 @@ public class BorInfo {
 
         /**
          * ����dueHour���Ե�ֵ��
-         * 
          */
         public void setDueHour(short value) {
             this.dueHour = value;
@@ -4242,9 +3796,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -4270,26 +3824,24 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z13DocNumber",
-            "z13Year",
-            "z13OpenDate",
-            "z13UpdateDate",
-            "z13CallNoKey",
-            "z13CallNoCode",
-            "z13CallNo",
-            "z13AuthorCode",
-            "z13Author",
-            "z13TitleCode",
-            "z13Title",
-            "z13ImprintCode",
-            "z13Imprint",
-            "z13IsbnIssnCode",
-            "z13IsbnIssn"
+                "z13DocNumber",
+                "z13Year",
+                "z13OpenDate",
+                "z13UpdateDate",
+                "z13CallNoKey",
+                "z13CallNoCode",
+                "z13CallNo",
+                "z13AuthorCode",
+                "z13Author",
+                "z13TitleCode",
+                "z13Title",
+                "z13ImprintCode",
+                "z13Imprint",
+                "z13IsbnIssnCode",
+                "z13IsbnIssn"
         })
         public static class Z13 {
 
@@ -4326,7 +3878,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13DocNumber���Ե�ֵ��
-             * 
              */
             public int getZ13DocNumber() {
                 return z13DocNumber;
@@ -4334,7 +3885,6 @@ public class BorInfo {
 
             /**
              * ����z13DocNumber���Ե�ֵ��
-             * 
              */
             public void setZ13DocNumber(int value) {
                 this.z13DocNumber = value;
@@ -4342,7 +3892,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13Year���Ե�ֵ��
-             * 
              */
             public short getZ13Year() {
                 return z13Year;
@@ -4350,7 +3899,6 @@ public class BorInfo {
 
             /**
              * ����z13Year���Ե�ֵ��
-             * 
              */
             public void setZ13Year(short value) {
                 this.z13Year = value;
@@ -4358,11 +3906,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13OpenDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13OpenDate() {
                 return z13OpenDate;
@@ -4370,11 +3916,9 @@ public class BorInfo {
 
             /**
              * ����z13OpenDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13OpenDate(String value) {
                 this.z13OpenDate = value;
@@ -4382,11 +3926,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UpdateDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UpdateDate() {
                 return z13UpdateDate;
@@ -4394,11 +3936,9 @@ public class BorInfo {
 
             /**
              * ����z13UpdateDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UpdateDate(String value) {
                 this.z13UpdateDate = value;
@@ -4406,11 +3946,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13CallNoKey���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13CallNoKey() {
                 return z13CallNoKey;
@@ -4418,11 +3956,9 @@ public class BorInfo {
 
             /**
              * ����z13CallNoKey���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13CallNoKey(String value) {
                 this.z13CallNoKey = value;
@@ -4430,7 +3966,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13CallNoCode���Ե�ֵ��
-             * 
              */
             public short getZ13CallNoCode() {
                 return z13CallNoCode;
@@ -4438,7 +3973,6 @@ public class BorInfo {
 
             /**
              * ����z13CallNoCode���Ե�ֵ��
-             * 
              */
             public void setZ13CallNoCode(short value) {
                 this.z13CallNoCode = value;
@@ -4446,11 +3980,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13CallNo���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13CallNo() {
                 return z13CallNo;
@@ -4458,11 +3990,9 @@ public class BorInfo {
 
             /**
              * ����z13CallNo���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13CallNo(String value) {
                 this.z13CallNo = value;
@@ -4470,11 +4000,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13AuthorCode���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13AuthorCode() {
                 return z13AuthorCode;
@@ -4482,11 +4010,9 @@ public class BorInfo {
 
             /**
              * ����z13AuthorCode���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13AuthorCode(String value) {
                 this.z13AuthorCode = value;
@@ -4494,11 +4020,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13Author���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13Author() {
                 return z13Author;
@@ -4506,11 +4030,9 @@ public class BorInfo {
 
             /**
              * ����z13Author���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13Author(String value) {
                 this.z13Author = value;
@@ -4518,7 +4040,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13TitleCode���Ե�ֵ��
-             * 
              */
             public short getZ13TitleCode() {
                 return z13TitleCode;
@@ -4526,7 +4047,6 @@ public class BorInfo {
 
             /**
              * ����z13TitleCode���Ե�ֵ��
-             * 
              */
             public void setZ13TitleCode(short value) {
                 this.z13TitleCode = value;
@@ -4534,11 +4054,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13Title���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13Title() {
                 return z13Title;
@@ -4546,11 +4064,9 @@ public class BorInfo {
 
             /**
              * ����z13Title���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13Title(String value) {
                 this.z13Title = value;
@@ -4558,7 +4074,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13ImprintCode���Ե�ֵ��
-             * 
              */
             public short getZ13ImprintCode() {
                 return z13ImprintCode;
@@ -4566,7 +4081,6 @@ public class BorInfo {
 
             /**
              * ����z13ImprintCode���Ե�ֵ��
-             * 
              */
             public void setZ13ImprintCode(short value) {
                 this.z13ImprintCode = value;
@@ -4574,11 +4088,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13Imprint���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13Imprint() {
                 return z13Imprint;
@@ -4586,11 +4098,9 @@ public class BorInfo {
 
             /**
              * ����z13Imprint���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13Imprint(String value) {
                 this.z13Imprint = value;
@@ -4598,7 +4108,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13IsbnIssnCode���Ե�ֵ��
-             * 
              */
             public byte getZ13IsbnIssnCode() {
                 return z13IsbnIssnCode;
@@ -4606,7 +4115,6 @@ public class BorInfo {
 
             /**
              * ����z13IsbnIssnCode���Ե�ֵ��
-             * 
              */
             public void setZ13IsbnIssnCode(byte value) {
                 this.z13IsbnIssnCode = value;
@@ -4614,11 +4122,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13IsbnIssn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13IsbnIssn() {
                 return z13IsbnIssn;
@@ -4626,11 +4132,9 @@ public class BorInfo {
 
             /**
              * ����z13IsbnIssn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13IsbnIssn(String value) {
                 this.z13IsbnIssn = value;
@@ -4641,9 +4145,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -4685,42 +4189,40 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z13UDocNumber",
-            "z13UUserDefined1Code",
-            "z13UUserDefined1",
-            "z13UUserDefined2Code",
-            "z13UUserDefined2",
-            "z13UUserDefined3Code",
-            "z13UUserDefined3",
-            "z13UUserDefined4Code",
-            "z13UUserDefined4",
-            "z13UUserDefined5Code",
-            "z13UUserDefined5",
-            "z13UUserDefined6Code",
-            "z13UUserDefined6",
-            "z13UUserDefined7Code",
-            "z13UUserDefined7",
-            "z13UUserDefined8Code",
-            "z13UUserDefined8",
-            "z13UUserDefined9Code",
-            "z13UUserDefined9",
-            "z13UUserDefined10Code",
-            "z13UUserDefined10",
-            "z13UUserDefined11Code",
-            "z13UUserDefined11",
-            "z13UUserDefined12Code",
-            "z13UUserDefined12",
-            "z13UUserDefined13Code",
-            "z13UUserDefined13",
-            "z13UUserDefined14Code",
-            "z13UUserDefined14",
-            "z13UUserDefined15Code",
-            "z13UUserDefined15"
+                "z13UDocNumber",
+                "z13UUserDefined1Code",
+                "z13UUserDefined1",
+                "z13UUserDefined2Code",
+                "z13UUserDefined2",
+                "z13UUserDefined3Code",
+                "z13UUserDefined3",
+                "z13UUserDefined4Code",
+                "z13UUserDefined4",
+                "z13UUserDefined5Code",
+                "z13UUserDefined5",
+                "z13UUserDefined6Code",
+                "z13UUserDefined6",
+                "z13UUserDefined7Code",
+                "z13UUserDefined7",
+                "z13UUserDefined8Code",
+                "z13UUserDefined8",
+                "z13UUserDefined9Code",
+                "z13UUserDefined9",
+                "z13UUserDefined10Code",
+                "z13UUserDefined10",
+                "z13UUserDefined11Code",
+                "z13UUserDefined11",
+                "z13UUserDefined12Code",
+                "z13UUserDefined12",
+                "z13UUserDefined13Code",
+                "z13UUserDefined13",
+                "z13UUserDefined14Code",
+                "z13UUserDefined14",
+                "z13UUserDefined15Code",
+                "z13UUserDefined15"
         })
         public static class Z13U {
 
@@ -4789,7 +4291,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13UDocNumber���Ե�ֵ��
-             * 
              */
             public int getZ13UDocNumber() {
                 return z13UDocNumber;
@@ -4797,7 +4298,6 @@ public class BorInfo {
 
             /**
              * ����z13UDocNumber���Ե�ֵ��
-             * 
              */
             public void setZ13UDocNumber(int value) {
                 this.z13UDocNumber = value;
@@ -4805,11 +4305,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined1Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined1Code() {
                 return z13UUserDefined1Code;
@@ -4817,11 +4315,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined1Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined1Code(String value) {
                 this.z13UUserDefined1Code = value;
@@ -4829,11 +4325,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined1���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined1() {
                 return z13UUserDefined1;
@@ -4841,11 +4335,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined1���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined1(String value) {
                 this.z13UUserDefined1 = value;
@@ -4853,11 +4345,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined2Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined2Code() {
                 return z13UUserDefined2Code;
@@ -4865,11 +4355,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined2Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined2Code(String value) {
                 this.z13UUserDefined2Code = value;
@@ -4877,11 +4365,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined2���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined2() {
                 return z13UUserDefined2;
@@ -4889,11 +4375,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined2���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined2(String value) {
                 this.z13UUserDefined2 = value;
@@ -4901,11 +4385,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined3Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined3Code() {
                 return z13UUserDefined3Code;
@@ -4913,11 +4395,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined3Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined3Code(String value) {
                 this.z13UUserDefined3Code = value;
@@ -4925,11 +4405,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined3���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined3() {
                 return z13UUserDefined3;
@@ -4937,11 +4415,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined3���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined3(String value) {
                 this.z13UUserDefined3 = value;
@@ -4949,11 +4425,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined4Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined4Code() {
                 return z13UUserDefined4Code;
@@ -4961,11 +4435,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined4Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined4Code(String value) {
                 this.z13UUserDefined4Code = value;
@@ -4973,11 +4445,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined4���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined4() {
                 return z13UUserDefined4;
@@ -4985,11 +4455,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined4���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined4(String value) {
                 this.z13UUserDefined4 = value;
@@ -4997,11 +4465,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined5Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined5Code() {
                 return z13UUserDefined5Code;
@@ -5009,11 +4475,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined5Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined5Code(String value) {
                 this.z13UUserDefined5Code = value;
@@ -5021,11 +4485,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined5���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined5() {
                 return z13UUserDefined5;
@@ -5033,11 +4495,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined5���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined5(String value) {
                 this.z13UUserDefined5 = value;
@@ -5045,7 +4505,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined6Code���Ե�ֵ��
-             * 
              */
             public short getZ13UUserDefined6Code() {
                 return z13UUserDefined6Code;
@@ -5053,7 +4512,6 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined6Code���Ե�ֵ��
-             * 
              */
             public void setZ13UUserDefined6Code(short value) {
                 this.z13UUserDefined6Code = value;
@@ -5061,11 +4519,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined6���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined6() {
                 return z13UUserDefined6;
@@ -5073,11 +4529,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined6���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined6(String value) {
                 this.z13UUserDefined6 = value;
@@ -5085,11 +4539,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined7Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined7Code() {
                 return z13UUserDefined7Code;
@@ -5097,11 +4549,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined7Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined7Code(String value) {
                 this.z13UUserDefined7Code = value;
@@ -5109,11 +4559,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined7���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined7() {
                 return z13UUserDefined7;
@@ -5121,11 +4569,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined7���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined7(String value) {
                 this.z13UUserDefined7 = value;
@@ -5133,11 +4579,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined8Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined8Code() {
                 return z13UUserDefined8Code;
@@ -5145,11 +4589,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined8Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined8Code(String value) {
                 this.z13UUserDefined8Code = value;
@@ -5157,11 +4599,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined8���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined8() {
                 return z13UUserDefined8;
@@ -5169,11 +4609,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined8���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined8(String value) {
                 this.z13UUserDefined8 = value;
@@ -5181,11 +4619,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined9Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined9Code() {
                 return z13UUserDefined9Code;
@@ -5193,11 +4629,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined9Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined9Code(String value) {
                 this.z13UUserDefined9Code = value;
@@ -5205,11 +4639,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined9���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined9() {
                 return z13UUserDefined9;
@@ -5217,11 +4649,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined9���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined9(String value) {
                 this.z13UUserDefined9 = value;
@@ -5229,11 +4659,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined10Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined10Code() {
                 return z13UUserDefined10Code;
@@ -5241,11 +4669,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined10Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined10Code(String value) {
                 this.z13UUserDefined10Code = value;
@@ -5253,11 +4679,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined10���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined10() {
                 return z13UUserDefined10;
@@ -5265,11 +4689,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined10���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined10(String value) {
                 this.z13UUserDefined10 = value;
@@ -5277,11 +4699,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined11Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined11Code() {
                 return z13UUserDefined11Code;
@@ -5289,11 +4709,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined11Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined11Code(String value) {
                 this.z13UUserDefined11Code = value;
@@ -5301,11 +4719,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined11���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined11() {
                 return z13UUserDefined11;
@@ -5313,11 +4729,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined11���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined11(String value) {
                 this.z13UUserDefined11 = value;
@@ -5325,11 +4739,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined12Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined12Code() {
                 return z13UUserDefined12Code;
@@ -5337,11 +4749,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined12Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined12Code(String value) {
                 this.z13UUserDefined12Code = value;
@@ -5349,7 +4759,6 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined12���Ե�ֵ��
-             * 
              */
             public short getZ13UUserDefined12() {
                 return z13UUserDefined12;
@@ -5357,7 +4766,6 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined12���Ե�ֵ��
-             * 
              */
             public void setZ13UUserDefined12(short value) {
                 this.z13UUserDefined12 = value;
@@ -5365,11 +4773,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined13Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined13Code() {
                 return z13UUserDefined13Code;
@@ -5377,11 +4783,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined13Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined13Code(String value) {
                 this.z13UUserDefined13Code = value;
@@ -5389,11 +4793,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined13���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined13() {
                 return z13UUserDefined13;
@@ -5401,11 +4803,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined13���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined13(String value) {
                 this.z13UUserDefined13 = value;
@@ -5413,11 +4813,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined14Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined14Code() {
                 return z13UUserDefined14Code;
@@ -5425,11 +4823,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined14Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined14Code(String value) {
                 this.z13UUserDefined14Code = value;
@@ -5437,11 +4833,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined14���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined14() {
                 return z13UUserDefined14;
@@ -5449,11 +4843,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined14���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined14(String value) {
                 this.z13UUserDefined14 = value;
@@ -5461,11 +4853,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined15Code���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined15Code() {
                 return z13UUserDefined15Code;
@@ -5473,11 +4863,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined15Code���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined15Code(String value) {
                 this.z13UUserDefined15Code = value;
@@ -5485,11 +4873,9 @@ public class BorInfo {
 
             /**
              * ��ȡz13UUserDefined15���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ13UUserDefined15() {
                 return z13UUserDefined15;
@@ -5497,11 +4883,9 @@ public class BorInfo {
 
             /**
              * ����z13UUserDefined15���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ13UUserDefined15(String value) {
                 this.z13UUserDefined15 = value;
@@ -5512,9 +4896,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -5593,79 +4977,77 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z30DocNumber",
-            "z30ItemSequence",
-            "z30Barcode",
-            "z30SubLibrary",
-            "z30Material",
-            "z30ItemStatus",
-            "z30OpenDate",
-            "z30UpdateDate",
-            "z30Cataloger",
-            "z30DateLastReturn",
-            "z30HourLastReturn",
-            "z30IpLastReturn",
-            "z30NoLoans",
-            "z30Alpha",
-            "z30Collection",
-            "z30CallNoType",
-            "z30CallNo",
-            "z30CallNoKey",
-            "z30CallNo2Type",
-            "xxxTag",
-            "z30CallNo2Key",
-            "z30Description",
-            "z30NoteOpac",
-            "z30NoteCirculation",
-            "z30NoteInternal",
-            "z30OrderNumber",
-            "z30InventoryNumber",
-            "z30InventoryNumberDate",
-            "z30LastShelfReportDate",
-            "z30Price",
-            "z30ShelfReportNumber",
-            "z30OnShelfDate",
-            "z30OnShelfSeq",
-            "z30DocNumber2",
-            "z30ScheduleSequence2",
-            "z30CopySequence2",
-            "z30VendorCode",
-            "z30InvoiceNumber",
-            "z30LineNumber",
-            "z30Pages",
-            "z30IssueDate",
-            "z30ExpectedArrivalDate",
-            "z30ArrivalDate",
-            "z30ItemStatistic",
-            "z30ItemProcessStatus",
-            "z30CopyId",
-            "z30HolDocNumber",
-            "z30TempLocation",
-            "z30EnumerationA",
-            "z30EnumerationB",
-            "z30EnumerationC",
-            "z30EnumerationD",
-            "z30EnumerationE",
-            "z30EnumerationF",
-            "z30EnumerationG",
-            "z30EnumerationH",
-            "z30ChronologicalI",
-            "z30ChronologicalJ",
-            "z30ChronologicalK",
-            "z30ChronologicalL",
-            "z30ChronologicalM",
-            "z30SuppIndexO",
-            "z3085XType",
-            "z30DepositoryId",
-            "z30LinkingNumber",
-            "z30GapIndicator",
-            "z30MaintenanceCount",
-            "z30ProcessStatusDate"
+                "z30DocNumber",
+                "z30ItemSequence",
+                "z30Barcode",
+                "z30SubLibrary",
+                "z30Material",
+                "z30ItemStatus",
+                "z30OpenDate",
+                "z30UpdateDate",
+                "z30Cataloger",
+                "z30DateLastReturn",
+                "z30HourLastReturn",
+                "z30IpLastReturn",
+                "z30NoLoans",
+                "z30Alpha",
+                "z30Collection",
+                "z30CallNoType",
+                "z30CallNo",
+                "z30CallNoKey",
+                "z30CallNo2Type",
+                "xxxTag",
+                "z30CallNo2Key",
+                "z30Description",
+                "z30NoteOpac",
+                "z30NoteCirculation",
+                "z30NoteInternal",
+                "z30OrderNumber",
+                "z30InventoryNumber",
+                "z30InventoryNumberDate",
+                "z30LastShelfReportDate",
+                "z30Price",
+                "z30ShelfReportNumber",
+                "z30OnShelfDate",
+                "z30OnShelfSeq",
+                "z30DocNumber2",
+                "z30ScheduleSequence2",
+                "z30CopySequence2",
+                "z30VendorCode",
+                "z30InvoiceNumber",
+                "z30LineNumber",
+                "z30Pages",
+                "z30IssueDate",
+                "z30ExpectedArrivalDate",
+                "z30ArrivalDate",
+                "z30ItemStatistic",
+                "z30ItemProcessStatus",
+                "z30CopyId",
+                "z30HolDocNumber",
+                "z30TempLocation",
+                "z30EnumerationA",
+                "z30EnumerationB",
+                "z30EnumerationC",
+                "z30EnumerationD",
+                "z30EnumerationE",
+                "z30EnumerationF",
+                "z30EnumerationG",
+                "z30EnumerationH",
+                "z30ChronologicalI",
+                "z30ChronologicalJ",
+                "z30ChronologicalK",
+                "z30ChronologicalL",
+                "z30ChronologicalM",
+                "z30SuppIndexO",
+                "z3085XType",
+                "z30DepositoryId",
+                "z30LinkingNumber",
+                "z30GapIndicator",
+                "z30MaintenanceCount",
+                "z30ProcessStatusDate"
         })
         public static class Z30 {
 
@@ -5808,7 +5190,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30DocNumber���Ե�ֵ��
-             * 
              */
             public int getZ30DocNumber() {
                 return z30DocNumber;
@@ -5816,7 +5197,6 @@ public class BorInfo {
 
             /**
              * ����z30DocNumber���Ե�ֵ��
-             * 
              */
             public void setZ30DocNumber(int value) {
                 this.z30DocNumber = value;
@@ -5824,7 +5204,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemSequence���Ե�ֵ��
-             * 
              */
             public byte getZ30ItemSequence() {
                 return z30ItemSequence;
@@ -5832,7 +5211,6 @@ public class BorInfo {
 
             /**
              * ����z30ItemSequence���Ե�ֵ��
-             * 
              */
             public void setZ30ItemSequence(byte value) {
                 this.z30ItemSequence = value;
@@ -5840,7 +5218,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30Barcode���Ե�ֵ��
-             * 
              */
             public long getZ30Barcode() {
                 return z30Barcode;
@@ -5848,7 +5225,6 @@ public class BorInfo {
 
             /**
              * ����z30Barcode���Ե�ֵ��
-             * 
              */
             public void setZ30Barcode(long value) {
                 this.z30Barcode = value;
@@ -5856,11 +5232,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30SubLibrary���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30SubLibrary() {
                 return z30SubLibrary;
@@ -5868,11 +5242,9 @@ public class BorInfo {
 
             /**
              * ����z30SubLibrary���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30SubLibrary(String value) {
                 this.z30SubLibrary = value;
@@ -5880,11 +5252,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Material���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Material() {
                 return z30Material;
@@ -5892,11 +5262,9 @@ public class BorInfo {
 
             /**
              * ����z30Material���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Material(String value) {
                 this.z30Material = value;
@@ -5904,11 +5272,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ItemStatus() {
                 return z30ItemStatus;
@@ -5916,11 +5282,9 @@ public class BorInfo {
 
             /**
              * ����z30ItemStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ItemStatus(String value) {
                 this.z30ItemStatus = value;
@@ -5928,11 +5292,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30OpenDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30OpenDate() {
                 return z30OpenDate;
@@ -5940,11 +5302,9 @@ public class BorInfo {
 
             /**
              * ����z30OpenDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30OpenDate(String value) {
                 this.z30OpenDate = value;
@@ -5952,11 +5312,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30UpdateDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30UpdateDate() {
                 return z30UpdateDate;
@@ -5964,11 +5322,9 @@ public class BorInfo {
 
             /**
              * ����z30UpdateDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30UpdateDate(String value) {
                 this.z30UpdateDate = value;
@@ -5976,11 +5332,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Cataloger���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Cataloger() {
                 return z30Cataloger;
@@ -5988,11 +5342,9 @@ public class BorInfo {
 
             /**
              * ����z30Cataloger���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Cataloger(String value) {
                 this.z30Cataloger = value;
@@ -6000,11 +5352,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30DateLastReturn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30DateLastReturn() {
                 return z30DateLastReturn;
@@ -6012,11 +5362,9 @@ public class BorInfo {
 
             /**
              * ����z30DateLastReturn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30DateLastReturn(String value) {
                 this.z30DateLastReturn = value;
@@ -6024,11 +5372,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30HourLastReturn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30HourLastReturn() {
                 return z30HourLastReturn;
@@ -6036,11 +5382,9 @@ public class BorInfo {
 
             /**
              * ����z30HourLastReturn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30HourLastReturn(String value) {
                 this.z30HourLastReturn = value;
@@ -6048,11 +5392,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30IpLastReturn���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30IpLastReturn() {
                 return z30IpLastReturn;
@@ -6060,11 +5402,9 @@ public class BorInfo {
 
             /**
              * ����z30IpLastReturn���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30IpLastReturn(String value) {
                 this.z30IpLastReturn = value;
@@ -6072,7 +5412,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoLoans���Ե�ֵ��
-             * 
              */
             public byte getZ30NoLoans() {
                 return z30NoLoans;
@@ -6080,7 +5419,6 @@ public class BorInfo {
 
             /**
              * ����z30NoLoans���Ե�ֵ��
-             * 
              */
             public void setZ30NoLoans(byte value) {
                 this.z30NoLoans = value;
@@ -6088,11 +5426,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Alpha���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Alpha() {
                 return z30Alpha;
@@ -6100,11 +5436,9 @@ public class BorInfo {
 
             /**
              * ����z30Alpha���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Alpha(String value) {
                 this.z30Alpha = value;
@@ -6112,11 +5446,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Collection���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Collection() {
                 return z30Collection;
@@ -6124,11 +5456,9 @@ public class BorInfo {
 
             /**
              * ����z30Collection���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Collection(String value) {
                 this.z30Collection = value;
@@ -6136,11 +5466,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNoType���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNoType() {
                 return z30CallNoType;
@@ -6148,11 +5476,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNoType���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNoType(String value) {
                 this.z30CallNoType = value;
@@ -6160,11 +5486,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNo���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNo() {
                 return z30CallNo;
@@ -6172,11 +5496,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNo���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNo(String value) {
                 this.z30CallNo = value;
@@ -6184,11 +5506,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNoKey���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNoKey() {
                 return z30CallNoKey;
@@ -6196,11 +5516,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNoKey���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNoKey(String value) {
                 this.z30CallNoKey = value;
@@ -6208,11 +5526,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNo2Type���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNo2Type() {
                 return z30CallNo2Type;
@@ -6220,11 +5536,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNo2Type���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNo2Type(String value) {
                 this.z30CallNo2Type = value;
@@ -6232,11 +5546,9 @@ public class BorInfo {
 
             /**
              * ��ȡxxxTag���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getXxxTag() {
                 return xxxTag;
@@ -6244,11 +5556,9 @@ public class BorInfo {
 
             /**
              * ����xxxTag���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setXxxTag(String value) {
                 this.xxxTag = value;
@@ -6256,11 +5566,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30CallNo2Key���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30CallNo2Key() {
                 return z30CallNo2Key;
@@ -6268,11 +5576,9 @@ public class BorInfo {
 
             /**
              * ����z30CallNo2Key���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30CallNo2Key(String value) {
                 this.z30CallNo2Key = value;
@@ -6280,11 +5586,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Description���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Description() {
                 return z30Description;
@@ -6292,11 +5596,9 @@ public class BorInfo {
 
             /**
              * ����z30Description���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Description(String value) {
                 this.z30Description = value;
@@ -6304,11 +5606,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoteOpac���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30NoteOpac() {
                 return z30NoteOpac;
@@ -6316,11 +5616,9 @@ public class BorInfo {
 
             /**
              * ����z30NoteOpac���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30NoteOpac(String value) {
                 this.z30NoteOpac = value;
@@ -6328,11 +5626,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoteCirculation���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30NoteCirculation() {
                 return z30NoteCirculation;
@@ -6340,11 +5636,9 @@ public class BorInfo {
 
             /**
              * ����z30NoteCirculation���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30NoteCirculation(String value) {
                 this.z30NoteCirculation = value;
@@ -6352,11 +5646,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30NoteInternal���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30NoteInternal() {
                 return z30NoteInternal;
@@ -6364,11 +5656,9 @@ public class BorInfo {
 
             /**
              * ����z30NoteInternal���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30NoteInternal(String value) {
                 this.z30NoteInternal = value;
@@ -6376,7 +5666,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30OrderNumber���Ե�ֵ��
-             * 
              */
             public int getZ30OrderNumber() {
                 return z30OrderNumber;
@@ -6384,7 +5673,6 @@ public class BorInfo {
 
             /**
              * ����z30OrderNumber���Ե�ֵ��
-             * 
              */
             public void setZ30OrderNumber(int value) {
                 this.z30OrderNumber = value;
@@ -6392,7 +5680,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30InventoryNumber���Ե�ֵ��
-             * 
              */
             public long getZ30InventoryNumber() {
                 return z30InventoryNumber;
@@ -6400,7 +5687,6 @@ public class BorInfo {
 
             /**
              * ����z30InventoryNumber���Ե�ֵ��
-             * 
              */
             public void setZ30InventoryNumber(long value) {
                 this.z30InventoryNumber = value;
@@ -6408,11 +5694,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30InventoryNumberDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30InventoryNumberDate() {
                 return z30InventoryNumberDate;
@@ -6420,11 +5704,9 @@ public class BorInfo {
 
             /**
              * ����z30InventoryNumberDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30InventoryNumberDate(String value) {
                 this.z30InventoryNumberDate = value;
@@ -6432,7 +5714,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30LastShelfReportDate���Ե�ֵ��
-             * 
              */
             public byte getZ30LastShelfReportDate() {
                 return z30LastShelfReportDate;
@@ -6440,7 +5721,6 @@ public class BorInfo {
 
             /**
              * ����z30LastShelfReportDate���Ե�ֵ��
-             * 
              */
             public void setZ30LastShelfReportDate(byte value) {
                 this.z30LastShelfReportDate = value;
@@ -6448,7 +5728,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30Price���Ե�ֵ��
-             * 
              */
             public float getZ30Price() {
                 return z30Price;
@@ -6456,7 +5735,6 @@ public class BorInfo {
 
             /**
              * ����z30Price���Ե�ֵ��
-             * 
              */
             public void setZ30Price(float value) {
                 this.z30Price = value;
@@ -6464,11 +5742,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ShelfReportNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ShelfReportNumber() {
                 return z30ShelfReportNumber;
@@ -6476,11 +5752,9 @@ public class BorInfo {
 
             /**
              * ����z30ShelfReportNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ShelfReportNumber(String value) {
                 this.z30ShelfReportNumber = value;
@@ -6488,7 +5762,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30OnShelfDate���Ե�ֵ��
-             * 
              */
             public byte getZ30OnShelfDate() {
                 return z30OnShelfDate;
@@ -6496,7 +5769,6 @@ public class BorInfo {
 
             /**
              * ����z30OnShelfDate���Ե�ֵ��
-             * 
              */
             public void setZ30OnShelfDate(byte value) {
                 this.z30OnShelfDate = value;
@@ -6504,7 +5776,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30OnShelfSeq���Ե�ֵ��
-             * 
              */
             public byte getZ30OnShelfSeq() {
                 return z30OnShelfSeq;
@@ -6512,7 +5783,6 @@ public class BorInfo {
 
             /**
              * ����z30OnShelfSeq���Ե�ֵ��
-             * 
              */
             public void setZ30OnShelfSeq(byte value) {
                 this.z30OnShelfSeq = value;
@@ -6520,7 +5790,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30DocNumber2���Ե�ֵ��
-             * 
              */
             public byte getZ30DocNumber2() {
                 return z30DocNumber2;
@@ -6528,7 +5797,6 @@ public class BorInfo {
 
             /**
              * ����z30DocNumber2���Ե�ֵ��
-             * 
              */
             public void setZ30DocNumber2(byte value) {
                 this.z30DocNumber2 = value;
@@ -6536,7 +5804,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30ScheduleSequence2���Ե�ֵ��
-             * 
              */
             public byte getZ30ScheduleSequence2() {
                 return z30ScheduleSequence2;
@@ -6544,7 +5811,6 @@ public class BorInfo {
 
             /**
              * ����z30ScheduleSequence2���Ե�ֵ��
-             * 
              */
             public void setZ30ScheduleSequence2(byte value) {
                 this.z30ScheduleSequence2 = value;
@@ -6552,7 +5818,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30CopySequence2���Ե�ֵ��
-             * 
              */
             public byte getZ30CopySequence2() {
                 return z30CopySequence2;
@@ -6560,7 +5825,6 @@ public class BorInfo {
 
             /**
              * ����z30CopySequence2���Ե�ֵ��
-             * 
              */
             public void setZ30CopySequence2(byte value) {
                 this.z30CopySequence2 = value;
@@ -6568,11 +5832,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30VendorCode���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30VendorCode() {
                 return z30VendorCode;
@@ -6580,11 +5842,9 @@ public class BorInfo {
 
             /**
              * ����z30VendorCode���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30VendorCode(String value) {
                 this.z30VendorCode = value;
@@ -6592,11 +5852,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30InvoiceNumber���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30InvoiceNumber() {
                 return z30InvoiceNumber;
@@ -6604,11 +5862,9 @@ public class BorInfo {
 
             /**
              * ����z30InvoiceNumber���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30InvoiceNumber(String value) {
                 this.z30InvoiceNumber = value;
@@ -6616,7 +5872,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30LineNumber���Ե�ֵ��
-             * 
              */
             public byte getZ30LineNumber() {
                 return z30LineNumber;
@@ -6624,7 +5879,6 @@ public class BorInfo {
 
             /**
              * ����z30LineNumber���Ե�ֵ��
-             * 
              */
             public void setZ30LineNumber(byte value) {
                 this.z30LineNumber = value;
@@ -6632,11 +5886,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30Pages���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30Pages() {
                 return z30Pages;
@@ -6644,11 +5896,9 @@ public class BorInfo {
 
             /**
              * ����z30Pages���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30Pages(String value) {
                 this.z30Pages = value;
@@ -6656,11 +5906,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30IssueDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30IssueDate() {
                 return z30IssueDate;
@@ -6668,11 +5916,9 @@ public class BorInfo {
 
             /**
              * ����z30IssueDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30IssueDate(String value) {
                 this.z30IssueDate = value;
@@ -6680,11 +5926,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ExpectedArrivalDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ExpectedArrivalDate() {
                 return z30ExpectedArrivalDate;
@@ -6692,11 +5936,9 @@ public class BorInfo {
 
             /**
              * ����z30ExpectedArrivalDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ExpectedArrivalDate(String value) {
                 this.z30ExpectedArrivalDate = value;
@@ -6704,11 +5946,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ArrivalDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ArrivalDate() {
                 return z30ArrivalDate;
@@ -6716,11 +5956,9 @@ public class BorInfo {
 
             /**
              * ����z30ArrivalDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ArrivalDate(String value) {
                 this.z30ArrivalDate = value;
@@ -6728,11 +5966,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemStatistic���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ItemStatistic() {
                 return z30ItemStatistic;
@@ -6740,11 +5976,9 @@ public class BorInfo {
 
             /**
              * ����z30ItemStatistic���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ItemStatistic(String value) {
                 this.z30ItemStatistic = value;
@@ -6752,11 +5986,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ItemProcessStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ItemProcessStatus() {
                 return z30ItemProcessStatus;
@@ -6764,11 +5996,9 @@ public class BorInfo {
 
             /**
              * ����z30ItemProcessStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ItemProcessStatus(String value) {
                 this.z30ItemProcessStatus = value;
@@ -6776,7 +6006,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30CopyId���Ե�ֵ��
-             * 
              */
             public byte getZ30CopyId() {
                 return z30CopyId;
@@ -6784,7 +6013,6 @@ public class BorInfo {
 
             /**
              * ����z30CopyId���Ե�ֵ��
-             * 
              */
             public void setZ30CopyId(byte value) {
                 this.z30CopyId = value;
@@ -6792,7 +6020,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30HolDocNumber���Ե�ֵ��
-             * 
              */
             public int getZ30HolDocNumber() {
                 return z30HolDocNumber;
@@ -6800,7 +6027,6 @@ public class BorInfo {
 
             /**
              * ����z30HolDocNumber���Ե�ֵ��
-             * 
              */
             public void setZ30HolDocNumber(int value) {
                 this.z30HolDocNumber = value;
@@ -6808,11 +6034,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30TempLocation���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30TempLocation() {
                 return z30TempLocation;
@@ -6820,11 +6044,9 @@ public class BorInfo {
 
             /**
              * ����z30TempLocation���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30TempLocation(String value) {
                 this.z30TempLocation = value;
@@ -6832,11 +6054,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationA���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationA() {
                 return z30EnumerationA;
@@ -6844,11 +6064,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationA���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationA(String value) {
                 this.z30EnumerationA = value;
@@ -6856,11 +6074,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationB���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationB() {
                 return z30EnumerationB;
@@ -6868,11 +6084,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationB���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationB(String value) {
                 this.z30EnumerationB = value;
@@ -6880,11 +6094,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationC���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationC() {
                 return z30EnumerationC;
@@ -6892,11 +6104,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationC���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationC(String value) {
                 this.z30EnumerationC = value;
@@ -6904,11 +6114,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationD���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationD() {
                 return z30EnumerationD;
@@ -6916,11 +6124,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationD���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationD(String value) {
                 this.z30EnumerationD = value;
@@ -6928,11 +6134,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationE���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationE() {
                 return z30EnumerationE;
@@ -6940,11 +6144,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationE���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationE(String value) {
                 this.z30EnumerationE = value;
@@ -6952,11 +6154,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationF���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationF() {
                 return z30EnumerationF;
@@ -6964,11 +6164,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationF���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationF(String value) {
                 this.z30EnumerationF = value;
@@ -6976,11 +6174,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationG���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationG() {
                 return z30EnumerationG;
@@ -6988,11 +6184,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationG���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationG(String value) {
                 this.z30EnumerationG = value;
@@ -7000,11 +6194,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30EnumerationH���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30EnumerationH() {
                 return z30EnumerationH;
@@ -7012,11 +6204,9 @@ public class BorInfo {
 
             /**
              * ����z30EnumerationH���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30EnumerationH(String value) {
                 this.z30EnumerationH = value;
@@ -7024,11 +6214,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalI���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalI() {
                 return z30ChronologicalI;
@@ -7036,11 +6224,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalI���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalI(String value) {
                 this.z30ChronologicalI = value;
@@ -7048,11 +6234,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalJ���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalJ() {
                 return z30ChronologicalJ;
@@ -7060,11 +6244,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalJ���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalJ(String value) {
                 this.z30ChronologicalJ = value;
@@ -7072,11 +6254,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalK���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalK() {
                 return z30ChronologicalK;
@@ -7084,11 +6264,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalK���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalK(String value) {
                 this.z30ChronologicalK = value;
@@ -7096,11 +6274,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalL���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalL() {
                 return z30ChronologicalL;
@@ -7108,11 +6284,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalL���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalL(String value) {
                 this.z30ChronologicalL = value;
@@ -7120,11 +6294,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30ChronologicalM���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30ChronologicalM() {
                 return z30ChronologicalM;
@@ -7132,11 +6304,9 @@ public class BorInfo {
 
             /**
              * ����z30ChronologicalM���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30ChronologicalM(String value) {
                 this.z30ChronologicalM = value;
@@ -7144,11 +6314,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30SuppIndexO���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30SuppIndexO() {
                 return z30SuppIndexO;
@@ -7156,11 +6324,9 @@ public class BorInfo {
 
             /**
              * ����z30SuppIndexO���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30SuppIndexO(String value) {
                 this.z30SuppIndexO = value;
@@ -7168,11 +6334,9 @@ public class BorInfo {
 
             /**
              * ��ȡz3085XType���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ3085XType() {
                 return z3085XType;
@@ -7180,11 +6344,9 @@ public class BorInfo {
 
             /**
              * ����z3085XType���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ3085XType(String value) {
                 this.z3085XType = value;
@@ -7192,11 +6354,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30DepositoryId���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30DepositoryId() {
                 return z30DepositoryId;
@@ -7204,11 +6364,9 @@ public class BorInfo {
 
             /**
              * ����z30DepositoryId���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30DepositoryId(String value) {
                 this.z30DepositoryId = value;
@@ -7216,7 +6374,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30LinkingNumber���Ե�ֵ��
-             * 
              */
             public byte getZ30LinkingNumber() {
                 return z30LinkingNumber;
@@ -7224,7 +6381,6 @@ public class BorInfo {
 
             /**
              * ����z30LinkingNumber���Ե�ֵ��
-             * 
              */
             public void setZ30LinkingNumber(byte value) {
                 this.z30LinkingNumber = value;
@@ -7232,11 +6388,9 @@ public class BorInfo {
 
             /**
              * ��ȡz30GapIndicator���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ30GapIndicator() {
                 return z30GapIndicator;
@@ -7244,11 +6398,9 @@ public class BorInfo {
 
             /**
              * ����z30GapIndicator���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ30GapIndicator(String value) {
                 this.z30GapIndicator = value;
@@ -7256,7 +6408,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30MaintenanceCount���Ե�ֵ��
-             * 
              */
             public byte getZ30MaintenanceCount() {
                 return z30MaintenanceCount;
@@ -7264,7 +6415,6 @@ public class BorInfo {
 
             /**
              * ����z30MaintenanceCount���Ե�ֵ��
-             * 
              */
             public void setZ30MaintenanceCount(byte value) {
                 this.z30MaintenanceCount = value;
@@ -7272,7 +6422,6 @@ public class BorInfo {
 
             /**
              * ��ȡz30ProcessStatusDate���Ե�ֵ��
-             * 
              */
             public int getZ30ProcessStatusDate() {
                 return z30ProcessStatusDate;
@@ -7280,7 +6429,6 @@ public class BorInfo {
 
             /**
              * ����z30ProcessStatusDate���Ե�ֵ��
-             * 
              */
             public void setZ30ProcessStatusDate(int value) {
                 this.z30ProcessStatusDate = value;
@@ -7291,9 +6439,9 @@ public class BorInfo {
 
         /**
          * <p>anonymous complex type�� Java �ࡣ
-         * 
+         *
          * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -7346,53 +6494,51 @@ public class BorInfo {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "z36DocNumber",
-            "z36ItemSequence",
-            "z36Number",
-            "z36Material",
-            "z36SubLibrary",
-            "z36Status",
-            "z36LoanDate",
-            "z36LoanHour",
-            "z36EffectiveDueDate",
-            "z36DueDate",
-            "z36DueHour",
-            "z36ReturnedDate",
-            "z36ReturnedHour",
-            "z36ItemStatus",
-            "z36BorStatus",
-            "z36LetterNumber",
-            "z36LetterDate",
-            "z36NoRenewal",
-            "z36Note1",
-            "z36Note2",
-            "z36LoanCatalogerName",
-            "z36LoanCatalogerIp",
-            "z36ReturnCatalogerName",
-            "z36ReturnCatalogerIp",
-            "z36RenewCatalogerName",
-            "z36RenewCatalogerIp",
-            "z36RenewMode",
-            "z36BorType",
-            "z36NoteAlpha",
-            "z36RecallDate",
-            "z36RecallDueDate",
-            "z36LastRenewDate",
-            "z36OriginalDueDate",
-            "z36ProcessStatus",
-            "z36LoanType",
-            "z36ProxyId",
-            "z36RecallType",
-            "z36ReturnLocation",
-            "z36ReturnSubLocation",
-            "z36Source",
-            "z36DeliveryTime",
-            "z36TailTime"
+                "z36DocNumber",
+                "z36ItemSequence",
+                "z36Number",
+                "z36Material",
+                "z36SubLibrary",
+                "z36Status",
+                "z36LoanDate",
+                "z36LoanHour",
+                "z36EffectiveDueDate",
+                "z36DueDate",
+                "z36DueHour",
+                "z36ReturnedDate",
+                "z36ReturnedHour",
+                "z36ItemStatus",
+                "z36BorStatus",
+                "z36LetterNumber",
+                "z36LetterDate",
+                "z36NoRenewal",
+                "z36Note1",
+                "z36Note2",
+                "z36LoanCatalogerName",
+                "z36LoanCatalogerIp",
+                "z36ReturnCatalogerName",
+                "z36ReturnCatalogerIp",
+                "z36RenewCatalogerName",
+                "z36RenewCatalogerIp",
+                "z36RenewMode",
+                "z36BorType",
+                "z36NoteAlpha",
+                "z36RecallDate",
+                "z36RecallDueDate",
+                "z36LastRenewDate",
+                "z36OriginalDueDate",
+                "z36ProcessStatus",
+                "z36LoanType",
+                "z36ProxyId",
+                "z36RecallType",
+                "z36ReturnLocation",
+                "z36ReturnSubLocation",
+                "z36Source",
+                "z36DeliveryTime",
+                "z36TailTime"
         })
         public static class Z36 {
 
@@ -7483,7 +6629,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36DocNumber���Ե�ֵ��
-             * 
              */
             public int getZ36DocNumber() {
                 return z36DocNumber;
@@ -7491,7 +6636,6 @@ public class BorInfo {
 
             /**
              * ����z36DocNumber���Ե�ֵ��
-             * 
              */
             public void setZ36DocNumber(int value) {
                 this.z36DocNumber = value;
@@ -7499,7 +6643,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36ItemSequence���Ե�ֵ��
-             * 
              */
             public byte getZ36ItemSequence() {
                 return z36ItemSequence;
@@ -7507,7 +6650,6 @@ public class BorInfo {
 
             /**
              * ����z36ItemSequence���Ե�ֵ��
-             * 
              */
             public void setZ36ItemSequence(byte value) {
                 this.z36ItemSequence = value;
@@ -7515,7 +6657,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36Number���Ե�ֵ��
-             * 
              */
             public int getZ36Number() {
                 return z36Number;
@@ -7523,7 +6664,6 @@ public class BorInfo {
 
             /**
              * ����z36Number���Ե�ֵ��
-             * 
              */
             public void setZ36Number(int value) {
                 this.z36Number = value;
@@ -7531,11 +6671,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36Material���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36Material() {
                 return z36Material;
@@ -7543,11 +6681,9 @@ public class BorInfo {
 
             /**
              * ����z36Material���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36Material(String value) {
                 this.z36Material = value;
@@ -7555,11 +6691,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36SubLibrary���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36SubLibrary() {
                 return z36SubLibrary;
@@ -7567,11 +6701,9 @@ public class BorInfo {
 
             /**
              * ����z36SubLibrary���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36SubLibrary(String value) {
                 this.z36SubLibrary = value;
@@ -7579,11 +6711,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36Status���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36Status() {
                 return z36Status;
@@ -7591,11 +6721,9 @@ public class BorInfo {
 
             /**
              * ����z36Status���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36Status(String value) {
                 this.z36Status = value;
@@ -7603,11 +6731,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LoanDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LoanDate() {
                 return z36LoanDate;
@@ -7615,11 +6741,9 @@ public class BorInfo {
 
             /**
              * ����z36LoanDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LoanDate(String value) {
                 this.z36LoanDate = value;
@@ -7627,11 +6751,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LoanHour���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LoanHour() {
                 return z36LoanHour;
@@ -7639,11 +6761,9 @@ public class BorInfo {
 
             /**
              * ����z36LoanHour���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LoanHour(String value) {
                 this.z36LoanHour = value;
@@ -7651,7 +6771,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36EffectiveDueDate���Ե�ֵ��
-             * 
              */
             public byte getZ36EffectiveDueDate() {
                 return z36EffectiveDueDate;
@@ -7659,7 +6778,6 @@ public class BorInfo {
 
             /**
              * ����z36EffectiveDueDate���Ե�ֵ��
-             * 
              */
             public void setZ36EffectiveDueDate(byte value) {
                 this.z36EffectiveDueDate = value;
@@ -7667,11 +6785,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36DueDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36DueDate() {
                 return z36DueDate;
@@ -7679,11 +6795,9 @@ public class BorInfo {
 
             /**
              * ����z36DueDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36DueDate(String value) {
                 this.z36DueDate = value;
@@ -7691,11 +6805,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36DueHour���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36DueHour() {
                 return z36DueHour;
@@ -7703,11 +6815,9 @@ public class BorInfo {
 
             /**
              * ����z36DueHour���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36DueHour(String value) {
                 this.z36DueHour = value;
@@ -7715,11 +6825,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ReturnedDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ReturnedDate() {
                 return z36ReturnedDate;
@@ -7727,11 +6835,9 @@ public class BorInfo {
 
             /**
              * ����z36ReturnedDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ReturnedDate(String value) {
                 this.z36ReturnedDate = value;
@@ -7739,11 +6845,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ReturnedHour���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ReturnedHour() {
                 return z36ReturnedHour;
@@ -7751,11 +6855,9 @@ public class BorInfo {
 
             /**
              * ����z36ReturnedHour���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ReturnedHour(String value) {
                 this.z36ReturnedHour = value;
@@ -7763,7 +6865,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36ItemStatus���Ե�ֵ��
-             * 
              */
             public byte getZ36ItemStatus() {
                 return z36ItemStatus;
@@ -7771,7 +6872,6 @@ public class BorInfo {
 
             /**
              * ����z36ItemStatus���Ե�ֵ��
-             * 
              */
             public void setZ36ItemStatus(byte value) {
                 this.z36ItemStatus = value;
@@ -7779,11 +6879,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36BorStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36BorStatus() {
                 return z36BorStatus;
@@ -7791,11 +6889,9 @@ public class BorInfo {
 
             /**
              * ����z36BorStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36BorStatus(String value) {
                 this.z36BorStatus = value;
@@ -7803,7 +6899,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36LetterNumber���Ե�ֵ��
-             * 
              */
             public byte getZ36LetterNumber() {
                 return z36LetterNumber;
@@ -7811,7 +6906,6 @@ public class BorInfo {
 
             /**
              * ����z36LetterNumber���Ե�ֵ��
-             * 
              */
             public void setZ36LetterNumber(byte value) {
                 this.z36LetterNumber = value;
@@ -7819,11 +6913,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LetterDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LetterDate() {
                 return z36LetterDate;
@@ -7831,11 +6923,9 @@ public class BorInfo {
 
             /**
              * ����z36LetterDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LetterDate(String value) {
                 this.z36LetterDate = value;
@@ -7843,7 +6933,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36NoRenewal���Ե�ֵ��
-             * 
              */
             public byte getZ36NoRenewal() {
                 return z36NoRenewal;
@@ -7851,7 +6940,6 @@ public class BorInfo {
 
             /**
              * ����z36NoRenewal���Ե�ֵ��
-             * 
              */
             public void setZ36NoRenewal(byte value) {
                 this.z36NoRenewal = value;
@@ -7859,11 +6947,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36Note1���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36Note1() {
                 return z36Note1;
@@ -7871,11 +6957,9 @@ public class BorInfo {
 
             /**
              * ����z36Note1���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36Note1(String value) {
                 this.z36Note1 = value;
@@ -7883,11 +6967,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36Note2���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36Note2() {
                 return z36Note2;
@@ -7895,11 +6977,9 @@ public class BorInfo {
 
             /**
              * ����z36Note2���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36Note2(String value) {
                 this.z36Note2 = value;
@@ -7907,11 +6987,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LoanCatalogerName���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LoanCatalogerName() {
                 return z36LoanCatalogerName;
@@ -7919,11 +6997,9 @@ public class BorInfo {
 
             /**
              * ����z36LoanCatalogerName���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LoanCatalogerName(String value) {
                 this.z36LoanCatalogerName = value;
@@ -7931,11 +7007,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LoanCatalogerIp���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LoanCatalogerIp() {
                 return z36LoanCatalogerIp;
@@ -7943,11 +7017,9 @@ public class BorInfo {
 
             /**
              * ����z36LoanCatalogerIp���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LoanCatalogerIp(String value) {
                 this.z36LoanCatalogerIp = value;
@@ -7955,11 +7027,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ReturnCatalogerName���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ReturnCatalogerName() {
                 return z36ReturnCatalogerName;
@@ -7967,11 +7037,9 @@ public class BorInfo {
 
             /**
              * ����z36ReturnCatalogerName���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ReturnCatalogerName(String value) {
                 this.z36ReturnCatalogerName = value;
@@ -7979,11 +7047,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ReturnCatalogerIp���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ReturnCatalogerIp() {
                 return z36ReturnCatalogerIp;
@@ -7991,11 +7057,9 @@ public class BorInfo {
 
             /**
              * ����z36ReturnCatalogerIp���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ReturnCatalogerIp(String value) {
                 this.z36ReturnCatalogerIp = value;
@@ -8003,11 +7067,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36RenewCatalogerName���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36RenewCatalogerName() {
                 return z36RenewCatalogerName;
@@ -8015,11 +7077,9 @@ public class BorInfo {
 
             /**
              * ����z36RenewCatalogerName���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36RenewCatalogerName(String value) {
                 this.z36RenewCatalogerName = value;
@@ -8027,11 +7087,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36RenewCatalogerIp���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36RenewCatalogerIp() {
                 return z36RenewCatalogerIp;
@@ -8039,11 +7097,9 @@ public class BorInfo {
 
             /**
              * ����z36RenewCatalogerIp���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36RenewCatalogerIp(String value) {
                 this.z36RenewCatalogerIp = value;
@@ -8051,11 +7107,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36RenewMode���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36RenewMode() {
                 return z36RenewMode;
@@ -8063,11 +7117,9 @@ public class BorInfo {
 
             /**
              * ����z36RenewMode���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36RenewMode(String value) {
                 this.z36RenewMode = value;
@@ -8075,7 +7127,6 @@ public class BorInfo {
 
             /**
              * ��ȡz36BorType���Ե�ֵ��
-             * 
              */
             public byte getZ36BorType() {
                 return z36BorType;
@@ -8083,7 +7134,6 @@ public class BorInfo {
 
             /**
              * ����z36BorType���Ե�ֵ��
-             * 
              */
             public void setZ36BorType(byte value) {
                 this.z36BorType = value;
@@ -8091,11 +7141,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36NoteAlpha���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36NoteAlpha() {
                 return z36NoteAlpha;
@@ -8103,11 +7151,9 @@ public class BorInfo {
 
             /**
              * ����z36NoteAlpha���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36NoteAlpha(String value) {
                 this.z36NoteAlpha = value;
@@ -8115,11 +7161,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36RecallDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36RecallDate() {
                 return z36RecallDate;
@@ -8127,11 +7171,9 @@ public class BorInfo {
 
             /**
              * ����z36RecallDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36RecallDate(String value) {
                 this.z36RecallDate = value;
@@ -8139,11 +7181,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36RecallDueDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36RecallDueDate() {
                 return z36RecallDueDate;
@@ -8151,11 +7191,9 @@ public class BorInfo {
 
             /**
              * ����z36RecallDueDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36RecallDueDate(String value) {
                 this.z36RecallDueDate = value;
@@ -8163,11 +7201,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LastRenewDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LastRenewDate() {
                 return z36LastRenewDate;
@@ -8175,11 +7211,9 @@ public class BorInfo {
 
             /**
              * ����z36LastRenewDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LastRenewDate(String value) {
                 this.z36LastRenewDate = value;
@@ -8187,11 +7221,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36OriginalDueDate���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36OriginalDueDate() {
                 return z36OriginalDueDate;
@@ -8199,11 +7231,9 @@ public class BorInfo {
 
             /**
              * ����z36OriginalDueDate���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36OriginalDueDate(String value) {
                 this.z36OriginalDueDate = value;
@@ -8211,11 +7241,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ProcessStatus���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ProcessStatus() {
                 return z36ProcessStatus;
@@ -8223,11 +7251,9 @@ public class BorInfo {
 
             /**
              * ����z36ProcessStatus���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ProcessStatus(String value) {
                 this.z36ProcessStatus = value;
@@ -8235,11 +7261,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36LoanType���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36LoanType() {
                 return z36LoanType;
@@ -8247,11 +7271,9 @@ public class BorInfo {
 
             /**
              * ����z36LoanType���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36LoanType(String value) {
                 this.z36LoanType = value;
@@ -8259,11 +7281,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ProxyId���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ProxyId() {
                 return z36ProxyId;
@@ -8271,11 +7291,9 @@ public class BorInfo {
 
             /**
              * ����z36ProxyId���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ProxyId(String value) {
                 this.z36ProxyId = value;
@@ -8283,11 +7301,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36RecallType���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36RecallType() {
                 return z36RecallType;
@@ -8295,11 +7311,9 @@ public class BorInfo {
 
             /**
              * ����z36RecallType���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36RecallType(String value) {
                 this.z36RecallType = value;
@@ -8307,11 +7321,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ReturnLocation���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ReturnLocation() {
                 return z36ReturnLocation;
@@ -8319,11 +7331,9 @@ public class BorInfo {
 
             /**
              * ����z36ReturnLocation���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ReturnLocation(String value) {
                 this.z36ReturnLocation = value;
@@ -8331,11 +7341,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36ReturnSubLocation���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36ReturnSubLocation() {
                 return z36ReturnSubLocation;
@@ -8343,11 +7351,9 @@ public class BorInfo {
 
             /**
              * ����z36ReturnSubLocation���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36ReturnSubLocation(String value) {
                 this.z36ReturnSubLocation = value;
@@ -8355,11 +7361,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36Source���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36Source() {
                 return z36Source;
@@ -8367,11 +7371,9 @@ public class BorInfo {
 
             /**
              * ����z36Source���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36Source(String value) {
                 this.z36Source = value;
@@ -8379,11 +7381,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36DeliveryTime���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36DeliveryTime() {
                 return z36DeliveryTime;
@@ -8391,11 +7391,9 @@ public class BorInfo {
 
             /**
              * ����z36DeliveryTime���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36DeliveryTime(String value) {
                 this.z36DeliveryTime = value;
@@ -8403,11 +7401,9 @@ public class BorInfo {
 
             /**
              * ��ȡz36TailTime���Ե�ֵ��
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getZ36TailTime() {
                 return z36TailTime;
@@ -8415,11 +7411,9 @@ public class BorInfo {
 
             /**
              * ����z36TailTime���Ե�ֵ��
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setZ36TailTime(String value) {
                 this.z36TailTime = value;
@@ -8432,9 +7426,9 @@ public class BorInfo {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -8492,58 +7486,56 @@ public class BorInfo {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "z303Id",
-        "z303ProxyForId",
-        "z303PrimaryId",
-        "z303NameKey",
-        "z303UserType",
-        "z303UserLibrary",
-        "z303OpenDate",
-        "z303UpdateDate",
-        "z303ConLng",
-        "z303Alpha",
-        "z303Name",
-        "z303Title",
-        "z303Delinq1",
-        "z303DelinqN1",
-        "z303Delinq1UpdateDate",
-        "z303Delinq1CatName",
-        "z303Delinq2",
-        "z303DelinqN2",
-        "z303Delinq2UpdateDate",
-        "z303Delinq2CatName",
-        "z303Delinq3",
-        "z303DelinqN3",
-        "z303Delinq3UpdateDate",
-        "z303Delinq3CatName",
-        "z303Budget",
-        "z303ProfileId",
-        "z303IllLibrary",
-        "z303HomeLibrary",
-        "z303Field1",
-        "z303Field2",
-        "z303Field3",
-        "z303Note1",
-        "z303Note2",
-        "z303Salutation",
-        "z303IllTotalLimit",
-        "z303IllActiveLimit",
-        "z303DispatchLibrary",
-        "z303BirthDate",
-        "z303ExportConsent",
-        "z303ProxyIdType",
-        "z303SendAllLetters",
-        "z303PlainHtml",
-        "z303WantSms",
-        "z303PlifModification",
-        "z303TitleReqLimit",
-        "z303Gender",
-        "z303Birthplace"
+            "z303Id",
+            "z303ProxyForId",
+            "z303PrimaryId",
+            "z303NameKey",
+            "z303UserType",
+            "z303UserLibrary",
+            "z303OpenDate",
+            "z303UpdateDate",
+            "z303ConLng",
+            "z303Alpha",
+            "z303Name",
+            "z303Title",
+            "z303Delinq1",
+            "z303DelinqN1",
+            "z303Delinq1UpdateDate",
+            "z303Delinq1CatName",
+            "z303Delinq2",
+            "z303DelinqN2",
+            "z303Delinq2UpdateDate",
+            "z303Delinq2CatName",
+            "z303Delinq3",
+            "z303DelinqN3",
+            "z303Delinq3UpdateDate",
+            "z303Delinq3CatName",
+            "z303Budget",
+            "z303ProfileId",
+            "z303IllLibrary",
+            "z303HomeLibrary",
+            "z303Field1",
+            "z303Field2",
+            "z303Field3",
+            "z303Note1",
+            "z303Note2",
+            "z303Salutation",
+            "z303IllTotalLimit",
+            "z303IllActiveLimit",
+            "z303DispatchLibrary",
+            "z303BirthDate",
+            "z303ExportConsent",
+            "z303ProxyIdType",
+            "z303SendAllLetters",
+            "z303PlainHtml",
+            "z303WantSms",
+            "z303PlifModification",
+            "z303TitleReqLimit",
+            "z303Gender",
+            "z303Birthplace"
     })
     public static class Z303 {
 
@@ -8644,11 +7636,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Id���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Id() {
             return z303Id;
@@ -8656,11 +7646,9 @@ public class BorInfo {
 
         /**
          * ����z303Id���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Id(String value) {
             this.z303Id = value;
@@ -8668,11 +7656,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303ProxyForId���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303ProxyForId() {
             return z303ProxyForId;
@@ -8680,11 +7666,9 @@ public class BorInfo {
 
         /**
          * ����z303ProxyForId���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303ProxyForId(String value) {
             this.z303ProxyForId = value;
@@ -8692,11 +7676,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303PrimaryId���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303PrimaryId() {
             return z303PrimaryId;
@@ -8704,11 +7686,9 @@ public class BorInfo {
 
         /**
          * ����z303PrimaryId���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303PrimaryId(String value) {
             this.z303PrimaryId = value;
@@ -8716,11 +7696,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303NameKey���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303NameKey() {
             return z303NameKey;
@@ -8728,11 +7706,9 @@ public class BorInfo {
 
         /**
          * ����z303NameKey���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303NameKey(String value) {
             this.z303NameKey = value;
@@ -8740,11 +7716,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303UserType���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303UserType() {
             return z303UserType;
@@ -8752,11 +7726,9 @@ public class BorInfo {
 
         /**
          * ����z303UserType���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303UserType(String value) {
             this.z303UserType = value;
@@ -8764,11 +7736,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303UserLibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303UserLibrary() {
             return z303UserLibrary;
@@ -8776,11 +7746,9 @@ public class BorInfo {
 
         /**
          * ����z303UserLibrary���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303UserLibrary(String value) {
             this.z303UserLibrary = value;
@@ -8788,11 +7756,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303OpenDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303OpenDate() {
             return z303OpenDate;
@@ -8800,11 +7766,9 @@ public class BorInfo {
 
         /**
          * ����z303OpenDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303OpenDate(String value) {
             this.z303OpenDate = value;
@@ -8812,11 +7776,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303UpdateDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303UpdateDate() {
             return z303UpdateDate;
@@ -8824,11 +7786,9 @@ public class BorInfo {
 
         /**
          * ����z303UpdateDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303UpdateDate(String value) {
             this.z303UpdateDate = value;
@@ -8836,11 +7796,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303ConLng���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303ConLng() {
             return z303ConLng;
@@ -8848,11 +7806,9 @@ public class BorInfo {
 
         /**
          * ����z303ConLng���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303ConLng(String value) {
             this.z303ConLng = value;
@@ -8860,11 +7816,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Alpha���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Alpha() {
             return z303Alpha;
@@ -8872,11 +7826,9 @@ public class BorInfo {
 
         /**
          * ����z303Alpha���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Alpha(String value) {
             this.z303Alpha = value;
@@ -8884,11 +7836,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Name���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Name() {
             return z303Name;
@@ -8896,11 +7846,9 @@ public class BorInfo {
 
         /**
          * ����z303Name���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Name(String value) {
             this.z303Name = value;
@@ -8908,11 +7856,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Title���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Title() {
             return z303Title;
@@ -8920,11 +7866,9 @@ public class BorInfo {
 
         /**
          * ����z303Title���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Title(String value) {
             this.z303Title = value;
@@ -8932,7 +7876,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq1���Ե�ֵ��
-         * 
          */
         public byte getZ303Delinq1() {
             return z303Delinq1;
@@ -8940,7 +7883,6 @@ public class BorInfo {
 
         /**
          * ����z303Delinq1���Ե�ֵ��
-         * 
          */
         public void setZ303Delinq1(byte value) {
             this.z303Delinq1 = value;
@@ -8948,11 +7890,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303DelinqN1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303DelinqN1() {
             return z303DelinqN1;
@@ -8960,11 +7900,9 @@ public class BorInfo {
 
         /**
          * ����z303DelinqN1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303DelinqN1(String value) {
             this.z303DelinqN1 = value;
@@ -8972,7 +7910,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq1UpdateDate���Ե�ֵ��
-         * 
          */
         public byte getZ303Delinq1UpdateDate() {
             return z303Delinq1UpdateDate;
@@ -8980,7 +7917,6 @@ public class BorInfo {
 
         /**
          * ����z303Delinq1UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ303Delinq1UpdateDate(byte value) {
             this.z303Delinq1UpdateDate = value;
@@ -8988,11 +7924,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq1CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Delinq1CatName() {
             return z303Delinq1CatName;
@@ -9000,11 +7934,9 @@ public class BorInfo {
 
         /**
          * ����z303Delinq1CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Delinq1CatName(String value) {
             this.z303Delinq1CatName = value;
@@ -9012,7 +7944,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq2���Ե�ֵ��
-         * 
          */
         public byte getZ303Delinq2() {
             return z303Delinq2;
@@ -9020,7 +7951,6 @@ public class BorInfo {
 
         /**
          * ����z303Delinq2���Ե�ֵ��
-         * 
          */
         public void setZ303Delinq2(byte value) {
             this.z303Delinq2 = value;
@@ -9028,11 +7958,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303DelinqN2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303DelinqN2() {
             return z303DelinqN2;
@@ -9040,11 +7968,9 @@ public class BorInfo {
 
         /**
          * ����z303DelinqN2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303DelinqN2(String value) {
             this.z303DelinqN2 = value;
@@ -9052,7 +7978,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq2UpdateDate���Ե�ֵ��
-         * 
          */
         public byte getZ303Delinq2UpdateDate() {
             return z303Delinq2UpdateDate;
@@ -9060,7 +7985,6 @@ public class BorInfo {
 
         /**
          * ����z303Delinq2UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ303Delinq2UpdateDate(byte value) {
             this.z303Delinq2UpdateDate = value;
@@ -9068,11 +7992,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq2CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Delinq2CatName() {
             return z303Delinq2CatName;
@@ -9080,11 +8002,9 @@ public class BorInfo {
 
         /**
          * ����z303Delinq2CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Delinq2CatName(String value) {
             this.z303Delinq2CatName = value;
@@ -9092,7 +8012,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq3���Ե�ֵ��
-         * 
          */
         public byte getZ303Delinq3() {
             return z303Delinq3;
@@ -9100,7 +8019,6 @@ public class BorInfo {
 
         /**
          * ����z303Delinq3���Ե�ֵ��
-         * 
          */
         public void setZ303Delinq3(byte value) {
             this.z303Delinq3 = value;
@@ -9108,11 +8026,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303DelinqN3���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303DelinqN3() {
             return z303DelinqN3;
@@ -9120,11 +8036,9 @@ public class BorInfo {
 
         /**
          * ����z303DelinqN3���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303DelinqN3(String value) {
             this.z303DelinqN3 = value;
@@ -9132,7 +8046,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq3UpdateDate���Ե�ֵ��
-         * 
          */
         public byte getZ303Delinq3UpdateDate() {
             return z303Delinq3UpdateDate;
@@ -9140,7 +8053,6 @@ public class BorInfo {
 
         /**
          * ����z303Delinq3UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ303Delinq3UpdateDate(byte value) {
             this.z303Delinq3UpdateDate = value;
@@ -9148,11 +8060,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Delinq3CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Delinq3CatName() {
             return z303Delinq3CatName;
@@ -9160,11 +8070,9 @@ public class BorInfo {
 
         /**
          * ����z303Delinq3CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Delinq3CatName(String value) {
             this.z303Delinq3CatName = value;
@@ -9172,11 +8080,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Budget���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Budget() {
             return z303Budget;
@@ -9184,11 +8090,9 @@ public class BorInfo {
 
         /**
          * ����z303Budget���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Budget(String value) {
             this.z303Budget = value;
@@ -9196,11 +8100,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303ProfileId���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303ProfileId() {
             return z303ProfileId;
@@ -9208,11 +8110,9 @@ public class BorInfo {
 
         /**
          * ����z303ProfileId���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303ProfileId(String value) {
             this.z303ProfileId = value;
@@ -9220,11 +8120,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303IllLibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303IllLibrary() {
             return z303IllLibrary;
@@ -9232,11 +8130,9 @@ public class BorInfo {
 
         /**
          * ����z303IllLibrary���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303IllLibrary(String value) {
             this.z303IllLibrary = value;
@@ -9244,11 +8140,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303HomeLibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303HomeLibrary() {
             return z303HomeLibrary;
@@ -9256,11 +8150,9 @@ public class BorInfo {
 
         /**
          * ����z303HomeLibrary���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303HomeLibrary(String value) {
             this.z303HomeLibrary = value;
@@ -9268,11 +8160,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Field1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Field1() {
             return z303Field1;
@@ -9280,11 +8170,9 @@ public class BorInfo {
 
         /**
          * ����z303Field1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Field1(String value) {
             this.z303Field1 = value;
@@ -9292,11 +8180,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Field2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Field2() {
             return z303Field2;
@@ -9304,11 +8190,9 @@ public class BorInfo {
 
         /**
          * ����z303Field2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Field2(String value) {
             this.z303Field2 = value;
@@ -9316,11 +8200,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Field3���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Field3() {
             return z303Field3;
@@ -9328,11 +8210,9 @@ public class BorInfo {
 
         /**
          * ����z303Field3���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Field3(String value) {
             this.z303Field3 = value;
@@ -9340,11 +8220,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Note1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Note1() {
             return z303Note1;
@@ -9352,11 +8230,9 @@ public class BorInfo {
 
         /**
          * ����z303Note1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Note1(String value) {
             this.z303Note1 = value;
@@ -9364,11 +8240,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Note2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Note2() {
             return z303Note2;
@@ -9376,11 +8250,9 @@ public class BorInfo {
 
         /**
          * ����z303Note2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Note2(String value) {
             this.z303Note2 = value;
@@ -9388,11 +8260,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Salutation���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Salutation() {
             return z303Salutation;
@@ -9400,11 +8270,9 @@ public class BorInfo {
 
         /**
          * ����z303Salutation���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Salutation(String value) {
             this.z303Salutation = value;
@@ -9412,7 +8280,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303IllTotalLimit���Ե�ֵ��
-         * 
          */
         public byte getZ303IllTotalLimit() {
             return z303IllTotalLimit;
@@ -9420,7 +8287,6 @@ public class BorInfo {
 
         /**
          * ����z303IllTotalLimit���Ե�ֵ��
-         * 
          */
         public void setZ303IllTotalLimit(byte value) {
             this.z303IllTotalLimit = value;
@@ -9428,7 +8294,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303IllActiveLimit���Ե�ֵ��
-         * 
          */
         public byte getZ303IllActiveLimit() {
             return z303IllActiveLimit;
@@ -9436,7 +8301,6 @@ public class BorInfo {
 
         /**
          * ����z303IllActiveLimit���Ե�ֵ��
-         * 
          */
         public void setZ303IllActiveLimit(byte value) {
             this.z303IllActiveLimit = value;
@@ -9444,11 +8308,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303DispatchLibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303DispatchLibrary() {
             return z303DispatchLibrary;
@@ -9456,11 +8318,9 @@ public class BorInfo {
 
         /**
          * ����z303DispatchLibrary���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303DispatchLibrary(String value) {
             this.z303DispatchLibrary = value;
@@ -9468,11 +8328,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303BirthDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303BirthDate() {
             return z303BirthDate;
@@ -9480,11 +8338,9 @@ public class BorInfo {
 
         /**
          * ����z303BirthDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303BirthDate(String value) {
             this.z303BirthDate = value;
@@ -9492,11 +8348,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303ExportConsent���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303ExportConsent() {
             return z303ExportConsent;
@@ -9504,11 +8358,9 @@ public class BorInfo {
 
         /**
          * ����z303ExportConsent���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303ExportConsent(String value) {
             this.z303ExportConsent = value;
@@ -9516,7 +8368,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303ProxyIdType���Ե�ֵ��
-         * 
          */
         public byte getZ303ProxyIdType() {
             return z303ProxyIdType;
@@ -9524,7 +8375,6 @@ public class BorInfo {
 
         /**
          * ����z303ProxyIdType���Ե�ֵ��
-         * 
          */
         public void setZ303ProxyIdType(byte value) {
             this.z303ProxyIdType = value;
@@ -9532,11 +8382,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303SendAllLetters���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303SendAllLetters() {
             return z303SendAllLetters;
@@ -9544,11 +8392,9 @@ public class BorInfo {
 
         /**
          * ����z303SendAllLetters���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303SendAllLetters(String value) {
             this.z303SendAllLetters = value;
@@ -9556,11 +8402,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303PlainHtml���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303PlainHtml() {
             return z303PlainHtml;
@@ -9568,11 +8412,9 @@ public class BorInfo {
 
         /**
          * ����z303PlainHtml���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303PlainHtml(String value) {
             this.z303PlainHtml = value;
@@ -9580,11 +8422,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303WantSms���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303WantSms() {
             return z303WantSms;
@@ -9592,11 +8432,9 @@ public class BorInfo {
 
         /**
          * ����z303WantSms���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303WantSms(String value) {
             this.z303WantSms = value;
@@ -9604,11 +8442,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303PlifModification���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303PlifModification() {
             return z303PlifModification;
@@ -9616,11 +8452,9 @@ public class BorInfo {
 
         /**
          * ����z303PlifModification���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303PlifModification(String value) {
             this.z303PlifModification = value;
@@ -9628,7 +8462,6 @@ public class BorInfo {
 
         /**
          * ��ȡz303TitleReqLimit���Ե�ֵ��
-         * 
          */
         public byte getZ303TitleReqLimit() {
             return z303TitleReqLimit;
@@ -9636,7 +8469,6 @@ public class BorInfo {
 
         /**
          * ����z303TitleReqLimit���Ե�ֵ��
-         * 
          */
         public void setZ303TitleReqLimit(byte value) {
             this.z303TitleReqLimit = value;
@@ -9644,11 +8476,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Gender���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Gender() {
             return z303Gender;
@@ -9656,11 +8486,9 @@ public class BorInfo {
 
         /**
          * ����z303Gender���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Gender(String value) {
             this.z303Gender = value;
@@ -9668,11 +8496,9 @@ public class BorInfo {
 
         /**
          * ��ȡz303Birthplace���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ303Birthplace() {
             return z303Birthplace;
@@ -9680,11 +8506,9 @@ public class BorInfo {
 
         /**
          * ����z303Birthplace���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ303Birthplace(String value) {
             this.z303Birthplace = value;
@@ -9695,9 +8519,9 @@ public class BorInfo {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -9724,27 +8548,25 @@ public class BorInfo {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "z304Id",
-        "z304Sequence",
-        "z304Address0",
-        "z304Address1",
-        "z304Zip",
-        "z304EmailAddress",
-        "z304Telephone",
-        "z304DateFrom",
-        "z304DateTo",
-        "z304AddressType",
-        "z304Telephone2",
-        "z304Telephone3",
-        "z304Telephone4",
-        "z304SmsNumber",
-        "z304UpdateDate",
-        "z304CatName"
+            "z304Id",
+            "z304Sequence",
+            "z304Address0",
+            "z304Address1",
+            "z304Zip",
+            "z304EmailAddress",
+            "z304Telephone",
+            "z304DateFrom",
+            "z304DateTo",
+            "z304AddressType",
+            "z304Telephone2",
+            "z304Telephone3",
+            "z304Telephone4",
+            "z304SmsNumber",
+            "z304UpdateDate",
+            "z304CatName"
     })
     public static class Z304 {
 
@@ -9783,11 +8605,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Id���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Id() {
             return z304Id;
@@ -9795,11 +8615,9 @@ public class BorInfo {
 
         /**
          * ����z304Id���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Id(String value) {
             this.z304Id = value;
@@ -9807,7 +8625,6 @@ public class BorInfo {
 
         /**
          * ��ȡz304Sequence���Ե�ֵ��
-         * 
          */
         public byte getZ304Sequence() {
             return z304Sequence;
@@ -9815,7 +8632,6 @@ public class BorInfo {
 
         /**
          * ����z304Sequence���Ե�ֵ��
-         * 
          */
         public void setZ304Sequence(byte value) {
             this.z304Sequence = value;
@@ -9823,11 +8639,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Address0���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Address0() {
             return z304Address0;
@@ -9835,11 +8649,9 @@ public class BorInfo {
 
         /**
          * ����z304Address0���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Address0(String value) {
             this.z304Address0 = value;
@@ -9847,11 +8659,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Address1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Address1() {
             return z304Address1;
@@ -9859,11 +8669,9 @@ public class BorInfo {
 
         /**
          * ����z304Address1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Address1(String value) {
             this.z304Address1 = value;
@@ -9871,11 +8679,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Zip���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Zip() {
             return z304Zip;
@@ -9883,11 +8689,9 @@ public class BorInfo {
 
         /**
          * ����z304Zip���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Zip(String value) {
             this.z304Zip = value;
@@ -9895,11 +8699,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304EmailAddress���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304EmailAddress() {
             return z304EmailAddress;
@@ -9907,11 +8709,9 @@ public class BorInfo {
 
         /**
          * ����z304EmailAddress���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304EmailAddress(String value) {
             this.z304EmailAddress = value;
@@ -9919,11 +8719,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Telephone���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Telephone() {
             return z304Telephone;
@@ -9931,11 +8729,9 @@ public class BorInfo {
 
         /**
          * ����z304Telephone���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Telephone(String value) {
             this.z304Telephone = value;
@@ -9943,7 +8739,6 @@ public class BorInfo {
 
         /**
          * ��ȡz304DateFrom���Ե�ֵ��
-         * 
          */
         public byte getZ304DateFrom() {
             return z304DateFrom;
@@ -9951,7 +8746,6 @@ public class BorInfo {
 
         /**
          * ����z304DateFrom���Ե�ֵ��
-         * 
          */
         public void setZ304DateFrom(byte value) {
             this.z304DateFrom = value;
@@ -9959,7 +8753,6 @@ public class BorInfo {
 
         /**
          * ��ȡz304DateTo���Ե�ֵ��
-         * 
          */
         public byte getZ304DateTo() {
             return z304DateTo;
@@ -9967,7 +8760,6 @@ public class BorInfo {
 
         /**
          * ����z304DateTo���Ե�ֵ��
-         * 
          */
         public void setZ304DateTo(byte value) {
             this.z304DateTo = value;
@@ -9975,7 +8767,6 @@ public class BorInfo {
 
         /**
          * ��ȡz304AddressType���Ե�ֵ��
-         * 
          */
         public byte getZ304AddressType() {
             return z304AddressType;
@@ -9983,7 +8774,6 @@ public class BorInfo {
 
         /**
          * ����z304AddressType���Ե�ֵ��
-         * 
          */
         public void setZ304AddressType(byte value) {
             this.z304AddressType = value;
@@ -9991,11 +8781,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Telephone2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Telephone2() {
             return z304Telephone2;
@@ -10003,11 +8791,9 @@ public class BorInfo {
 
         /**
          * ����z304Telephone2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Telephone2(String value) {
             this.z304Telephone2 = value;
@@ -10015,11 +8801,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Telephone3���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Telephone3() {
             return z304Telephone3;
@@ -10027,11 +8811,9 @@ public class BorInfo {
 
         /**
          * ����z304Telephone3���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Telephone3(String value) {
             this.z304Telephone3 = value;
@@ -10039,11 +8821,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304Telephone4���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304Telephone4() {
             return z304Telephone4;
@@ -10051,11 +8831,9 @@ public class BorInfo {
 
         /**
          * ����z304Telephone4���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304Telephone4(String value) {
             this.z304Telephone4 = value;
@@ -10063,11 +8841,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304SmsNumber���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304SmsNumber() {
             return z304SmsNumber;
@@ -10075,11 +8851,9 @@ public class BorInfo {
 
         /**
          * ����z304SmsNumber���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304SmsNumber(String value) {
             this.z304SmsNumber = value;
@@ -10087,7 +8861,6 @@ public class BorInfo {
 
         /**
          * ��ȡz304UpdateDate���Ե�ֵ��
-         * 
          */
         public int getZ304UpdateDate() {
             return z304UpdateDate;
@@ -10095,7 +8868,6 @@ public class BorInfo {
 
         /**
          * ����z304UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ304UpdateDate(int value) {
             this.z304UpdateDate = value;
@@ -10103,11 +8875,9 @@ public class BorInfo {
 
         /**
          * ��ȡz304CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ304CatName() {
             return z304CatName;
@@ -10115,11 +8885,9 @@ public class BorInfo {
 
         /**
          * ����z304CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ304CatName(String value) {
             this.z304CatName = value;
@@ -10130,9 +8898,9 @@ public class BorInfo {
 
     /**
      * <p>anonymous complex type�� Java �ࡣ
-     * 
+     *
      * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -10190,58 +8958,56 @@ public class BorInfo {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "z305Id",
-        "z305SubLibrary",
-        "z305OpenDate",
-        "z305UpdateDate",
-        "z305BorType",
-        "z305BorStatus",
-        "z305RegistrationDate",
-        "z305ExpiryDate",
-        "z305Note",
-        "z305LoanPermission",
-        "z305PhotoPermission",
-        "z305OverPermission",
-        "z305MultiHold",
-        "z305LoanCheck",
-        "z305HoldPermission",
-        "z305RenewPermission",
-        "z305RrPermission",
-        "z305IgnoreLateReturn",
-        "z305LastActivityDate",
-        "z305PhotoCharge",
-        "z305NoLoan",
-        "z305NoHold",
-        "z305NoPhoto",
-        "z305NoCash",
-        "z305CashLimit",
-        "z305CreditDebit",
-        "z305Sum",
-        "z305Delinq1",
-        "z305DelinqN1",
-        "z305Delinq1UpdateDate",
-        "z305Delinq1CatName",
-        "z305Delinq2",
-        "z305DelinqN2",
-        "z305Delinq2UpdateDate",
-        "z305Delinq2CatName",
-        "z305Delinq3",
-        "z305DelinqN3",
-        "z305Delinq3UpdateDate",
-        "z305Delinq3CatName",
-        "z305Field1",
-        "z305Field2",
-        "z305Field3",
-        "z305HoldOnShelf",
-        "z305EndBlockDate",
-        "z305BookingPermission",
-        "z305BookingIgnoreHours",
-        "z305RushCatRequest"
+            "z305Id",
+            "z305SubLibrary",
+            "z305OpenDate",
+            "z305UpdateDate",
+            "z305BorType",
+            "z305BorStatus",
+            "z305RegistrationDate",
+            "z305ExpiryDate",
+            "z305Note",
+            "z305LoanPermission",
+            "z305PhotoPermission",
+            "z305OverPermission",
+            "z305MultiHold",
+            "z305LoanCheck",
+            "z305HoldPermission",
+            "z305RenewPermission",
+            "z305RrPermission",
+            "z305IgnoreLateReturn",
+            "z305LastActivityDate",
+            "z305PhotoCharge",
+            "z305NoLoan",
+            "z305NoHold",
+            "z305NoPhoto",
+            "z305NoCash",
+            "z305CashLimit",
+            "z305CreditDebit",
+            "z305Sum",
+            "z305Delinq1",
+            "z305DelinqN1",
+            "z305Delinq1UpdateDate",
+            "z305Delinq1CatName",
+            "z305Delinq2",
+            "z305DelinqN2",
+            "z305Delinq2UpdateDate",
+            "z305Delinq2CatName",
+            "z305Delinq3",
+            "z305DelinqN3",
+            "z305Delinq3UpdateDate",
+            "z305Delinq3CatName",
+            "z305Field1",
+            "z305Field2",
+            "z305Field3",
+            "z305HoldOnShelf",
+            "z305EndBlockDate",
+            "z305BookingPermission",
+            "z305BookingIgnoreHours",
+            "z305RushCatRequest"
     })
     public static class Z305 {
 
@@ -10342,11 +9108,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Id���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Id() {
             return z305Id;
@@ -10354,11 +9118,9 @@ public class BorInfo {
 
         /**
          * ����z305Id���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Id(String value) {
             this.z305Id = value;
@@ -10366,11 +9128,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305SubLibrary���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305SubLibrary() {
             return z305SubLibrary;
@@ -10378,11 +9138,9 @@ public class BorInfo {
 
         /**
          * ����z305SubLibrary���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305SubLibrary(String value) {
             this.z305SubLibrary = value;
@@ -10390,11 +9148,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305OpenDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305OpenDate() {
             return z305OpenDate;
@@ -10402,11 +9158,9 @@ public class BorInfo {
 
         /**
          * ����z305OpenDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305OpenDate(String value) {
             this.z305OpenDate = value;
@@ -10414,11 +9168,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305UpdateDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305UpdateDate() {
             return z305UpdateDate;
@@ -10426,11 +9178,9 @@ public class BorInfo {
 
         /**
          * ����z305UpdateDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305UpdateDate(String value) {
             this.z305UpdateDate = value;
@@ -10438,11 +9188,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305BorType���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305BorType() {
             return z305BorType;
@@ -10450,11 +9198,9 @@ public class BorInfo {
 
         /**
          * ����z305BorType���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305BorType(String value) {
             this.z305BorType = value;
@@ -10462,11 +9208,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305BorStatus���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305BorStatus() {
             return z305BorStatus;
@@ -10474,11 +9218,9 @@ public class BorInfo {
 
         /**
          * ����z305BorStatus���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305BorStatus(String value) {
             this.z305BorStatus = value;
@@ -10486,7 +9228,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305RegistrationDate���Ե�ֵ��
-         * 
          */
         public byte getZ305RegistrationDate() {
             return z305RegistrationDate;
@@ -10494,7 +9235,6 @@ public class BorInfo {
 
         /**
          * ����z305RegistrationDate���Ե�ֵ��
-         * 
          */
         public void setZ305RegistrationDate(byte value) {
             this.z305RegistrationDate = value;
@@ -10502,11 +9242,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305ExpiryDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305ExpiryDate() {
             return z305ExpiryDate;
@@ -10514,11 +9252,9 @@ public class BorInfo {
 
         /**
          * ����z305ExpiryDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305ExpiryDate(String value) {
             this.z305ExpiryDate = value;
@@ -10526,11 +9262,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Note���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Note() {
             return z305Note;
@@ -10538,11 +9272,9 @@ public class BorInfo {
 
         /**
          * ����z305Note���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Note(String value) {
             this.z305Note = value;
@@ -10550,11 +9282,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305LoanPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305LoanPermission() {
             return z305LoanPermission;
@@ -10562,11 +9292,9 @@ public class BorInfo {
 
         /**
          * ����z305LoanPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305LoanPermission(String value) {
             this.z305LoanPermission = value;
@@ -10574,11 +9302,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305PhotoPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305PhotoPermission() {
             return z305PhotoPermission;
@@ -10586,11 +9312,9 @@ public class BorInfo {
 
         /**
          * ����z305PhotoPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305PhotoPermission(String value) {
             this.z305PhotoPermission = value;
@@ -10598,11 +9322,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305OverPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305OverPermission() {
             return z305OverPermission;
@@ -10610,11 +9332,9 @@ public class BorInfo {
 
         /**
          * ����z305OverPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305OverPermission(String value) {
             this.z305OverPermission = value;
@@ -10622,11 +9342,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305MultiHold���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305MultiHold() {
             return z305MultiHold;
@@ -10634,11 +9352,9 @@ public class BorInfo {
 
         /**
          * ����z305MultiHold���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305MultiHold(String value) {
             this.z305MultiHold = value;
@@ -10646,11 +9362,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305LoanCheck���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305LoanCheck() {
             return z305LoanCheck;
@@ -10658,11 +9372,9 @@ public class BorInfo {
 
         /**
          * ����z305LoanCheck���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305LoanCheck(String value) {
             this.z305LoanCheck = value;
@@ -10670,11 +9382,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305HoldPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305HoldPermission() {
             return z305HoldPermission;
@@ -10682,11 +9392,9 @@ public class BorInfo {
 
         /**
          * ����z305HoldPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305HoldPermission(String value) {
             this.z305HoldPermission = value;
@@ -10694,11 +9402,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305RenewPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305RenewPermission() {
             return z305RenewPermission;
@@ -10706,11 +9412,9 @@ public class BorInfo {
 
         /**
          * ����z305RenewPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305RenewPermission(String value) {
             this.z305RenewPermission = value;
@@ -10718,11 +9422,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305RrPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305RrPermission() {
             return z305RrPermission;
@@ -10730,11 +9432,9 @@ public class BorInfo {
 
         /**
          * ����z305RrPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305RrPermission(String value) {
             this.z305RrPermission = value;
@@ -10742,11 +9442,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305IgnoreLateReturn���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305IgnoreLateReturn() {
             return z305IgnoreLateReturn;
@@ -10754,11 +9452,9 @@ public class BorInfo {
 
         /**
          * ����z305IgnoreLateReturn���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305IgnoreLateReturn(String value) {
             this.z305IgnoreLateReturn = value;
@@ -10766,11 +9462,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305LastActivityDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305LastActivityDate() {
             return z305LastActivityDate;
@@ -10778,11 +9472,9 @@ public class BorInfo {
 
         /**
          * ����z305LastActivityDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305LastActivityDate(String value) {
             this.z305LastActivityDate = value;
@@ -10790,11 +9482,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305PhotoCharge���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305PhotoCharge() {
             return z305PhotoCharge;
@@ -10802,11 +9492,9 @@ public class BorInfo {
 
         /**
          * ����z305PhotoCharge���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305PhotoCharge(String value) {
             this.z305PhotoCharge = value;
@@ -10814,7 +9502,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305NoLoan���Ե�ֵ��
-         * 
          */
         public byte getZ305NoLoan() {
             return z305NoLoan;
@@ -10822,7 +9509,6 @@ public class BorInfo {
 
         /**
          * ����z305NoLoan���Ե�ֵ��
-         * 
          */
         public void setZ305NoLoan(byte value) {
             this.z305NoLoan = value;
@@ -10830,7 +9516,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305NoHold���Ե�ֵ��
-         * 
          */
         public byte getZ305NoHold() {
             return z305NoHold;
@@ -10838,7 +9523,6 @@ public class BorInfo {
 
         /**
          * ����z305NoHold���Ե�ֵ��
-         * 
          */
         public void setZ305NoHold(byte value) {
             this.z305NoHold = value;
@@ -10846,7 +9530,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305NoPhoto���Ե�ֵ��
-         * 
          */
         public byte getZ305NoPhoto() {
             return z305NoPhoto;
@@ -10854,7 +9537,6 @@ public class BorInfo {
 
         /**
          * ����z305NoPhoto���Ե�ֵ��
-         * 
          */
         public void setZ305NoPhoto(byte value) {
             this.z305NoPhoto = value;
@@ -10862,7 +9544,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305NoCash���Ե�ֵ��
-         * 
          */
         public byte getZ305NoCash() {
             return z305NoCash;
@@ -10870,7 +9551,6 @@ public class BorInfo {
 
         /**
          * ����z305NoCash���Ե�ֵ��
-         * 
          */
         public void setZ305NoCash(byte value) {
             this.z305NoCash = value;
@@ -10878,7 +9558,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305CashLimit���Ե�ֵ��
-         * 
          */
         public float getZ305CashLimit() {
             return z305CashLimit;
@@ -10886,7 +9565,6 @@ public class BorInfo {
 
         /**
          * ����z305CashLimit���Ե�ֵ��
-         * 
          */
         public void setZ305CashLimit(float value) {
             this.z305CashLimit = value;
@@ -10894,11 +9572,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305CreditDebit���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305CreditDebit() {
             return z305CreditDebit;
@@ -10906,11 +9582,9 @@ public class BorInfo {
 
         /**
          * ����z305CreditDebit���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305CreditDebit(String value) {
             this.z305CreditDebit = value;
@@ -10918,7 +9592,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Sum���Ե�ֵ��
-         * 
          */
         public float getZ305Sum() {
             return z305Sum;
@@ -10926,7 +9599,6 @@ public class BorInfo {
 
         /**
          * ����z305Sum���Ե�ֵ��
-         * 
          */
         public void setZ305Sum(float value) {
             this.z305Sum = value;
@@ -10934,7 +9606,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq1���Ե�ֵ��
-         * 
          */
         public byte getZ305Delinq1() {
             return z305Delinq1;
@@ -10942,7 +9613,6 @@ public class BorInfo {
 
         /**
          * ����z305Delinq1���Ե�ֵ��
-         * 
          */
         public void setZ305Delinq1(byte value) {
             this.z305Delinq1 = value;
@@ -10950,11 +9620,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305DelinqN1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305DelinqN1() {
             return z305DelinqN1;
@@ -10962,11 +9630,9 @@ public class BorInfo {
 
         /**
          * ����z305DelinqN1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305DelinqN1(String value) {
             this.z305DelinqN1 = value;
@@ -10974,7 +9640,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq1UpdateDate���Ե�ֵ��
-         * 
          */
         public byte getZ305Delinq1UpdateDate() {
             return z305Delinq1UpdateDate;
@@ -10982,7 +9647,6 @@ public class BorInfo {
 
         /**
          * ����z305Delinq1UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ305Delinq1UpdateDate(byte value) {
             this.z305Delinq1UpdateDate = value;
@@ -10990,11 +9654,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq1CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Delinq1CatName() {
             return z305Delinq1CatName;
@@ -11002,11 +9664,9 @@ public class BorInfo {
 
         /**
          * ����z305Delinq1CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Delinq1CatName(String value) {
             this.z305Delinq1CatName = value;
@@ -11014,7 +9674,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq2���Ե�ֵ��
-         * 
          */
         public byte getZ305Delinq2() {
             return z305Delinq2;
@@ -11022,7 +9681,6 @@ public class BorInfo {
 
         /**
          * ����z305Delinq2���Ե�ֵ��
-         * 
          */
         public void setZ305Delinq2(byte value) {
             this.z305Delinq2 = value;
@@ -11030,11 +9688,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305DelinqN2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305DelinqN2() {
             return z305DelinqN2;
@@ -11042,11 +9698,9 @@ public class BorInfo {
 
         /**
          * ����z305DelinqN2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305DelinqN2(String value) {
             this.z305DelinqN2 = value;
@@ -11054,7 +9708,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq2UpdateDate���Ե�ֵ��
-         * 
          */
         public byte getZ305Delinq2UpdateDate() {
             return z305Delinq2UpdateDate;
@@ -11062,7 +9715,6 @@ public class BorInfo {
 
         /**
          * ����z305Delinq2UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ305Delinq2UpdateDate(byte value) {
             this.z305Delinq2UpdateDate = value;
@@ -11070,11 +9722,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq2CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Delinq2CatName() {
             return z305Delinq2CatName;
@@ -11082,11 +9732,9 @@ public class BorInfo {
 
         /**
          * ����z305Delinq2CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Delinq2CatName(String value) {
             this.z305Delinq2CatName = value;
@@ -11094,7 +9742,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq3���Ե�ֵ��
-         * 
          */
         public byte getZ305Delinq3() {
             return z305Delinq3;
@@ -11102,7 +9749,6 @@ public class BorInfo {
 
         /**
          * ����z305Delinq3���Ե�ֵ��
-         * 
          */
         public void setZ305Delinq3(byte value) {
             this.z305Delinq3 = value;
@@ -11110,11 +9756,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305DelinqN3���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305DelinqN3() {
             return z305DelinqN3;
@@ -11122,11 +9766,9 @@ public class BorInfo {
 
         /**
          * ����z305DelinqN3���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305DelinqN3(String value) {
             this.z305DelinqN3 = value;
@@ -11134,7 +9776,6 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq3UpdateDate���Ե�ֵ��
-         * 
          */
         public byte getZ305Delinq3UpdateDate() {
             return z305Delinq3UpdateDate;
@@ -11142,7 +9783,6 @@ public class BorInfo {
 
         /**
          * ����z305Delinq3UpdateDate���Ե�ֵ��
-         * 
          */
         public void setZ305Delinq3UpdateDate(byte value) {
             this.z305Delinq3UpdateDate = value;
@@ -11150,11 +9790,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Delinq3CatName���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Delinq3CatName() {
             return z305Delinq3CatName;
@@ -11162,11 +9800,9 @@ public class BorInfo {
 
         /**
          * ����z305Delinq3CatName���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Delinq3CatName(String value) {
             this.z305Delinq3CatName = value;
@@ -11174,11 +9810,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Field1���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Field1() {
             return z305Field1;
@@ -11186,11 +9820,9 @@ public class BorInfo {
 
         /**
          * ����z305Field1���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Field1(String value) {
             this.z305Field1 = value;
@@ -11198,11 +9830,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Field2���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Field2() {
             return z305Field2;
@@ -11210,11 +9840,9 @@ public class BorInfo {
 
         /**
          * ����z305Field2���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Field2(String value) {
             this.z305Field2 = value;
@@ -11222,11 +9850,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305Field3���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305Field3() {
             return z305Field3;
@@ -11234,11 +9860,9 @@ public class BorInfo {
 
         /**
          * ����z305Field3���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305Field3(String value) {
             this.z305Field3 = value;
@@ -11246,11 +9870,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305HoldOnShelf���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305HoldOnShelf() {
             return z305HoldOnShelf;
@@ -11258,11 +9880,9 @@ public class BorInfo {
 
         /**
          * ����z305HoldOnShelf���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305HoldOnShelf(String value) {
             this.z305HoldOnShelf = value;
@@ -11270,11 +9890,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305EndBlockDate���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305EndBlockDate() {
             return z305EndBlockDate;
@@ -11282,11 +9900,9 @@ public class BorInfo {
 
         /**
          * ����z305EndBlockDate���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305EndBlockDate(String value) {
             this.z305EndBlockDate = value;
@@ -11294,11 +9910,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305BookingPermission���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305BookingPermission() {
             return z305BookingPermission;
@@ -11306,11 +9920,9 @@ public class BorInfo {
 
         /**
          * ����z305BookingPermission���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305BookingPermission(String value) {
             this.z305BookingPermission = value;
@@ -11318,11 +9930,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305BookingIgnoreHours���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305BookingIgnoreHours() {
             return z305BookingIgnoreHours;
@@ -11330,11 +9940,9 @@ public class BorInfo {
 
         /**
          * ����z305BookingIgnoreHours���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305BookingIgnoreHours(String value) {
             this.z305BookingIgnoreHours = value;
@@ -11342,11 +9950,9 @@ public class BorInfo {
 
         /**
          * ��ȡz305RushCatRequest���Ե�ֵ��
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is
+         * {@link String }
          */
         public String getZ305RushCatRequest() {
             return z305RushCatRequest;
@@ -11354,11 +9960,9 @@ public class BorInfo {
 
         /**
          * ����z305RushCatRequest���Ե�ֵ��
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is
+         *              {@link String }
          */
         public void setZ305RushCatRequest(String value) {
             this.z305RushCatRequest = value;

@@ -6,34 +6,54 @@ import java.util.Date;
 public class AppVsersion implements Serializable {
     private Integer id;
 
-    /** 产品名称 **/
+    /**
+     * 产品名称
+     **/
     private String appname;
 
-    /** 平台 **/
+    /**
+     * 平台
+     **/
     private String platform;
 
-    /** 版本 **/
+    /**
+     * 版本
+     **/
     private String version;
 
-    /** 版本状态（0 无效，1有效） **/
+    /**
+     * 版本状态（0 无效，1有效）
+     **/
     private String status;
 
-    /** 更新描述 **/
+    /**
+     * 更新描述
+     **/
     private String description;
 
-    /** 下载地址 **/
+    /**
+     * 下载地址
+     **/
     private String urlpath;
 
-    /** 创建时间 **/
+    /**
+     * 创建时间
+     **/
     private Date crateTime;
 
-    /** 更新时间 **/
+    /**
+     * 更新时间
+     **/
     private Date updateTime;
 
-    /** 创建者 **/
+    /**
+     * 创建者
+     **/
     private String createUser;
 
-    /** 更新者 **/
+    /**
+     * 更新者
+     **/
     private String updateUser;
 
     private String remark;

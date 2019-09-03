@@ -6,11 +6,9 @@ import lombok.Data;
 public class WsVoiceRequest {
 
 
-    private  String question;
+    private String question;
 
     private String idcard;
-
-
 
 
 }
