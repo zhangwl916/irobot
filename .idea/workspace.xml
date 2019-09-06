@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6945910-9d82-43ec-adec-65075f6ca65a" name="Default" comment="robot">
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/KillThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/irobot-admin/src/test/java/com/irobot/admin/IrobotAdminApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/BorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/BorInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/ItemData.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/ItemData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/Present.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/Present.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/WsBaseHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/WsBaseHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/WsVoiceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/WsVoiceRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/ParseXmlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/ParseXmlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/WriteXmlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/WriteXmlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/utils/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/utils/HttpClientUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobot/mbg/CommentGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobot/mbg/CommentGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobot/mbg/dao/ResourceDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobot/mbg/dao/ResourceDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobot/mbg/dao/UserDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobot/mbg/dao/UserDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/bean/AppVsersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/bean/AppVsersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/bean/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/bean/SysLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/dao/AppVsersionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/dao/AppVsersionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/dao/SysLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/account/dao/SysLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/bean/MapPoiDetailsDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/bean/MapPoiDetailsDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/bean/OpacCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/bean/OpacCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/dao/MapPoiDetailsDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/dao/MapPoiDetailsDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/dao/OpacCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/equipment/dao/OpacCodeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/shop/bean/ResourceDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/shop/bean/ResourceDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/shop/dao/ResourceDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/java/com/irobotop/shop/dao/ResourceDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/AppVsersionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/AppVsersionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/MapPoiDetailsDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/MapPoiDetailsDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/OpacCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/OpacCodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/ResourceDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/ResourceDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/SysLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/SysLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/UserDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-mbg/src/main/resources/mapper/UserDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myemp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myemp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/irobot-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/irobot-admin/src/test/java/com/irobot/admin/IrobotAdminApplicationTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,21 +46,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>properties</find>
-      <find>macr</find>
-      <find>logger</find>
-      <find>606</find>
-      <find>list1</find>
-      <find>docNumber</find>
-      <find>list</find>
-      <find>wsOpacSingleResponse</find>
-      <find>get</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,19 +61,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1932" />
-    <option name="height" value="1045" />
-  </component>
   <component name="ProjectId" id="1PwaZtX2hZI2EJklK19hJpPTO48" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -117,6 +71,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../irobotBackProj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -124,9 +81,15 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3804878" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="GrepConsole" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.irobot.admin" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.irobot.admin.bean" />
       <recent name="com.irobot.admin.utils" />
@@ -152,21 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserInfo">
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irobot.mbg.Generator" />
-      <module name="irobot-mbg" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irobot.mbg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IrobotAdminApplicationTest.hello">
     <configuration name="Opac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.irobot.admin.controller.Opac" />
       <module name="irobot-admin" />
@@ -186,6 +135,20 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.irobot.admin.controller.ParseXmlDemo" />
       <module name="irobot-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.irobot.admin.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.irobot.admin.controller.TestThread" />
+      <module name="irobot-admin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.irobot.admin.controller.*" />
@@ -230,6 +193,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IrobotAdminApplicationTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="irobot-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.irobot.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.irobot.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.irobot.admin.IrobotAdminApplicationTest" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -259,16 +240,18 @@
       <item itemvalue="Application.ParseXmlDemo" />
       <item itemvalue="Application.Opac" />
       <item itemvalue="Application.UserInfo" />
-      <item itemvalue="Application.Generator" />
       <item itemvalue="Application.test" />
       <item itemvalue="Spring Boot.IrobotAdminApplication" />
+      <item itemvalue="Application.TestThread" />
+      <item itemvalue="JUnit.IrobotAdminApplicationTest.hello" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserInfo" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Generator" />
+        <item itemvalue="JUnit.IrobotAdminApplicationTest.hello" />
+        <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.Opac" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.UserInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +294,11 @@
       <workItem from="1566963517551" duration="5067000" />
       <workItem from="1567058804518" duration="1949000" />
       <workItem from="1567482656584" duration="364000" />
-      <workItem from="1567483043824" duration="327000" />
+      <workItem from="1567483043824" duration="3722000" />
+      <workItem from="1567489143258" duration="112000" />
+      <workItem from="1567489312844" duration="80000" />
+      <workItem from="1567562626433" duration="6750000" />
+      <workItem from="1567734930905" duration="10669000" />
     </task>
     <task id="LOCAL-00001" summary="robot">
       <created>1563874805118</created>
@@ -376,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564741476872</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="robot">
+      <created>1567483441437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567483441437</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,9 +391,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="robot123" />
-    <MESSAGE value="robot" />
     <MESSAGE value="问答" />
-    <option name="LAST_COMMIT_MESSAGE" value="问答" />
+    <MESSAGE value="robot" />
+    <option name="LAST_COMMIT_MESSAGE" value="robot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
