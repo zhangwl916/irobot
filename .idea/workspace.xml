@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6945910-9d82-43ec-adec-65075f6ca65a" name="Default" comment="robot">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6945910-9d82-43ec-adec-65075f6ca65a" name="Default" comment="修改项目名" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,6 +288,7 @@
       <workItem from="1567562626433" duration="6750000" />
       <workItem from="1567734930905" duration="10669000" />
       <workItem from="1573614565795" duration="567000" />
+      <workItem from="1573615161349" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="robot">
       <created>1563874805118</created>
@@ -363,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567483441437</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改项目名">
+      <created>1573615317306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573615317306</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +390,8 @@
     <MESSAGE value="robot123" />
     <MESSAGE value="问答" />
     <MESSAGE value="robot" />
-    <option name="LAST_COMMIT_MESSAGE" value="robot" />
+    <MESSAGE value="修改项目名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改项目名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
