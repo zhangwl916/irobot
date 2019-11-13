@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.irobotop.equipment.dao.HolidayYearMapper">
+  <resultMap id="BaseResultMap" type="com.irobotop.equipment.bean.HolidayYear">
+    <result column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="NOW_DATE" jdbcType="VARCHAR" property="nowDate" />
+    <result column="STR1" jdbcType="VARCHAR" property="str1" />
+    <result column="STR2" jdbcType="VARCHAR" property="str2" />
+    <result column="BEGIN_TIME" jdbcType="VARCHAR" property="beginTime" />
+    <result column="END_TIME" jdbcType="VARCHAR" property="endTime" />
+    <result column="TIP" jdbcType="VARCHAR" property="tip" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    ID, NOW_DATE, STR1, STR2, BEGIN_TIME, END_TIME, TIP
+  </sql>
+  <select id="selectByExample" parameterType="com.irobotop.equipment.bean.HolidayYearExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from HOLIDAY_YEAR
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.irobotop.equipment.bean.HolidayYearExample">
+    delete from HOLIDAY_YEAR
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.irobotop.equipment.bean.HolidayYear">
+    insert into HOLIDAY_YEAR (ID, NOW_DATE, STR1, 
+      STR2, BEGIN_TIME, END_TIME, 
+      TIP)
+    values (#{id,jdbcType=VARCHAR}, #{nowDate,jdbcType=VARCHAR}, #{str1,jdbcType=VARCHAR}, 
+      #{str2,jdbcType=VARCHAR}, #{beginTime,jdbcType=VARCHAR}, #{endTime,jdbcType=VARCHAR}, 
+      #{tip,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.irobotop.equipment.bean.HolidayYear">
+    insert into HOLIDAY_YEAR
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="nowDate != null">
+        NOW_DATE,
+      </if>
+      <if test="str1 != null">
+        STR1,
+      </if>
+      <if test="str2 != null">
+        STR2,
+      </if>
+      <if test="beginTime != null">
+        BEGIN_TIME,
+      </if>
+      <if test="endTime != null">
+        END_TIME,
+      </if>
+      <if test="tip != null">
+        TIP,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="nowDate != null">
+        #{nowDate,jdbcType=VARCHAR},
+      </if>
+      <if test="str1 != null">
+        #{str1,jdbcType=VARCHAR},
+      </if>
+      <if test="str2 != null">
+        #{str2,jdbcType=VARCHAR},
+      </if>
+      <if test="beginTime != null">
+        #{beginTime,jdbcType=VARCHAR},
+      </if>
+      <if test="endTime != null">
+        #{endTime,jdbcType=VARCHAR},
+      </if>
+      <if test="tip != null">
+        #{tip,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.irobotop.equipment.bean.HolidayYearExample" resultType="java.lang.Integer">
+    select count(*) from HOLIDAY_YEAR
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update HOLIDAY_YEAR
+    <set>
+      <if test="record.id != null">
+        ID = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nowDate != null">
+        NOW_DATE = #{record.nowDate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.str1 != null">
+        STR1 = #{record.str1,jdbcType=VARCHAR},
+      </if>
+      <if test="record.str2 != null">
+        STR2 = #{record.str2,jdbcType=VARCHAR},
+      </if>
+      <if test="record.beginTime != null">
+        BEGIN_TIME = #{record.beginTime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.endTime != null">
+        END_TIME = #{record.endTime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.tip != null">
+        TIP = #{record.tip,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update HOLIDAY_YEAR
+    set ID = #{record.id,jdbcType=VARCHAR},
+      NOW_DATE = #{record.nowDate,jdbcType=VARCHAR},
+      STR1 = #{record.str1,jdbcType=VARCHAR},
+      STR2 = #{record.str2,jdbcType=VARCHAR},
+      BEGIN_TIME = #{record.beginTime,jdbcType=VARCHAR},
+      END_TIME = #{record.endTime,jdbcType=VARCHAR},
+      TIP = #{record.tip,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>
