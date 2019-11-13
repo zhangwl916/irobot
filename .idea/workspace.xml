@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6945910-9d82-43ec-adec-65075f6ca65a" name="Default" comment="robot">
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/bean/KillThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/main/java/com/irobot/admin/controller/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/irobot-admin/src/test/java/com/irobot/admin/IrobotAdminApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/irobot-admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/irobot-admin/src/test/java/com/irobot/admin/IrobotAdminApplicationTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +66,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../irobotBackProj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3804878" />
-    <property name="settings.editor.selected.configurable" value="GrepConsole" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -115,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IrobotAdminApplicationTest.hello">
+  <component name="RunManager" selected="Spring Boot.IrobotAdminApplication">
     <configuration name="Opac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.irobot.admin.controller.Opac" />
       <module name="irobot-admin" />
@@ -131,7 +123,7 @@
       </method>
     </configuration>
     <configuration name="ParseXmlDemo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_92\jre" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_131" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.irobot.admin.controller.ParseXmlDemo" />
       <module name="irobot-admin" />
@@ -241,9 +233,9 @@
       <item itemvalue="Application.Opac" />
       <item itemvalue="Application.UserInfo" />
       <item itemvalue="Application.test" />
-      <item itemvalue="Spring Boot.IrobotAdminApplication" />
       <item itemvalue="Application.TestThread" />
       <item itemvalue="JUnit.IrobotAdminApplicationTest.hello" />
+      <item itemvalue="Spring Boot.IrobotAdminApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -299,6 +291,7 @@
       <workItem from="1567489312844" duration="80000" />
       <workItem from="1567562626433" duration="6750000" />
       <workItem from="1567734930905" duration="10669000" />
+      <workItem from="1573614565795" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="robot">
       <created>1563874805118</created>
