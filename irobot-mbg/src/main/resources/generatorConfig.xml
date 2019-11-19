@@ -26,11 +26,11 @@
                         userId="khfwuser"
                         password="khfwuser_test"/>
 
-        <javaModelGenerator targetPackage="com.irobotop.equipment.bean" targetProject="irobot-mbg\src\main\java"/>
+        <javaModelGenerator targetPackage="com.allianity.entity" targetProject="irobot-mbg\src\main\java"/>
 
         <sqlMapGenerator targetPackage="mapper" targetProject="irobot-mbg\src\main\resources"/>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.irobotop.equipment.dao"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.allianity.dao"
                              targetProject="irobot-mbg\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="HOLIDAY_YEAR" domainObjectName="HolidayYear"></table>

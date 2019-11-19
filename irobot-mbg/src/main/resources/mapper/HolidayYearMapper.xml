@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.irobotop.equipment.dao.HolidayYearMapper">
-  <resultMap id="BaseResultMap" type="com.irobotop.equipment.bean.HolidayYear">
+<mapper namespace="com.allianity.dao.HolidayYearMapper">
+  <resultMap id="BaseResultMap" type="com.allianity.entity.HolidayYear">
     <result column="ID" jdbcType="VARCHAR" property="id" />
     <result column="NOW_DATE" jdbcType="VARCHAR" property="nowDate" />
     <result column="STR1" jdbcType="VARCHAR" property="str1" />
@@ -71,7 +71,7 @@
   <sql id="Base_Column_List">
     ID, NOW_DATE, STR1, STR2, BEGIN_TIME, END_TIME, TIP
   </sql>
-  <select id="selectByExample" parameterType="com.irobotop.equipment.bean.HolidayYearExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.allianity.entity.HolidayYearExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -85,13 +85,13 @@
       order by ${orderByClause}
     </if>
   </select>
-  <delete id="deleteByExample" parameterType="com.irobotop.equipment.bean.HolidayYearExample">
+  <delete id="deleteByExample" parameterType="com.allianity.entity.HolidayYearExample">
     delete from HOLIDAY_YEAR
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.irobotop.equipment.bean.HolidayYear">
+  <insert id="insert" parameterType="com.allianity.entity.HolidayYear">
     insert into HOLIDAY_YEAR (ID, NOW_DATE, STR1, 
       STR2, BEGIN_TIME, END_TIME, 
       TIP)
@@ -99,7 +99,7 @@
       #{str2,jdbcType=VARCHAR}, #{beginTime,jdbcType=VARCHAR}, #{endTime,jdbcType=VARCHAR}, 
       #{tip,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.irobotop.equipment.bean.HolidayYear">
+  <insert id="insertSelective" parameterType="com.allianity.entity.HolidayYear">
     insert into HOLIDAY_YEAR
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -148,7 +148,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.irobotop.equipment.bean.HolidayYearExample" resultType="java.lang.Integer">
+  <select id="countByExample" parameterType="com.allianity.entity.HolidayYearExample" resultType="java.lang.Integer">
     select count(*) from HOLIDAY_YEAR
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
