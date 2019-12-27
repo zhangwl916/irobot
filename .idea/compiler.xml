@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="irobot-mbg" />
-        <module name="irobot" />
         <module name="irobot-admin" />
+        <module name="irobot" />
       </profile>
     </annotationProcessing>
   </component>
