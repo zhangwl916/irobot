@@ -1,13 +1,15 @@
 package com.irobot.admin.bean;
 
+import org.apdplat.word.vector.T;
+
 /**
  * @author zhangwl
  * @date 2019-12-27 10:26
  */
 public class RespBean {
-    private Integer status;
+    private int code;
     private String msg;
-    private Object obj;
+    private T data;
 
     public static RespBean build() {
         return new RespBean();
@@ -17,33 +19,33 @@ public class RespBean {
         return new RespBean(200, msg, null);
     }
 
-    public static RespBean ok(String msg, Object obj) {
-        return new RespBean(200, msg, obj);
+    public static RespBean ok(String msg, T data) {
+        return new RespBean(200, msg, data);
     }
 
     public static RespBean error(String msg) {
         return new RespBean(500, msg, null);
     }
 
-    public static RespBean error(String msg, Object obj) {
-        return new RespBean(500, msg, obj);
+    public static RespBean error(String msg, T data) {
+        return new RespBean(500, msg, data);
     }
 
     private RespBean() {
     }
 
-    private RespBean(Integer status, String msg, Object obj) {
-        this.status = status;
+    private RespBean(int code, String msg, T data) {
+        this.code = code;
         this.msg = msg;
-        this.obj = obj;
+        this.data = data;
     }
 
-    public Integer getStatus() {
-        return status;
+    public int getCode() {
+        return code;
     }
 
-    public RespBean setStatus(Integer status) {
-        this.status = status;
+    public RespBean setStatus(int code) {
+        this.code = code;
         return this;
     }
 
@@ -56,12 +58,12 @@ public class RespBean {
         return this;
     }
 
-    public Object getObj() {
-        return obj;
+    public T getData() {
+        return data;
     }
 
-    public RespBean setObj(Object obj) {
-        this.obj = obj;
+    public RespBean setData(T data) {
+        this.data = data;
         return this;
     }
 }
